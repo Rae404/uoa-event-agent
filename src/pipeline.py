@@ -90,17 +90,21 @@ def run_pipeline(
     all_events.sort(key=lambda e: e.score or 0, reverse=True)
 
     # 7. Generate content for high-priority events
-    if generate_content and use_ai:
+    content_map = {}
+    if use_ai:
         content_results = gen_content(all_events)
         if content_results:
             content_path = (output_path or "").replace(".json", "_content.json")
             if not content_path or content_path == "_content.json":
                 content_path = None
             export_content(content_results, content_path)
+            # Build lookup for Notion sync
+            for item in content_results:
+                content_map[item["event_title"]] = item.get("generated", {})
 
     # 8. Push to Notion (if enabled and configured)
     if push_notion:
-        sync_to_notion(all_events)
+        sync_to_notion(all_events, content_map=content_map)
 
     # 9. Export
     path = export_events(all_events, output_path)

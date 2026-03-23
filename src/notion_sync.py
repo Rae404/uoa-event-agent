@@ -72,6 +72,7 @@ class NotionSync:
             "Date": "date",
             "Location": "rich_text",
             "Tags": "multi_select",
+            "Content": "rich_text",
         }
 
         updates = {}
@@ -94,7 +95,8 @@ class NotionSync:
         self._db_schema = None
         self._get_db_schema()
 
-    def sync_events(self, events: List[Event], priorities: Optional[List[str]] = None) -> int:
+    def sync_events(self, events: List[Event], priorities: Optional[List[str]] = None,
+                     content_map: Optional[Dict[str, dict]] = None) -> int:
         """Push events to Notion. Returns count of successfully created pages."""
         if priorities is None:
             priorities = ["S", "A", "B"]
@@ -110,7 +112,8 @@ class NotionSync:
         created = 0
         for event in target:
             try:
-                self._create_page(event)
+                content = (content_map or {}).get(event.title)
+                self._create_page(event, content)
                 created += 1
             except Exception as e:
                 logger.error(f"Failed to push '{event.title}' to Notion: {e}")
@@ -118,7 +121,7 @@ class NotionSync:
         logger.info(f"Notion sync: {created}/{len(target)} events pushed")
         return created
 
-    def _create_page(self, event: Event):
+    def _create_page(self, event: Event, content: Optional[dict] = None):
         """Create a Notion page for an event."""
         schema = self._get_db_schema()
 
@@ -153,22 +156,64 @@ class NotionSync:
         if "Tags" in schema and event.tags:
             properties["Tags"] = {"multi_select": [{"name": t} for t in event.tags[:5]]}
 
+        # Add generated content headline to Content column
+        if "Content" in schema and content:
+            headline = content.get("headline", "")
+            body_text = content.get("body", "")
+            content_preview = f"【{headline}】{body_text}"[:2000] if headline else body_text[:2000]
+            if content_preview:
+                properties["Content"] = {"rich_text": [{"text": {"content": content_preview}}]}
+
         body = {
             "parent": {"database_id": self.database_id},
             "properties": properties,
         }
 
-        # Add description as page content
-        if event.description:
-            body["children"] = [
-                {
+        # Page content: generated content first, then original description
+        blocks = []
+        if content:
+            headline = content.get("headline", "")
+            if headline:
+                blocks.append({
+                    "object": "block",
+                    "type": "heading_2",
+                    "heading_2": {
+                        "rich_text": [{"text": {"content": headline}}]
+                    },
+                })
+            body_text = content.get("body", "")
+            if body_text:
+                blocks.append({
                     "object": "block",
                     "type": "paragraph",
                     "paragraph": {
-                        "rich_text": [{"text": {"content": event.description[:2000]}}]
+                        "rich_text": [{"text": {"content": body_text[:2000]}}]
                     },
-                }
-            ]
+                })
+            hashtags = content.get("hashtags", [])
+            if hashtags:
+                blocks.append({
+                    "object": "block",
+                    "type": "paragraph",
+                    "paragraph": {
+                        "rich_text": [{"text": {"content": " ".join(hashtags)}}]
+                    },
+                })
+            # Divider before original description
+            if event.description:
+                blocks.append({"object": "block", "type": "divider", "divider": {}})
+
+        if event.description:
+            blocks.append({
+                "object": "block",
+                "type": "paragraph",
+                "paragraph": {
+                    "rich_text": [{"text": {"content": event.description[:2000]}}]
+                },
+            })
+
+        if blocks:
+            body["children"] = blocks
 
         resp = requests.post(
             f"{NOTION_API_URL}/pages",
@@ -180,7 +225,8 @@ class NotionSync:
         logger.debug(f"Created Notion page for: {event.title}")
 
 
-def sync_to_notion(events: List[Event], priorities: Optional[List[str]] = None) -> int:
+def sync_to_notion(events: List[Event], priorities: Optional[List[str]] = None,
+                   content_map: Optional[Dict[str, dict]] = None) -> int:
     """Convenience function to sync events to Notion."""
     token = os.getenv("NOTION_TOKEN")
     db_id = os.getenv("NOTION_DATABASE_ID")
@@ -190,4 +236,4 @@ def sync_to_notion(events: List[Event], priorities: Optional[List[str]] = None) 
         return 0
 
     syncer = NotionSync(token=token, database_id=db_id)
-    return syncer.sync_events(events, priorities)
+    return syncer.sync_events(events, priorities, content_map=content_map)
