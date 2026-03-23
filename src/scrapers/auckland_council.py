@@ -137,17 +137,90 @@ class AucklandCouncilScraper(BaseScraper):
                         except (ValueError, TypeError):
                             pass
 
+                # Fetch detail page for description and cost
+                detail = self._fetch_detail(url) if url else {}
+
                 events.append(Event(
                     title=title,
-                    date_start=date_start,
-                    date_end=date_end,
+                    date_start=detail.get("date_start") or date_start,
+                    date_end=detail.get("date_end") or date_end,
+                    location=detail.get("location"),
+                    description=detail.get("description"),
                     source_url=url,
                     source_name=self.source_name,
-                    cost="unknown",
+                    cost=detail.get("cost", "free"),
+                    categories=detail.get("categories", []),
                 ))
             except Exception as e:
                 logger.debug(f"Failed to parse council card: {e}")
         return events
+
+    def _fetch_detail(self, url: str) -> dict:
+        """Fetch event detail page — prefer JSON-LD, fallback to HTML."""
+        result = {}
+        if not url:
+            return result
+        try:
+            resp = self.fetch(url)
+            soup = BeautifulSoup(resp.text, "lxml")
+
+            # Try JSON-LD first — most reliable on council pages
+            for script in soup.select('script[type="application/ld+json"]'):
+                try:
+                    data = json.loads(script.string)
+                    if isinstance(data, dict) and data.get("@type") == "Event":
+                        if data.get("description"):
+                            # HTML entity decode
+                            from html import unescape
+                            result["description"] = unescape(data["description"])[:2000]
+                        loc = data.get("location", {})
+                        if isinstance(loc, dict):
+                            name = loc.get("name", "")
+                            addr = loc.get("address", {})
+                            street = addr.get("streetAddress", "").strip() if isinstance(addr, dict) else ""
+                            city = addr.get("addressLocality", "") if isinstance(addr, dict) else ""
+                            parts = [p for p in [name, street, city] if p]
+                            if parts:
+                                result["location"] = ", ".join(parts)
+                        if data.get("startDate"):
+                            from html import unescape as hu
+                            try:
+                                result["date_start"] = dateparser.parse(hu(data["startDate"]))
+                            except (ValueError, TypeError):
+                                pass
+                        if data.get("endDate"):
+                            try:
+                                result["date_end"] = dateparser.parse(hu(data["endDate"]))
+                            except (ValueError, TypeError):
+                                pass
+                        # Cost from offers
+                        offers = data.get("offers", {})
+                        if isinstance(offers, dict):
+                            price = str(offers.get("price", ""))
+                            if price in ("0", "0.0", ""):
+                                result["cost"] = "free"
+                            elif price:
+                                result["cost"] = f"${price}"
+                        break
+                except (json.JSONDecodeError, TypeError):
+                    continue
+
+            # Fallback: HTML parsing for description
+            if "description" not in result:
+                article = soup.select_one("article")
+                if article:
+                    paras = article.select("p")
+                    desc = " ".join(p.get_text(strip=True) for p in paras[:5])
+                    if desc:
+                        result["description"] = desc[:2000]
+
+            # Default cost for council events
+            if "cost" not in result:
+                result["cost"] = "free"
+
+        except Exception as e:
+            logger.debug(f"Council detail fetch failed for {url}: {e}")
+        return result
 
     def _try_playwright(self) -> List[Event]:
         """Fallback to Playwright if requests are blocked."""

@@ -47,6 +47,11 @@ Examples:
         action="store_true",
         help="Enable verbose logging",
     )
+    parser.add_argument(
+        "--generate-content",
+        action="store_true",
+        help="Generate Chinese push content for S/A priority events",
+    )
 
     args = parser.parse_args()
 
@@ -65,6 +70,7 @@ Examples:
             limit=args.limit,
             output_path=args.output,
             verbose=args.verbose,
+            generate_content=args.generate_content,
         )
         print(f"\n✅ Done! Output: {output_path}")
     except KeyboardInterrupt:

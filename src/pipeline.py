@@ -4,7 +4,8 @@ import logging
 from difflib import SequenceMatcher
 from typing import List, Optional
 
-from src.exporter import export_events
+from src.content_generator import generate_content as gen_content
+from src.exporter import export_events, export_content
 from src.models import Event
 from src.scoring.ai_scorer import ai_score_events
 from src.scoring.scorer import apply_rule_scores
@@ -33,6 +34,7 @@ def run_pipeline(
     limit: int = 50,
     output_path: Optional[str] = None,
     verbose: bool = False,
+    generate_content: bool = False,
 ) -> str:
     """Run the full scraping pipeline. Returns the output file path."""
 
@@ -70,7 +72,16 @@ def run_pipeline(
     # 5. Sort by score (highest first)
     all_events.sort(key=lambda e: e.score or 0, reverse=True)
 
-    # 6. Export
+    # 6. Generate content for high-priority events
+    if generate_content and use_ai:
+        content_results = gen_content(all_events)
+        if content_results:
+            content_path = (output_path or "").replace(".json", "_content.json")
+            if not content_path or content_path == "_content.json":
+                content_path = None
+            export_content(content_results, content_path)
+
+    # 7. Export
     path = export_events(all_events, output_path)
 
     # Summary

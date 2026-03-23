@@ -120,18 +120,41 @@ class EventbriteScraper(BaseScraper):
             elif venue_name:
                 location = venue_name
 
-        # Cost — check tags for free events
+        # Cost — multiple detection methods
         cost = "unknown"
-        tags = item.get("tags", [])
-        if isinstance(tags, list):
-            tag_strs = []
-            for t in tags:
-                if isinstance(t, dict):
-                    tag_strs.append(t.get("display_name", "").lower())
-                elif isinstance(t, str):
-                    tag_strs.append(t.lower())
-            if any("free" in t for t in tag_strs):
-                cost = "free"
+
+        # Method 1: is_free flag
+        if item.get("is_free"):
+            cost = "free"
+
+        # Method 2: ticket_availability or min/max price
+        if cost == "unknown":
+            ticket = item.get("ticket_availability") or {}
+            if isinstance(ticket, dict):
+                if ticket.get("is_free"):
+                    cost = "free"
+                elif ticket.get("minimum_ticket_price"):
+                    min_p = ticket["minimum_ticket_price"]
+                    max_p = ticket.get("maximum_ticket_price", {})
+                    min_val = min_p.get("display", min_p.get("value", ""))
+                    max_val = max_p.get("display", max_p.get("value", "")) if isinstance(max_p, dict) else ""
+                    if min_val and max_val and min_val != max_val:
+                        cost = f"{min_val}-{max_val}"
+                    elif min_val:
+                        cost = str(min_val)
+
+        # Method 3: tags
+        if cost == "unknown":
+            tags = item.get("tags", [])
+            if isinstance(tags, list):
+                tag_strs = []
+                for t in tags:
+                    if isinstance(t, dict):
+                        tag_strs.append(t.get("display_name", "").lower())
+                    elif isinstance(t, str):
+                        tag_strs.append(t.lower())
+                if any("free" in t for t in tag_strs):
+                    cost = "free"
 
         if item.get("is_online_event"):
             if location:
