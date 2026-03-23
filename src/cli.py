@@ -52,6 +52,11 @@ Examples:
         action="store_true",
         help="Generate Chinese push content for S/A priority events",
     )
+    parser.add_argument(
+        "--notion",
+        action="store_true",
+        help="Push scored events to Notion database",
+    )
 
     args = parser.parse_args()
 
@@ -71,6 +76,7 @@ Examples:
             output_path=args.output,
             verbose=args.verbose,
             generate_content=args.generate_content,
+            push_notion=args.notion,
         )
         print(f"\n✅ Done! Output: {output_path}")
     except KeyboardInterrupt:

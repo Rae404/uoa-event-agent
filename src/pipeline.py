@@ -6,7 +6,9 @@ from typing import List, Optional
 
 from src.content_generator import generate_content as gen_content
 from src.exporter import export_events, export_content
+from src.history import filter_new_events
 from src.models import Event
+from src.notion_sync import sync_to_notion
 from src.scoring.ai_scorer import ai_score_events
 from src.scoring.scorer import apply_rule_scores
 from src.scrapers.auckland_council import AucklandCouncilScraper
@@ -35,6 +37,7 @@ def run_pipeline(
     output_path: Optional[str] = None,
     verbose: bool = False,
     generate_content: bool = False,
+    push_notion: bool = False,
 ) -> str:
     """Run the full scraping pipeline. Returns the output file path."""
 
@@ -58,9 +61,12 @@ def run_pipeline(
         logger.warning("No events scraped from any source")
         return export_events([], output_path)
 
-    # 2. Deduplicate
+    # 2. Deduplicate (cross-source)
     all_events = deduplicate(all_events)
     logger.info(f"After dedup: {len(all_events)}")
+
+    # 2b. Historical dedup — skip events seen in previous runs
+    all_events = filter_new_events(all_events)
 
     # 3. Rule-based pre-scoring
     all_events = apply_rule_scores(all_events)
@@ -81,7 +87,11 @@ def run_pipeline(
                 content_path = None
             export_content(content_results, content_path)
 
-    # 7. Export
+    # 7. Push to Notion (if enabled and configured)
+    if push_notion:
+        sync_to_notion(all_events)
+
+    # 8. Export
     path = export_events(all_events, output_path)
 
     # Summary

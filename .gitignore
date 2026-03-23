@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 output/*.json
+output/.history.json
 .venv/
 venv/
 *.egg-info/
