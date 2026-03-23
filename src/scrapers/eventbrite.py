@@ -21,19 +21,24 @@ class EventbriteScraper(BaseScraper):
 
     def scrape(self) -> List[Event]:
         resp = self.fetch(EVENTBRITE_SEARCH_URL)
+        soup = BeautifulSoup(resp.text, "lxml")
 
-        # Primary: __SERVER_DATA__ JSON with buckets structure
+        # Build a price lookup from __SERVER_DATA__ (has tags/price info)
+        price_lookup = {}
         server_data = self._extract_server_data(resp.text)
+        if server_data:
+            price_lookup = self._build_price_lookup(server_data)
+
+        # Primary: JSON-LD (richer data: 68 events with descriptions and addresses)
+        events = self._parse_jsonld(soup, price_lookup)
+        if events:
+            return events[: self.limit]
+
+        # Fallback: __SERVER_DATA__ buckets
         if server_data:
             events = self._parse_server_data(server_data)
             if events:
                 return events[: self.limit]
-
-        # Fallback: JSON-LD
-        soup = BeautifulSoup(resp.text, "lxml")
-        events = self._parse_jsonld(soup)
-        if events:
-            return events[: self.limit]
 
         # Fallback: HTML cards
         events = self._parse_html_cards(soup)
@@ -47,6 +52,42 @@ class EventbriteScraper(BaseScraper):
             except json.JSONDecodeError:
                 logger.debug("Failed to parse __SERVER_DATA__ JSON")
         return None
+
+    def _build_price_lookup(self, data: dict) -> dict:
+        """Build a URL→cost lookup from __SERVER_DATA__ tags/price info."""
+        lookup = {}
+        buckets = data.get("buckets", [])
+        for bucket in buckets:
+            if not isinstance(bucket, dict):
+                continue
+            for item in bucket.get("events", []):
+                url = item.get("url", "")
+                if not url:
+                    continue
+
+                cost = "unknown"
+                if item.get("is_free"):
+                    cost = "free"
+                elif item.get("ticket_availability"):
+                    ticket = item["ticket_availability"]
+                    if isinstance(ticket, dict):
+                        if ticket.get("is_free"):
+                            cost = "free"
+                        elif ticket.get("minimum_ticket_price"):
+                            min_p = ticket["minimum_ticket_price"]
+                            cost = min_p.get("display", str(min_p.get("value", "unknown")))
+                else:
+                    tags = item.get("tags", [])
+                    if isinstance(tags, list):
+                        for t in tags:
+                            name = t.get("display_name", "") if isinstance(t, dict) else str(t)
+                            if "free" in name.lower():
+                                cost = "free"
+                                break
+
+                if cost != "unknown":
+                    lookup[url] = cost
+        return lookup
 
     def _parse_server_data(self, data: dict) -> List[Event]:
         events = []
@@ -162,6 +203,7 @@ class EventbriteScraper(BaseScraper):
             else:
                 location = "Online"
 
+        all_tags = item.get("tags", [])
         return Event(
             title=title.strip(),
             date_start=date_start,
@@ -171,11 +213,13 @@ class EventbriteScraper(BaseScraper):
             source_url=url,
             source_name=self.source_name,
             cost=cost,
-            categories=[t.get("display_name", "") for t in tags if isinstance(t, dict) and t.get("display_name")][:5],
+            categories=[t.get("display_name", "") for t in all_tags if isinstance(t, dict) and t.get("display_name")][:5],
         )
 
-    def _parse_jsonld(self, soup: BeautifulSoup) -> List[Event]:
+    def _parse_jsonld(self, soup: BeautifulSoup, price_lookup: Optional[dict] = None) -> List[Event]:
         events = []
+        if price_lookup is None:
+            price_lookup = {}
         for script in soup.select('script[type="application/ld+json"]'):
             try:
                 data = json.loads(script.string)
@@ -183,20 +227,20 @@ class EventbriteScraper(BaseScraper):
                     for list_item in data.get("itemListElement", []):
                         item = list_item.get("item", list_item)
                         if item.get("@type") == "Event":
-                            event = self._jsonld_to_event(item)
+                            event = self._jsonld_to_event(item, price_lookup)
                             if event:
                                 events.append(event)
                 elif isinstance(data, list):
                     for item in data:
                         if item.get("@type") == "Event":
-                            event = self._jsonld_to_event(item)
+                            event = self._jsonld_to_event(item, price_lookup)
                             if event:
                                 events.append(event)
             except (json.JSONDecodeError, TypeError):
                 continue
         return events
 
-    def _jsonld_to_event(self, item: dict) -> Optional[Event]:
+    def _jsonld_to_event(self, item: dict, price_lookup: Optional[dict] = None) -> Optional[Event]:
         title = item.get("name", "")
         if not title:
             return None
@@ -211,13 +255,30 @@ class EventbriteScraper(BaseScraper):
         except (ValueError, TypeError):
             pass
 
+        # Location — combine name + street address
         location = None
         loc = item.get("location", {})
         if isinstance(loc, dict):
-            location = loc.get("name")
             addr = loc.get("address", {})
-            if isinstance(addr, dict) and not location:
-                location = addr.get("streetAddress")
+            if isinstance(addr, dict):
+                street = addr.get("streetAddress", "")
+                city = addr.get("addressLocality", "")
+                parts = [p for p in [street, city] if p]
+                location = ", ".join(parts) if parts else None
+            if not location:
+                location = loc.get("name")
+
+        # Online event detection
+        attendance = item.get("eventAttendanceMode", "")
+        if "Online" in attendance:
+            if location:
+                location += " (Online)"
+            else:
+                location = "Online"
+
+        # Cost — check price_lookup from __SERVER_DATA__
+        url = item.get("url", "")
+        cost = (price_lookup or {}).get(url, "unknown")
 
         return Event(
             title=title.strip(),
@@ -225,9 +286,9 @@ class EventbriteScraper(BaseScraper):
             date_end=date_end,
             location=location,
             description=(item.get("description") or "")[:2000] or None,
-            source_url=item.get("url", ""),
+            source_url=url,
             source_name=self.source_name,
-            cost="unknown",
+            cost=cost,
         )
 
     def _parse_html_cards(self, soup: BeautifulSoup) -> List[Event]:
