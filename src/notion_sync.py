@@ -2,7 +2,7 @@
 
 import logging
 import os
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 import requests
 from dotenv import load_dotenv
@@ -35,14 +35,67 @@ class NotionSync:
             "Content-Type": "application/json",
             "Notion-Version": NOTION_VERSION,
         }
+        self._db_schema = None
+
+    def _get_db_schema(self) -> Dict[str, str]:
+        """Fetch database schema to know which properties exist and their types."""
+        if self._db_schema is not None:
+            return self._db_schema
+
+        resp = requests.get(
+            f"{NOTION_API_URL}/databases/{self.database_id}",
+            headers=self.headers,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        schema = {}
+        for name, prop in data.get("properties", {}).items():
+            schema[name] = prop["type"]
+
+        self._db_schema = schema
+        logger.debug(f"Notion DB schema: {schema}")
+        return schema
+
+    def _ensure_properties(self):
+        """Add missing properties to the database."""
+        schema = self._get_db_schema()
+
+        # Properties we need: name → type
+        needed = {
+            "Source": "select",
+            "Priority": "select",
+            "Score": "number",
+            "Cost": "rich_text",
+            "URL": "url",
+            "Date": "date",
+            "Location": "rich_text",
+            "Tags": "multi_select",
+        }
+
+        updates = {}
+        for name, prop_type in needed.items():
+            if name not in schema:
+                updates[name] = {prop_type: {}}
+
+        if not updates:
+            return
+
+        logger.info(f"Creating missing Notion properties: {list(updates.keys())}")
+        resp = requests.patch(
+            f"{NOTION_API_URL}/databases/{self.database_id}",
+            json={"properties": updates},
+            headers=self.headers,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        # Refresh schema
+        self._db_schema = None
+        self._get_db_schema()
 
     def sync_events(self, events: List[Event], priorities: Optional[List[str]] = None) -> int:
-        """Push events to Notion. Returns count of successfully created pages.
-
-        Args:
-            events: Scored events to push
-            priorities: Only push these priorities (default: S, A, B)
-        """
+        """Push events to Notion. Returns count of successfully created pages."""
         if priorities is None:
             priorities = ["S", "A", "B"]
 
@@ -50,6 +103,9 @@ class NotionSync:
         if not target:
             logger.info("No events match target priorities for Notion sync")
             return 0
+
+        # Auto-create missing columns
+        self._ensure_properties()
 
         created = 0
         for event in target:
@@ -64,28 +120,37 @@ class NotionSync:
 
     def _create_page(self, event: Event):
         """Create a Notion page for an event."""
+        schema = self._get_db_schema()
+
+        # Find the title property (every DB has exactly one)
+        title_prop = "Name"
+        for name, ptype in schema.items():
+            if ptype == "title":
+                title_prop = name
+                break
+
         properties = {
-            "Name": {"title": [{"text": {"content": event.title}}]},
-            "Source": {"select": {"name": event.source_name}},
-            "Priority": {"select": {"name": event.priority or "C"}},
-            "Score": {"number": event.score or 0},
-            "Cost": {"rich_text": [{"text": {"content": event.cost}}]},
-            "URL": {"url": event.source_url or None},
+            title_prop: {"title": [{"text": {"content": event.title}}]},
         }
 
-        # Optional date
-        if event.date_start:
+        if "Source" in schema:
+            properties["Source"] = {"select": {"name": event.source_name}}
+        if "Priority" in schema:
+            properties["Priority"] = {"select": {"name": event.priority or "C"}}
+        if "Score" in schema:
+            properties["Score"] = {"number": event.score or 0}
+        if "Cost" in schema:
+            properties["Cost"] = {"rich_text": [{"text": {"content": event.cost}}]}
+        if "URL" in schema:
+            properties["URL"] = {"url": event.source_url or None}
+        if "Date" in schema and event.date_start:
             date_val = {"start": event.date_start.isoformat()}
             if event.date_end:
                 date_val["end"] = event.date_end.isoformat()
             properties["Date"] = {"date": date_val}
-
-        # Optional location
-        if event.location:
+        if "Location" in schema and event.location:
             properties["Location"] = {"rich_text": [{"text": {"content": event.location[:2000]}}]}
-
-        # Tags as multi-select
-        if event.tags:
+        if "Tags" in schema and event.tags:
             properties["Tags"] = {"multi_select": [{"name": t} for t in event.tags[:5]]}
 
         body = {
@@ -116,15 +181,12 @@ class NotionSync:
 
 
 def sync_to_notion(events: List[Event], priorities: Optional[List[str]] = None) -> int:
-    """Convenience function to sync events to Notion.
-
-    Returns count of created pages, or 0 if not configured.
-    """
+    """Convenience function to sync events to Notion."""
     token = os.getenv("NOTION_TOKEN")
     db_id = os.getenv("NOTION_DATABASE_ID")
 
     if not token or not db_id:
-        logger.info("Notion not configured (NOTION_TOKEN / NOTION_DATABASE_ID not set), skipping sync")
+        logger.info("Notion not configured, skipping sync")
         return 0
 
     syncer = NotionSync(token=token, database_id=db_id)
