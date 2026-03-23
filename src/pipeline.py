@@ -1,8 +1,12 @@
-"""Pipeline: scrape → deduplicate → score → export."""
+"""Pipeline: scrape → deduplicate → filter expired → score → export."""
 
 import logging
+from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from typing import List, Optional
+
+# Auckland timezone (NZST = UTC+12, NZDT = UTC+13)
+NZST = timezone(timedelta(hours=12))
 
 from src.content_generator import generate_content as gen_content
 from src.exporter import export_events, export_content
@@ -61,24 +65,31 @@ def run_pipeline(
         logger.warning("No events scraped from any source")
         return export_events([], output_path)
 
-    # 2. Deduplicate (cross-source)
+    # 2. Filter expired events (past events waste AI budget)
+    before = len(all_events)
+    all_events = _filter_expired(all_events)
+    expired = before - len(all_events)
+    if expired:
+        logger.info(f"Filtered {expired} expired events")
+
+    # 3. Deduplicate (cross-source)
     all_events = deduplicate(all_events)
     logger.info(f"After dedup: {len(all_events)}")
 
-    # 2b. Historical dedup — skip events seen in previous runs
+    # 3b. Historical dedup — skip events seen in previous runs
     all_events = filter_new_events(all_events)
 
-    # 3. Rule-based pre-scoring
+    # 4. Rule-based pre-scoring
     all_events = apply_rule_scores(all_events)
 
-    # 4. AI scoring (if enabled)
+    # 5. AI scoring (if enabled)
     if use_ai:
         all_events = ai_score_events(all_events)
 
-    # 5. Sort by score (highest first)
+    # 6. Sort by score (highest first)
     all_events.sort(key=lambda e: e.score or 0, reverse=True)
 
-    # 6. Generate content for high-priority events
+    # 7. Generate content for high-priority events
     if generate_content and use_ai:
         content_results = gen_content(all_events)
         if content_results:
@@ -87,11 +98,11 @@ def run_pipeline(
                 content_path = None
             export_content(content_results, content_path)
 
-    # 7. Push to Notion (if enabled and configured)
+    # 8. Push to Notion (if enabled and configured)
     if push_notion:
         sync_to_notion(all_events)
 
-    # 8. Export
+    # 9. Export
     path = export_events(all_events, output_path)
 
     # Summary
@@ -102,6 +113,25 @@ def run_pipeline(
     logger.info(f"Final: {len(all_events)} events | Priorities: {priority_counts}")
 
     return path
+
+
+def _filter_expired(events: List[Event]) -> List[Event]:
+    """Remove events that have already ended."""
+    now = datetime.now(tz=NZST)
+    result = []
+    for event in events:
+        # Use end_date if available, otherwise start_date
+        event_end = event.date_end or event.date_start
+        if event_end is None:
+            # No date — keep it (can't determine if expired)
+            result.append(event)
+            continue
+        # Make timezone-aware if naive
+        if event_end.tzinfo is None:
+            event_end = event_end.replace(tzinfo=NZST)
+        if event_end >= now:
+            result.append(event)
+    return result
 
 
 def deduplicate(events: List[Event]) -> List[Event]:
