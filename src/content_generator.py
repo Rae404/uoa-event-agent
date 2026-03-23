@@ -1,11 +1,11 @@
-"""AI-powered Chinese content generation for event pushes."""
+"""OpenAI-powered Chinese content generation for event pushes."""
 
 import json
 import logging
 import os
 from typing import List, Optional
 
-import anthropic
+from openai import OpenAI
 from dotenv import load_dotenv
 
 from config.settings import AI_MODEL
@@ -46,9 +46,9 @@ def generate_content(events: List[Event], priorities: Optional[List[str]] = None
     Returns:
         List of dicts with event info + generated content
     """
-    api_key = os.getenv("ANTHROPIC_API_KEY")
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        logger.warning("ANTHROPIC_API_KEY not set, skipping content generation")
+        logger.warning("OPENAI_API_KEY not set, skipping content generation")
         return []
 
     if priorities is None:
@@ -62,7 +62,7 @@ def generate_content(events: List[Event], priorities: Optional[List[str]] = None
 
     logger.info(f"Generating content for {len(target_events)} events (priorities: {priorities})")
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     results = []
 
     for event in target_events:
@@ -83,7 +83,7 @@ def generate_content(events: List[Event], priorities: Optional[List[str]] = None
     return results
 
 
-def _generate_single(client: anthropic.Anthropic, event: Event) -> dict:
+def _generate_single(client: OpenAI, event: Event) -> dict:
     """Generate content for a single event."""
     date_str = event.date_start.strftime("%Y年%m月%d日 %H:%M") if event.date_start else "时间待定"
     tags_str = ", ".join(event.tags) if event.tags else "无"
@@ -99,19 +99,21 @@ def _generate_single(client: anthropic.Anthropic, event: Event) -> dict:
 链接: {event.source_url}
 """
 
-    message = client.messages.create(
+    response = client.chat.completions.create(
         model=AI_MODEL,
         max_tokens=1024,
+        response_format={"type": "json_object"},
         messages=[
-            {"role": "user", "content": CONTENT_PROMPT + "\n活动信息：\n" + event_info + "\n请返回JSON（不要包含其他文字）："}
+            {
+                "role": "system",
+                "content": "你是一个活动推送文案编辑，只返回JSON格式的文案。",
+            },
+            {
+                "role": "user",
+                "content": CONTENT_PROMPT + "\n活动信息：\n" + event_info,
+            },
         ],
     )
 
-    response_text = message.content[0].text.strip()
-
-    # Extract JSON from potential markdown code blocks
-    if response_text.startswith("```"):
-        lines = response_text.split("\n")
-        response_text = "\n".join(lines[1:-1])
-
+    response_text = response.choices[0].message.content.strip()
     return json.loads(response_text)

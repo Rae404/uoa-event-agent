@@ -47,7 +47,7 @@ UOA_LOCATION_KEYWORDS = [
 ]
 
 # --- AI Scoring ---
-AI_MODEL = "claude-sonnet-4-5-20250514"
+AI_MODEL = "gpt-4o-mini"
 AI_BATCH_SIZE = 12
 AI_MAX_TOKENS = 4096
 

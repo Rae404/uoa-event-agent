@@ -1,11 +1,11 @@
-"""Claude API-based intelligent scoring and tagging."""
+"""OpenAI-based intelligent scoring and tagging."""
 
 import json
 import logging
 import os
 from typing import List
 
-import anthropic
+from openai import OpenAI
 from dotenv import load_dotenv
 
 from config.settings import AI_BATCH_SIZE, AI_MAX_TOKENS, AI_MODEL, AVAILABLE_TAGS
@@ -50,13 +50,13 @@ SCORING_PROMPT = """\
 
 
 def ai_score_events(events: List[Event]) -> List[Event]:
-    """Score events using Claude API in batches."""
-    api_key = os.getenv("ANTHROPIC_API_KEY")
+    """Score events using OpenAI API in batches."""
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        logger.warning("ANTHROPIC_API_KEY not set, skipping AI scoring")
+        logger.warning("OPENAI_API_KEY not set, skipping AI scoring")
         return events
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
     scored_events = []
 
     for i in range(0, len(events), AI_BATCH_SIZE):
@@ -84,8 +84,8 @@ def ai_score_events(events: List[Event]) -> List[Event]:
     return scored_events
 
 
-def _score_batch(client: anthropic.Anthropic, batch: List[Event]) -> list:
-    """Send a batch of events to Claude for scoring."""
+def _score_batch(client: OpenAI, batch: List[Event]) -> list:
+    """Send a batch of events to OpenAI for scoring."""
     events_text = ""
     for i, event in enumerate(batch):
         date_str = event.date_start.strftime("%Y-%m-%d %H:%M") if event.date_start else "未知"
@@ -100,22 +100,26 @@ def _score_batch(client: anthropic.Anthropic, batch: List[Event]) -> list:
 链接: {event.source_url}
 """
 
-    message = client.messages.create(
+    response = client.chat.completions.create(
         model=AI_MODEL,
         max_tokens=AI_MAX_TOKENS,
+        response_format={"type": "json_object"},
         messages=[
             {
+                "role": "system",
+                "content": "你是一个活动评分助手，只返回JSON格式的评分结果。",
+            },
+            {
                 "role": "user",
-                "content": SCORING_PROMPT + events_text + "\n\n请返回JSON数组（不要包含其他文字）：",
-            }
+                "content": SCORING_PROMPT + events_text + "\n\n请返回JSON对象，格式为 {\"results\": [...]}：",
+            },
         ],
     )
 
-    response_text = message.content[0].text.strip()
+    response_text = response.choices[0].message.content.strip()
+    data = json.loads(response_text)
 
-    # Extract JSON from response (handle markdown code blocks)
-    if response_text.startswith("```"):
-        lines = response_text.split("\n")
-        response_text = "\n".join(lines[1:-1])
-
-    return json.loads(response_text)
+    # Handle both {"results": [...]} and direct array
+    if isinstance(data, dict):
+        return data.get("results", data.get("events", []))
+    return data
