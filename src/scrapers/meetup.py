@@ -68,11 +68,14 @@ class MeetupScraper(BaseScraper):
         location = None
         loc = item.get("location", {})
         if isinstance(loc, dict):
-            addr = loc.get("address", {})
-            if isinstance(addr, dict):
-                location = addr.get("streetAddress") or addr.get("name")
-            if not location:
-                location = loc.get("name")
+            if loc.get("@type") == "VirtualLocation":
+                location = "Online"
+            else:
+                addr = loc.get("address", {})
+                if isinstance(addr, dict):
+                    location = addr.get("streetAddress") or addr.get("name")
+                if not location:
+                    location = loc.get("name")
 
         cost = "unknown"
         offers = item.get("offers", {})

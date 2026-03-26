@@ -32,7 +32,7 @@ SCORING_PROMPT = """\
   "index": 0,
   "score": 75,
   "priority": "A",
-  "tags": ["新手友好", "免费薅羊毛"],
+  "tags": ["新手友好", "0元参加"],
   "reason": "一句话说明推荐理由"
 }
 

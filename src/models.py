@@ -1,9 +1,30 @@
-"""Pydantic data models for events."""
+"""Pydantic data models for events and supermarket promos."""
 
-from datetime import datetime
+from datetime import date, datetime
 from typing import List, Optional
 
 from pydantic import BaseModel, Field
+
+
+class SupermarketPromo(BaseModel):
+    """A supermarket promotional campaign / sale event."""
+
+    title: str                                # "本周特价" or "Easter 3-Day Sale"
+    store: str                                # woolworths / paknsave / newworld
+    date_start: Optional[date] = None
+    date_end: Optional[date] = None
+    url: str
+    description: Optional[str] = None
+    scraped_at: datetime = Field(default_factory=datetime.now)
+
+    def summary(self) -> str:
+        """One-line summary for logging."""
+        dates = ""
+        if self.date_start and self.date_end:
+            dates = f" ({self.date_start.strftime('%m/%d')}-{self.date_end.strftime('%m/%d')})"
+        elif self.date_start:
+            dates = f" ({self.date_start.strftime('%m/%d')})"
+        return f"[{self.store}] {self.title}{dates}"
 
 
 class Event(BaseModel):

@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 output/*.json
 output/.history.json
+output/screenshots/
 .venv/
 venv/
 *.egg-info/

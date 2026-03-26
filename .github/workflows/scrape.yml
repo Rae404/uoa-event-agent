@@ -1,18 +1,51 @@
-name: Daily Event Scrape
+name: Daily Event Scrape & Deals Monitor
 
 on:
   schedule:
-    # Run daily at 8:00 AM NZST (20:00 UTC previous day)
+    # === Events ===
+    # Daily scrape at 8:00 AM NZST (20:00 UTC previous day)
     - cron: '0 20 * * *'
-  workflow_dispatch:  # Allow manual trigger
+
+    # === Deals: Woolworths quick check 3x/day ===
+    # 6am NZST (18:00 UTC previous day)
+    - cron: '0 18 * * *'
+    # 12pm NZST (0:00 UTC)
+    - cron: '0 0 * * *'
+    # 6pm NZST (6:00 UTC)
+    - cron: '0 6 * * *'
+
+    # === Deals: Full scan Mon+Wed 7am NZST ===
+    # Monday 7am NZST (Sunday 19:00 UTC)
+    - cron: '0 19 * * 0'
+    # Wednesday 7am NZST (Tuesday 19:00 UTC)
+    - cron: '0 19 * * 2'
+
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - events-only
+          - deals-only
+          - deals-quick
 
 permissions:
   contents: write
 
 jobs:
+  # ============================================================
+  # Job 1: Event scraping (daily 8am NZST + roundup Mon/Thu)
+  # ============================================================
   scrape:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    if: >-
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'all' || github.event.inputs.mode == 'events-only')
+      || github.event.schedule == '0 20 * * *'
 
     steps:
       - uses: actions/checkout@v4
@@ -26,13 +59,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper (with AI scoring + Notion push)
+      - name: Run scraper (with AI scoring + content generation + Notion push)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: |
-          python -m src.cli --verbose --limit 50 --notion
+          python -m src.cli --verbose --limit 50 --generate-content --notion
+
+      - name: Generate weekly roundup (Monday full / Thursday supplement)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: |
+          DAY_OF_WEEK=$(date -u +%u)
+          if [ "$DAY_OF_WEEK" = "1" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python -m src.cli --verbose --limit 50 --notion --weekly-roundup full --no-ai
+          elif [ "$DAY_OF_WEEK" = "4" ]; then
+            python -m src.cli --verbose --limit 50 --notion --weekly-roundup supplement --no-ai
+          fi
 
       - name: Upload results as artifact
         uses: actions/upload-artifact@v4
@@ -45,6 +91,106 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/*.json
+          git add -f output/*.json output/.promo_history.json
           git diff --staged --quiet || git commit -m "chore: daily scrape $(date +%Y-%m-%d)"
+          git push
+
+  # ============================================================
+  # Job 2: Woolworths quick check (3x/day, API only, ~30s)
+  # ============================================================
+  deals-quick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    if: >-
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'all' || github.event.inputs.mode == 'deals-quick')
+      || github.event.schedule == '0 18 * * *'
+      || github.event.schedule == '0 0 * * *'
+      || github.event.schedule == '0 6 * * *'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Woolworths quick check (API only + notify)
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_WOOLWORTHS_DB_ID: ${{ secrets.NOTION_WOOLWORTHS_DB_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python -m src.cli --deals --sources woolworths --notion --notify --verbose
+
+      - name: Commit promo history
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f output/.promo_history.json output/promos_*.json
+          git diff --staged --quiet || git commit -m "chore: woolworths quick check $(date +%Y-%m-%d-%H%M)"
+          git push
+
+  # ============================================================
+  # Job 3: Full deals scan (Mon+Wed 7am, with Playwright)
+  # ============================================================
+  deals-full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    if: >-
+      github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'all' || github.event.inputs.mode == 'deals-only')
+      || github.event.schedule == '0 19 * * 0'
+      || github.event.schedule == '0 19 * * 2'
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Full deals scan (all 3 stores + notify)
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_WOOLWORTHS_DB_ID: ${{ secrets.NOTION_WOOLWORTHS_DB_ID }}
+          NOTION_PAKNSAVE_DB_ID: ${{ secrets.NOTION_PAKNSAVE_DB_ID }}
+          NOTION_NEWWORLD_DB_ID: ${{ secrets.NOTION_NEWWORLD_DB_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python -m src.cli --deals --notion --notify --verbose
+
+      - name: Take screenshots
+        run: |
+          python -m src.cli --deals --screenshot --verbose
+        continue-on-error: true
+
+      - name: Upload deal results
+        uses: actions/upload-artifact@v4
+        with:
+          name: deals-${{ github.run_id }}
+          path: |
+            output/promos_*.json
+            output/screenshots/
+          retention-days: 30
+
+      - name: Commit results to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f output/.promo_history.json output/promos_*.json
+          git diff --staged --quiet || git commit -m "chore: full deals scan $(date +%Y-%m-%d)"
           git push

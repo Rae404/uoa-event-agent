@@ -9,30 +9,40 @@
 ## Features / 功能
 
 - **Multi-source scraping** — Eventfinda, Eventbrite, Meetup, UoA Unievents, Auckland Council
+- **Supermarket deals** — Woolworths, PAK'nSAVE, New World 每周特价自动抓取
 - **Two-layer scoring** — Rule-based pre-filtering + Claude AI intelligent scoring
 - **Chinese tags** — Auto-assigns tags like 新手友好, 免费薅羊毛, 练英语, 找工有帮助
 - **Content generation** — AI-generated Chinese push copy for social media
+- **Notion sync** — Events + Deals 自动同步到 Notion 数据库
 - **Daily automation** — GitHub Actions scheduled scraping
 
 ## Architecture / 架构
 
 ```
 src/
-├── cli.py                 # CLI entry point
-├── pipeline.py            # Orchestration: scrape → dedup → score → export
-├── models.py              # Pydantic Event data model
+├── cli.py                 # CLI entry point (events + deals)
+├── pipeline.py            # Events: scrape → dedup → score → export
+├── deals_pipeline.py      # Deals: scrape → dedup → export / Notion sync
+├── models.py              # Pydantic models: Event + Deal
 ├── exporter.py            # JSON export
 ├── content_generator.py   # AI Chinese content generation
+├── notion_sync.py         # Events → Notion sync
+├── deal_notion_sync.py    # Deals → Notion sync (separate DB)
 ├── scrapers/
 │   ├── base.py            # Abstract base: rate limiting, retries, sessions
+│   ├── deal_base.py       # Abstract base for deal scrapers
+│   ├── deal_utils.py      # Price parsing, savings calc, date parsing
 │   ├── eventfinda.py      # HTML cards + detail pages
 │   ├── eventbrite.py      # __SERVER_DATA__ JSON parsing
-│   ├── meetup.py           # JSON-LD structured data
+│   ├── meetup.py          # JSON-LD structured data
 │   ├── uoa.py             # Direct REST API (no browser needed)
-│   └── auckland_council.py # HTML + detail pages
+│   ├── auckland_council.py # HTML + detail pages
+│   ├── woolworths.py      # Woolworths NZ internal API
+│   ├── paknsave.py        # PAK'nSAVE Playwright + API intercept
+│   └── newworld.py        # New World Playwright + API intercept
 └── scoring/
-    ├── scorer.py           # Rule-based scoring (free, fast)
-    └── ai_scorer.py        # Claude API batch scoring + tagging
+    ├── scorer.py          # Rule-based scoring (free, fast)
+    └── ai_scorer.py       # Claude API batch scoring + tagging
 ```
 
 ## Quick Start / 快速开始
@@ -64,13 +74,46 @@ python -m src.cli --generate-content --verbose
 
 ## CLI Options / 命令行参数
 
+### Events（活动抓取）
+
 | Flag | Description |
 |------|-------------|
-| `--sources` | Data sources to scrape (eventfinda, eventbrite, meetup, uoa, council) |
+| `--sources` | Data sources: eventfinda, eventbrite, meetup, uoa, council |
 | `--no-ai` | Skip AI scoring, use rule-based only |
 | `--limit N` | Max events per source (default: 50) |
 | `--output PATH` | Output JSON file path |
 | `--generate-content` | Generate Chinese push content for S/A events |
+| `--notion` | Push events to Notion database |
+| `--weekly-roundup` | Generate weekly roundup page in Notion |
+| `--verbose` | Enable debug logging |
+
+### Deals（超市特价）
+
+```bash
+# 抓取全部三家超市特价
+python -m src.cli --deals
+
+# 指定超市
+python -m src.cli --deals --sources woolworths
+python -m src.cli --deals --sources paknsave newworld
+
+# 控制数量
+python -m src.cli --deals --limit 30
+
+# 同步到 Notion
+python -m src.cli --deals --notion
+
+# 完整示例：抓 Woolworths 前 20 个特价并推送 Notion
+python -m src.cli --deals --sources woolworths --limit 20 --notion --verbose
+```
+
+| Flag | Description |
+|------|-------------|
+| `--deals` | 切换到超市特价模式 |
+| `--sources` | 超市来源: woolworths, paknsave, newworld |
+| `--limit N` | 每家超市最多抓取数量 (default: 30) |
+| `--notion` | 同步到 Notion deals 数据库 |
+| `--output PATH` | Output JSON file path |
 | `--verbose` | Enable debug logging |
 
 ## Scoring / 评分机制
@@ -91,6 +134,8 @@ python -m src.cli --generate-content --verbose
 
 ## Data Sources / 数据源
 
+### Events
+
 | Source | Method | Events |
 |--------|--------|--------|
 | UoA Unievents | REST API | ~189 |
@@ -98,6 +143,14 @@ python -m src.cli --generate-content --verbose
 | Eventbrite | `__SERVER_DATA__` JSON | ~30 |
 | Meetup | JSON-LD | ~20 |
 | Auckland Council | HTML + detail pages | ~20 |
+
+### Deals
+
+| Source | Method | Notes |
+|--------|--------|-------|
+| Woolworths NZ | Internal REST API | 有原价/特价/折扣%，无需 Playwright |
+| PAK'nSAVE | Playwright + API intercept | Cloudflare 保护，需 Playwright 绕过 |
+| New World | Playwright + API intercept | 同 PAK'nSAVE（Foodstuffs 系共享平台） |
 
 ## Automation / 自动化
 
@@ -115,7 +168,9 @@ Set `ANTHROPIC_API_KEY` in repository secrets to enable AI scoring.
 - Pydantic v2 — data validation
 - BeautifulSoup + lxml — HTML parsing
 - Requests + urllib3 Retry — HTTP with rate limiting
+- Playwright — JS-rendered site scraping (PAK'nSAVE, New World)
 - Claude API (Sonnet) — AI scoring & content generation
+- Notion API — database sync
 
 ## License
 

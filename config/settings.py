@@ -12,6 +12,11 @@ UOA_EVENTS_URL = "https://unievents.auckland.ac.nz/home"
 
 AUCKLAND_COUNCIL_EVENTS_URL = "https://ourauckland.aucklandcouncil.govt.nz/events"
 
+# --- Supermarket URLs ---
+WOOLWORTHS_SPECIALS_URL = "https://www.woolworths.co.nz/shop/specials"
+WOOLWORTHS_API_URL = "https://www.woolworths.co.nz/api/v1/products"
+NEWWORLD_SPECIALS_URL = "https://www.newworld.co.nz/shop/specials"
+
 # --- Rate Limiting ---
 REQUEST_DELAY_SECONDS = 1.5
 MAX_RETRIES = 3
@@ -51,6 +56,11 @@ AI_MODEL = "gpt-4o-mini"
 AI_BATCH_SIZE = 12
 AI_MAX_TOKENS = 4096
 
+# --- Time Window ---
+EVENT_WINDOW_DAYS = 28  # Only process events within this many days
+TIME_WINDOW_THIS_WEEK = 7
+TIME_WINDOW_NEXT_WEEK = 14
+
 # --- Export ---
 DEFAULT_OUTPUT_DIR = "output"
 DEFAULT_LIMIT_PER_SOURCE = 50
@@ -58,6 +68,6 @@ DEFAULT_LIMIT_PER_SOURCE = 50
 # --- Tags (Chinese labels for the target audience) ---
 AVAILABLE_TAGS = [
     "新手友好", "i人友好", "练英语", "交朋友",
-    "找工有帮助", "免费薅羊毛", "有吃喝", "涨知识",
+    "找工有帮助", "0元参加", "有吃喝", "涨知识",
     "户外活动", "文化体验", "适合拍照",
 ]

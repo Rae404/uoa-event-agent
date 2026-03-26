@@ -15,8 +15,9 @@ HISTORY_FILE = os.path.join(DEFAULT_OUTPUT_DIR, ".history.json")
 
 
 def _event_fingerprint(event: Event) -> str:
-    """Generate a stable fingerprint for an event based on title + date + source."""
-    key = f"{event.title.lower().strip()}|{event.date_start.isoformat() if event.date_start else ''}|{event.source_name}"
+    """Generate a stable fingerprint for an event based on title + date (source-agnostic)."""
+    date_str = event.date_start.strftime("%Y-%m-%d") if event.date_start else ""
+    key = f"{event.title.lower().strip()}|{date_str}"
     return hashlib.md5(key.encode()).hexdigest()
 
 

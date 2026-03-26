@@ -276,9 +276,27 @@ class EventbriteScraper(BaseScraper):
             else:
                 location = "Online"
 
-        # Cost — check price_lookup from __SERVER_DATA__
+        # Cost — check price_lookup first, then JSON-LD offers
         url = item.get("url", "")
         cost = (price_lookup or {}).get(url, "unknown")
+
+        if cost == "unknown":
+            offers = item.get("offers", {})
+            if isinstance(offers, list):
+                offers = offers[0] if offers else {}
+            if isinstance(offers, dict):
+                price = offers.get("price", "")
+                if price in ("0", "0.0", "0.00", ""):
+                    cost = "free"
+                elif price:
+                    currency = offers.get("priceCurrency", "NZD")
+                    cost = f"${price}" if currency in ("NZD", "USD", "AUD") else f"{price} {currency}"
+                low = offers.get("lowPrice", "")
+                high = offers.get("highPrice", "")
+                if low and high and low != high:
+                    cost = f"${low}-${high}"
+                elif low:
+                    cost = f"${low}" if low not in ("0", "0.0", "0.00") else "free"
 
         return Event(
             title=title.strip(),
