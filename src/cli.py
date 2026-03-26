@@ -89,6 +89,11 @@ Examples:
         help="Scrape supermarket promotional campaigns instead of events",
     )
     parser.add_argument(
+        "--bot-poll",
+        action="store_true",
+        help="Poll Telegram bot for new commands and handle them",
+    )
+    parser.add_argument(
         "--notify",
         action="store_true",
         help="Send Telegram notifications for new promos (requires --deals)",
@@ -108,6 +113,16 @@ Examples:
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
         datefmt="%H:%M:%S",
     )
+
+    # --- Telegram bot polling ---
+    if args.bot_poll:
+        from src.bot import poll_and_handle
+        try:
+            poll_and_handle()
+        except Exception as e:
+            logging.error(f"Bot poll failed: {e}", exc_info=True)
+            sys.exit(1)
+        return
 
     # One-time fix for legacy expired pages
     if args.fix_expired:

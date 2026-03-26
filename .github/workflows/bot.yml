@@ -1,0 +1,51 @@
+name: Telegram Bot Poll
+
+on:
+  schedule:
+    # Every 15 minutes during 6am-10pm NZST (18:00-10:00 UTC)
+    # Night hours (UTC 10:00-18:00 = NZST 22:00-6:00) — no polling
+    - cron: '*/15 18-23 * * *'  # UTC 18:00-23:45 = NZST 6:00-11:45
+    - cron: '*/15 0-9 * * *'    # UTC 0:00-9:45  = NZST 12:00-21:45
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bot-poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Poll and handle bot commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_WOOLWORTHS_DB_ID: ${{ secrets.NOTION_WOOLWORTHS_DB_ID }}
+          NOTION_PAKNSAVE_DB_ID: ${{ secrets.NOTION_PAKNSAVE_DB_ID }}
+          NOTION_NEWWORLD_DB_ID: ${{ secrets.NOTION_NEWWORLD_DB_ID }}
+        run: |
+          python -m src.cli --bot-poll --verbose
+
+      - name: Commit bot state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f output/.bot_offset.json output/.promo_history.json
+          git diff --staged --quiet || git commit -m "chore: bot poll $(date +%Y-%m-%d-%H%M)"
+          git push
