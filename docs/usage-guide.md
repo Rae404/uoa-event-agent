@@ -120,8 +120,8 @@ A: OpenAI 余额不足，去 https://platform.openai.com/settings/organization/b
 **Q: 某个源抓不到数据**
 A: 网站可能改了结构。加 `--verbose` 看详细日志，大部分情况是网络问题，重试即可。
 
-**Q: 想换回 Claude API**
-A: 改 `config/settings.py` 里的 `AI_MODEL`，再把 `ai_scorer.py` 和 `content_generator.py` 里的 `openai` 换回 `anthropic`。
+**Q: 想换别的 AI 模型 / 提供商**
+A: 先改 `config/settings.py` 里的 `AI_MODEL`。如果要切换到别的 SDK，再同步调整 `ai_scorer.py` 和 `content_generator.py` 的客户端实现。
 
 **Q: 输出太多/太少活动**
 A: 调整 `config/settings.py` 里的 `SCORE_MINIMUM_THRESHOLD`（当前 15，调高=更严格，调低=更多活动）。

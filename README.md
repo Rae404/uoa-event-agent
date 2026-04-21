@@ -10,7 +10,7 @@
 
 - **Multi-source scraping** — Eventfinda, Eventbrite, Meetup, UoA Unievents, Auckland Council
 - **Supermarket deals** — Woolworths, PAK'nSAVE, New World 每周特价自动抓取
-- **Two-layer scoring** — Rule-based pre-filtering + Claude AI intelligent scoring
+- **Two-layer scoring** — Rule-based pre-filtering + AI intelligent scoring
 - **Chinese tags** — Auto-assigns tags like 新手友好, 免费薅羊毛, 练英语, 找工有帮助
 - **Content generation** — AI-generated Chinese push copy for social media
 - **Notion sync** — Events + Deals 自动同步到 Notion 数据库
@@ -42,7 +42,7 @@ src/
 │   └── newworld.py        # New World Playwright + API intercept
 └── scoring/
     ├── scorer.py          # Rule-based scoring (free, fast)
-    └── ai_scorer.py       # Claude API batch scoring + tagging
+    └── ai_scorer.py       # OpenAI batch scoring + tagging
 ```
 
 ## Quick Start / 快速开始
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 # Set up API key for AI scoring (optional)
 cp .env.example .env
-# Edit .env and add your ANTHROPIC_API_KEY
+# Edit .env and add your OPENAI_API_KEY
 
 # Run — all sources, rule-based scoring only
 python -m src.cli --no-ai --verbose
@@ -126,7 +126,7 @@ python -m src.cli --deals --sources woolworths --limit 20 --notion --verbose
 - Within 7 days: +10
 - Below threshold (15): filtered out before AI
 
-### Layer 2: Claude AI (requires API key)
+### Layer 2: AI scoring (requires API key)
 - 7-dimension scoring: relevance, accessibility, value, credibility, completeness, timeliness, content potential
 - Priority assignment: S (must-push) → A (recommended) → B (optional) → C (skip)
 - Chinese tag assignment from predefined set
@@ -160,7 +160,7 @@ GitHub Actions runs daily at 8:00 AM NZST:
 3. Exports results to `output/`
 4. Commits to repo
 
-Set `ANTHROPIC_API_KEY` in repository secrets to enable AI scoring.
+Set `OPENAI_API_KEY` in repository secrets to enable AI scoring.
 
 ## Tech Stack
 
@@ -169,7 +169,7 @@ Set `ANTHROPIC_API_KEY` in repository secrets to enable AI scoring.
 - BeautifulSoup + lxml — HTML parsing
 - Requests + urllib3 Retry — HTTP with rate limiting
 - Playwright — JS-rendered site scraping (PAK'nSAVE, New World)
-- Claude API (Sonnet) — AI scoring & content generation
+- OpenAI API (`gpt-4o-mini`) — AI scoring & content generation
 - Notion API — database sync
 
 ## License
