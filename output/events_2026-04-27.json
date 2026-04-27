@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Business School Photoshoot for Professional Photos",
+    "date_start": "2026-04-30T11:00:00",
+    "date_end": "2026-04-30T14:00:00",
+    "location": "Sir Owen G Glenn Building, 12 Grafton Road University of Auckland Business School, Auckland, 1010",
+    "description": "Come get your professional headshots taken at our Business School Photoshoot event - perfect for updating your LinkedIn profile picture!",
+    "source_url": "https://www.eventbrite.co.nz/e/business-school-photoshoot-for-professional-photos-tickets-1985780555096",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Career"
+    ],
+    "tags": [],
+    "score": 50,
+    "priority": null,
+    "scraped_at": "2026-04-27T21:11:03.522842"
+  },
+  {
+    "title": "360 International General  Info Session",
+    "date_start": "2026-05-19T14:00:00",
+    "date_end": "2026-05-19T15:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1981269865502",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Other"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-04-27T21:11:03.521407"
+  },
+  {
+    "title": "LNG and New Zealand's Energy Balancing Act: Lessons from Asia-Pacific",
+    "date_start": "2026-05-14T16:00:00",
+    "date_end": "2026-05-14T17:00:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Explores governance and operating experience across multiple regulatory environments, examining NZ's energy trilemma.",
+    "source_url": "https://www.eventbrite.co.nz/e/lng-and-new-zealands-energy-balancing-act-lessons-from-asia-pacific-tickets-1987464831813",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Other"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-04-27T21:11:03.522918"
+  },
+  {
+    "title": "The European Union, Asia and New Zealand - Strengthening dialogue and coope",
+    "date_start": "2026-05-21T12:00:00",
+    "date_end": "2026-05-21T13:00:00",
+    "location": "Decima Glenn Room, Level 3, Sir Owen G Glenn Building 12 Grafton Road, Auckland, 1010",
+    "description": "H.E. Mr Lawrence Meredith  will explore how Europe and New Zealand are strengthening ties.",
+    "source_url": "https://www.eventbrite.co.nz/e/the-european-union-asia-and-new-zealand-strengthening-dialogue-and-coope-tickets-1988140169767",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Government & Politics",
+      "International Affairs"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-04-27T21:11:03.522996"
+  },
+  {
+    "title": "Noughty Box",
+    "date_start": "2026-03-14T10:00:00+13:00",
+    "date_end": "2026-06-06T13:00:00+12:00",
+    "location": "Regionwide:, Auckland",
+    "description": "A playful zero waste activity that can pop up at any event - We all know the creative power of the humble cardboard box... Using clever tools from Makedo and heaps of cardboard, participants are invited to learn about trees as a natural resource and craft large scale creations only limited by our own imaginations! Encouraging play and wasting NOUGHT a single thing!",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2025/12/noughty-box/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [],
+    "score": 25,
+    "priority": null,
+    "scraped_at": "2026-04-27T21:11:11.255727"
+  }
+]
