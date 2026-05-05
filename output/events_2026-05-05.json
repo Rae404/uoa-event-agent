@@ -1,0 +1,1591 @@
+[
+  {
+    "title": "PhotoSoc Semester 1 Exhibition Opening Night",
+    "date_start": "2026-05-11T00:00:00",
+    "date_end": "2026-05-11T00:00:00",
+    "location": "10 Symonds Street, Auckland",
+    "description": "Come celebrate your fellow photographers' work at our Semester 1 exhibition opening! Free food available!",
+    "source_url": "https://www.eventbrite.com/e/photosoc-semester-1-exhibition-opening-night-tickets-1987182204467",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "交朋友",
+      "有吃喝"
+    ],
+    "score": 85,
+    "priority": "S",
+    "scraped_at": "2026-05-05T21:06:17.256042"
+  },
+  {
+    "title": "University Lecture Courses - Semester One 2026",
+    "date_start": null,
+    "date_end": null,
+    "location": "20 Symonds Street, Auckland Central",
+    "description": "Our University Lecture Course Programme gives participants the opportunity to attend regular lectures in a selection of courses.",
+    "source_url": "https://www.eventbrite.co.nz/e/university-lecture-courses-semester-one-2026-tickets-1980830419106",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.450897"
+  },
+  {
+    "title": "Woodwinds, Brass, and Percussion Performance Workshops",
+    "date_start": "2026-05-08T13:00:00",
+    "date_end": "2026-05-08T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Woodwinds, Brass, and Percussion Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/woodwinds-brass-and-percussion-performance-workshops-tickets-1984657523077",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452599"
+  },
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-05-08T16:00:00",
+    "date_end": "2026-05-08T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657100814",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452644"
+  },
+  {
+    "title": "Voice Performance Workshops",
+    "date_start": "2026-05-11T14:00:00",
+    "date_end": "2026-05-11T16:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Voice Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/voice-performance-workshops-tickets-1984657757779",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Opera"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452689"
+  },
+  {
+    "title": "Keyboard Performance Workshops",
+    "date_start": "2026-05-12T11:00:00",
+    "date_end": "2026-05-12T13:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Keyboard Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/keyboard-performance-workshops-tickets-1984657843034",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452734"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-05-13T16:00:00",
+    "date_end": "2026-05-13T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656804929",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452778"
+  },
+  {
+    "title": "Strings Performance Workshops",
+    "date_start": "2026-05-14T13:00:00",
+    "date_end": "2026-05-14T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Strings Performance Workshops featuring local, national, and International guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/strings-performance-workshops-tickets-1984657684560",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452870"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-05-14T14:00:00",
+    "date_end": "2026-05-14T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657411744",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452917"
+  },
+  {
+    "title": "Woodwinds, Brass, and Percussion Performance Workshops",
+    "date_start": "2026-05-15T13:00:00",
+    "date_end": "2026-05-15T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Woodwinds, Brass, and Percussion Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/woodwinds-brass-and-percussion-performance-workshops-tickets-1984657524080",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452961"
+  },
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-05-15T16:00:00",
+    "date_end": "2026-05-15T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657101817",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453008"
+  },
+  {
+    "title": "Voice Performance Workshops",
+    "date_start": "2026-05-18T14:00:00",
+    "date_end": "2026-05-18T16:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Voice Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/voice-performance-workshops-tickets-1984657758782",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Opera"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453055"
+  },
+  {
+    "title": "Practice Impromptu Speaking in a Casual and Friendly Environment",
+    "date_start": "2026-05-06T06:30:00Z",
+    "date_end": null,
+    "location": "23 O'Connell Street, Auckland Central, AUCKLAND",
+    "description": "**Join us for an evening of meaningful talks!**\n\nWe believe in fostering heartfelt connections and personal growth by sharing our life experiences. Come along and practice public speaking in an environment where kindness and authenticity are at the heart of everything we do 💗\nEveryone will have an opportunity to talk at every event. You're encouraged to take the stage and share your thoughts, you're also welcome to just watch and absorb the atmosphere, if that's more comfortable for you too.\n\n**🤔 Who is this for?**\n\n* **Complete beginners** who are keen to push their comfort zones and see what we're all about. There are **absolutely no expectations** in terms of public speaking experience or English fluency.\n* **Intermediate speakers** looking for another forum to practice and improve amongst a like-minded community.\n* **Advanced speakers** looking to polish their skills, experiment with ideas and approaches, and impart their wisdom to others!\n\n**⚙️ How it works:**\n\n1. Attendees put their name in a box to volunteer to take their turn and be given a random topic to talk about in front of everybody.\n2. Deliver an impromptu talk on the given topic for 1-3 minutes (there will be a timer keeping you in check).\n3. Receive immediate feedback from the audience. Feel free to request if you have an area you would like to have feedback on.\n\n**🕔 Overview of evening:**\n6:15pm - Arrive, settle down, buy a drink, chat and make friends\n6:30pm - Overview and introductions\n6:45pm - Impromptu talks\n8:15pm - Feedback and wrap up\n\n**📍 Venue:**\nPrivate room inside **Panacea Bar** (above Sophia Bar). Head up the stairs on the left of Sophia Bar -- Panacea’s door is on the right when you reach the first landing.\n\n**💰 Cost:**\nEvent is free - but we highly encourage you to **please support the venue** by purchasing a drink at the bar🍹\n\n**🎩 Dress code:**\nWhatever you're comfortable in.\n\n**🚩 Important reminder:**\nThe spots are limited because we want to make sure that everyone gets a chance to",
+    "source_url": "https://www.meetup.com/auckland-public-speaking/events/314518207/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "交朋友"
+    ],
+    "score": 82,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147263"
+  },
+  {
+    "title": "Velocity Ideas Challenge Prizegiving 2026",
+    "date_start": "2026-05-21T18:00:00",
+    "date_end": "2026-05-21T21:00:00",
+    "location": "Sir Owen G Glenn Building 12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Discover which teams will win the 2026 Ideas Challenge and walk away with $1000!",
+    "source_url": "https://www.eventbrite.co.nz/e/velocity-ideas-challenge-prizegiving-2026-tickets-1978067885293",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [
+      "0元参加",
+      "找工有帮助"
+    ],
+    "score": 82,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.451991"
+  },
+  {
+    "title": "Rhythm Nation",
+    "date_start": "2026-05-02T11:00:00+12:00",
+    "date_end": "2026-05-30T12:00:00+12:00",
+    "location": "Te Wharekura and Te W&#x101;nanga, 117 Quay Street, Auckland City Centre, Auckland, Auckland",
+    "description": "Join us for a vibrant, interactive performance celebrating Māori music and movement as part of NZ Music Month.\nLed by Te Whare Karioi, from the heart of Ngāti Whātua Ōrākei, each performer descends from the eponymous ancestor, Tuperiri.\nThese free hour-long sessions will showcase taonga pūkaea, pūtatara, taiaha, poi and haka, with opportunities to participate and learn about the cultural significance behind each art form.\nThis free, whānau-friendly event invites you to connect with Tāmaki Makaurau’s rich whakapapa through live performance and hands-on experiences.\nFeel the pulse of the haka, hear the call of ancient instruments and move to the rhythm of poi.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/rhythm-nation/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 82,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:28.719284"
+  },
+  {
+    "title": "Saint Kentigern College - Middle School Musical - Beauty and the Beast",
+    "date_start": "2026-05-08T00:00:00",
+    "date_end": "2026-05-08T00:00:00",
+    "location": "130 Pakuranga Road, Auckland",
+    "description": "Step into the enchanted world of Disney's Beauty and the Beast, this \"tale as old as time\"",
+    "source_url": "https://www.eventbrite.co.nz/e/saint-kentigern-college-middle-school-musical-beauty-and-the-beast-tickets-1986276074207",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.255960"
+  },
+  {
+    "title": "Manawa Ecstatic Dance, DJ Morpho",
+    "date_start": "2026-05-08T00:00:00",
+    "date_end": "2026-05-08T00:00:00",
+    "location": "138 Main Highway, Auckland",
+    "description": "Manawa is a heart-led ecstatic dance movement in Tāmaki Makaurau, creating safe, inclusive spaces for free-form movement.",
+    "source_url": "https://www.eventbrite.co.nz/e/manawa-ecstatic-dance-dj-morpho-tickets-1988726936803",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友",
+      "文化体验"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.256773"
+  },
+  {
+    "title": "Slow Brew Breakfast Business Session",
+    "date_start": "2026-05-07T00:00:00",
+    "date_end": "2026-05-07T00:00:00",
+    "location": "114 Ponsonby Road, Auckland",
+    "description": "Kick back with coffee and good convo at the Slow Brew Breakfast Business Session—networking made easy!",
+    "source_url": "https://www.eventbrite.co.nz/e/slow-brew-breakfast-business-session-tickets-1984022635110",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.257147"
+  },
+  {
+    "title": "Side Hustles:  Networking & Quiz",
+    "date_start": "2026-05-12T06:30:00Z",
+    "date_end": null,
+    "location": "309 Broadway, Rooftop, Westfield Newmarket, Newmarket, 1023, Auckland",
+    "description": "Side Hustles: Collaboration & Networking\n\nVenue\nJohn Barleycorn's Taphouse\n309 Broadway, Rooftop,\nNew Market, (inside Westfield Mall)\nAuckland 1023\n6:30 PM – 8:30 PM\n\nWhat to Expect\n• Guided introductions (short and focused)\n• Facilitated Q&A around real side-hustle challenges\n• Open discussion on collaboration and referrals\n• Small-group conversations for deeper connection\n• Time for relaxed networking at the end\nParticipation is encouraged but not forced. You’re welcome to speak, listen, ask questions, or simply connect.\nAdded twist : Quiz night alongside!\nWho Should Attend\n✔ Side-hustlers and aspiring entrepreneurs\n✔ Freelancers and contractors\n✔ Small business owners\n✔ Consultants and service providers\n✔ Professionals exploring new income streams",
+    "source_url": "https://www.meetup.com/freelancers-contractors-hub-connect-collaborate-grow/events/314548537/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147040"
+  },
+  {
+    "title": "Curator talk – Standing tall: a century of the Clock Tower",
+    "date_start": "2026-05-07T10:30:00",
+    "date_end": "2026-05-07T11:30:00",
+    "location": "5 Alfred Street He Māra Mahara, Level M, Cultural Collections, Auckland, Auckland 1010",
+    "description": "Come join us for a captivating journey through time as we uncover the secrets behind the iconic Clock Tower in this curator talk!",
+    "source_url": "https://www.eventbrite.co.nz/e/curator-talk-standing-tall-a-century-of-the-clock-tower-tickets-1983326863037",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Heritage"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.451071"
+  },
+  {
+    "title": "2026 Alice Griffin Shakespeare Lecture",
+    "date_start": "2026-05-13T18:00:00",
+    "date_end": "2026-05-13T20:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Shakespeare as Reviser: The Merry Wives of Windsor",
+    "source_url": "https://www.eventbrite.co.nz/e/2026-alice-griffin-shakespeare-lecture-tickets-1985879327527",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452822"
+  },
+  {
+    "title": "Autumn Resonance",
+    "date_start": "2026-05-18T19:30:00",
+    "date_end": "2026-05-18T21:15:00",
+    "location": "132 Hobson Street, Auckland, Auckland 1010",
+    "description": "University Symphony Orchestra Autumn concert",
+    "source_url": "https://www.eventbrite.co.nz/e/autumn-resonance-tickets-1987020079547",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Seasonal & Holiday",
+      "Fall events"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453100"
+  },
+  {
+    "title": "Rowandale Reserve playspace opening",
+    "date_start": "2026-05-09T12:00:00+12:00",
+    "date_end": "2026-05-09T14:00:00+12:00",
+    "location": "Rowandale Reserve, Rowandale Avenue, Manurewa, Auckland, Auckland",
+    "description": "Rowandale Reserve's playspace has been revitalised and you're invited to its opening!\nManurewa Local Board would love you to join us in celebrating Rowandale Reserve's newly revamped playspace, which features a flying fox, a pump track, an adult fitness area and so much more!\nBring your crew for a fun-filled day with:\n\ncharacters\na DJ\nice creams\nsausage sizzles\ngiant bubbles\nface painting\nsports games on the new basketball and volleyball courts.\n",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/rowandale-reserve-playspace-opening/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:27.215737"
+  },
+  {
+    "title": "NZ Music Month on Queens Wharf",
+    "date_start": "2026-05-01T12:00:00+12:00",
+    "date_end": "2026-05-29T19:00:00+12:00",
+    "location": "Queens Wharf, 89 Quay Street, Auckland City Centre, Auckland, Auckland",
+    "description": "Celebrate NZ Music Month on Queens Wharf with a mix-tape of choice, homegrown and a 100% NZ line-up of DJs and intimate live sets.\nDuring the day, DJs Matt Crawley, Rose Alice, Sandy Mill and Stinky Jim will provide the sonic backdrop for your lunch break. &nbsp;\nOnce sun sets, grab an early dinner at the Queens Wharf container village and let DJ Grantis and TDK set the tone for your Thursday evenings or enjoy RepFMs Friday live sets with genres spanning hip-hop to reggae with a sprinkle of karaoke.\nFree. Family friendly. Haere mai e hoa mā!\nLunchtime DJs | Tuesday to Friday (12pm – 2pm):\n\nTuesdays: Matt Crawley\nWednesdays:&nbsp;Rose Alice\nThursdays: Sandy Mill\nFridays: Stinky Jim\n\nThursday evening DJs (5pm – 7pm):\nMāori HiFi DJs (Grantis + TDK)\nFriday evening DJs and live sets (5pm – 8pm):\nFriday 1 May | J Hu$tle\nA rising hip-hop artist from Auckland, with a unique sound that blends old-school beats with modern flow, J Hu$tle was surrounded by music from a young age. Inspired by the likes of Savage and POETIK, J Hu$tle began writing and recording his own music at the age of 12.\nFriday 8 May |&nbsp;Queen2Queen\nA powerhouse female rap duo straight out of Ōtara and Manurewa, Queen2Queen was formed at Passion2Profession in 2023. Since then, Jasy and Eyez have been rocking stages with amped-up sounds that fuse raw energy and unapologetic storytelling.\nRepresenting the next wave of aspiring female hip-hop artists, Queen2Queen is more than a duo - they’re a movement: bold, fearless and unafraid to break barriers for women in rap.\nFriday 15 May | Sweet &amp; Irie\nSweet &amp; Irie was officially formed in 2005 when Ed Ru was inspired after seeing Toots and the Maytals perform live. They have performed at major festivals, such as Raggamuffin, touring both nationally and internationally. Sweet &amp; Irie's music is characterized by its positive and uplifting messages about love, unity and positivity.&nbsp;\nFriday 22 May | Kapo\nHailing from Te Taitokerau in Muriwhenua, 18-year",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/nz-music-month-on-queens-wharf/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:30.216388"
+  },
+  {
+    "title": "Auckland Live Celebrates NZ Music Month",
+    "date_start": "2026-05-01T00:00:00+12:00",
+    "date_end": "2026-05-31T00:00:00+12:00",
+    "location": "Various locations, Auckland City Centre, Auckland",
+    "description": "Auckland Live is celebrating NZ Music Month | Te Marama Puoro o Aotearoa with a vibrant programme of live music, pop-up performances and free public experiences across Tāmaki Makaurau Auckland’s city centre this May.\nThe month kicks off on Friday 1 May in Te Komititanga with the Vospertron Tron Mob, a roaming silent disco led by futuristic light-suit robots!\nEscape the crowds and step inside Mighty for one of the most intimate live music experiences! A rotating lineup of incredible performers will step into the space, including Don McGlashan, Geneva AM, Jon Toogood and more.\nDiscover FromThePit, a striking photography exhibition of photos taken from the very front row of gigs across Aotearoa! Plus, don’t miss the 10-year anniversary of Morning People with none other than Tiki Taane, a feel-good morning rave guaranteed to get you moving at the Auckland Town Hall.\nWhether you’re here for a headline gig with Marlon Williams and Fat Freddy’s Drop, adding music to your workday or bringing the whānau along, NZ Music Month is for you.\nFor more details and to plan your NZ Music Month, visit: aucklandlive.co.nz/event/nz-music-month&nbsp;",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/auckland-live-celebrates-nz-music-month/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "文化体验",
+      "有吃喝"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:46.729604"
+  },
+  {
+    "title": "Kathak Workshop with Purnima Garg",
+    "date_start": "2026-05-16T00:00:00",
+    "date_end": "2026-05-16T00:00:00",
+    "location": "100 Motions Road, Auckland",
+    "description": "Learn Kathak set to a bollywood favourite - spins, expressions, and a short choreography. All levels welcome!",
+    "source_url": "https://www.eventbrite.co.nz/e/kathak-workshop-with-purnima-garg-tickets-1988703239925",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识",
+      "文化体验"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.257523"
+  },
+  {
+    "title": "360 International General  Info Session",
+    "date_start": "2026-05-19T14:00:00",
+    "date_end": "2026-05-19T15:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1981269865502",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.451572"
+  },
+  {
+    "title": "360 International General  Info Session",
+    "date_start": "2026-06-02T14:00:00",
+    "date_end": "2026-06-02T15:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1981270292780",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.451621"
+  },
+  {
+    "title": "Keyboard Performance Workshops",
+    "date_start": "2026-05-19T11:00:00",
+    "date_end": "2026-05-19T13:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Keyboard Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/keyboard-performance-workshops-tickets-1984657844037",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453145"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-05-20T16:00:00",
+    "date_end": "2026-05-20T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656805932",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453190"
+  },
+  {
+    "title": "Strings Performance Workshops",
+    "date_start": "2026-05-21T13:00:00",
+    "date_end": "2026-05-21T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Strings Performance Workshops featuring local, national, and International guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/strings-performance-workshops-tickets-1984657685563",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453239"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-05-21T14:00:00",
+    "date_end": "2026-05-21T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657412747",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453284"
+  },
+  {
+    "title": "Woodwinds, Brass, and Percussion Performance Workshops",
+    "date_start": "2026-05-22T13:00:00",
+    "date_end": "2026-05-22T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Woodwinds, Brass, and Percussion Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/woodwinds-brass-and-percussion-performance-workshops-tickets-1984657525083",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453332"
+  },
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-05-22T16:00:00",
+    "date_end": "2026-05-22T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657102820",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453377"
+  },
+  {
+    "title": "Voice Performance Workshops",
+    "date_start": "2026-05-25T14:00:00",
+    "date_end": "2026-05-25T16:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Voice Performance Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/voice-performance-workshops-tickets-1984657759785",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Opera"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.453422"
+  },
+  {
+    "title": "Japanese/English Exchange group ENKAI（縁会）",
+    "date_start": "2026-05-09T03:00:00Z",
+    "date_end": null,
+    "location": "143 Carlton Gore Road, Auckland",
+    "description": "日本語と英語で話そう！Let's join Japanese/English Exchange group ENKAI（縁会）!\n\nLearn Japanese/English, make friends, learn about culture!All Levels Welcome!Are you looking for opportunities to practice your Japanese or English? Have fun meeting new people while practicing your target language with native speakers. Plus, you get to return the favor and help others reach their goal to become fluent in another language! Not only will you walk away feeling like you've improved your English or Japanese, but you'll also feel great about helping someone else reach his or her goals. Let's enjoy ENKAI!\n\nThis event only allows attendees that are 18 years old or older.\n\nFee: $11 to be paid at the counter (Includes regular flat white, coffee, tea, or a fizzy drink)\n\n日本語と英語で楽しくおしゃべりしませんか？英語を勉強中の人、日本語を勉強中の人、まだ話すことに自信がなくても、一人での参加でも大丈夫！お茶を飲んだり、お菓子を食べながら、みんなで楽しく交流しましょう！\n\nこのイベントは１８歳以上なら参加Okです。\n\n会費　$11（注文カウンターでお支払いください。含まれるドリンク：レギュラーフラットホワイト、コーヒー、紅茶、または炭酸飲料）",
+    "source_url": "https://www.meetup.com/auckland-japanese-english-exchange-enkai-%E7%B8%81%E4%BC%9A/events/314252735/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "交朋友",
+      "文化体验"
+    ],
+    "score": 77,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147303"
+  },
+  {
+    "title": "The European Union, Asia and New Zealand - Strengthening dialogue and coope",
+    "date_start": "2026-05-21T12:00:00",
+    "date_end": "2026-05-21T13:00:00",
+    "location": "Decima Glenn Room, Level 3, Sir Owen G Glenn Building 12 Grafton Road, Auckland, 1010",
+    "description": "H.E. Mr Lawrence Meredith  will explore how Europe and New Zealand are strengthening ties.",
+    "source_url": "https://www.eventbrite.co.nz/e/the-european-union-asia-and-new-zealand-strengthening-dialogue-and-coope-tickets-1988140169767",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Government & Politics",
+      "International Affairs"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 77,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452187"
+  },
+  {
+    "title": "LNG and New Zealand's Energy Balancing Act: Lessons from Asia-Pacific",
+    "date_start": "2026-05-14T16:00:00",
+    "date_end": "2026-05-14T17:00:00",
+    "location": "12 Grafton Road Level 0, Room 051, Auckland, Auckland 1010",
+    "description": "Dive into how Asia-Pacific's LNG trends can help New Zealand keep its energy game strong and steady.",
+    "source_url": "https://www.eventbrite.co.nz/e/lng-and-new-zealands-energy-balancing-act-lessons-from-asia-pacific-tickets-1987464831813",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 76,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452137"
+  },
+  {
+    "title": "Strings Performance Workshops",
+    "date_start": "2026-05-07T13:00:00",
+    "date_end": "2026-05-07T15:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Strings Performance Workshops featuring local, national, and International guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/strings-performance-workshops-tickets-1984657683557",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 76,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452498"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-05-07T14:00:00",
+    "date_end": "2026-05-07T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657410741",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 76,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452554"
+  },
+  {
+    "title": "'93LIVE PRESENTS: B2B ROULETTE #4",
+    "date_start": "2026-05-16T00:00:00",
+    "date_end": "2026-05-16T00:00:00",
+    "location": "7 Sale Street, Auckland",
+    "description": "DJ’S. SECRET DUO’S. DANCE BATTLES. 1 NIGHT ONLY.",
+    "source_url": "https://www.eventbrite.com/e/93live-presents-b2b-roulette-4-tickets-1988743834344",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.255683"
+  },
+  {
+    "title": "PUNJABI TAKEOVER",
+    "date_start": "2026-05-16T00:00:00",
+    "date_end": "2026-05-17T00:00:00",
+    "location": "9 Vulcan Lane, Auckland",
+    "description": "Get ready to groove and vibe at PUNJABI TAKEOVER – the ultimate desi party in town!",
+    "source_url": "https://www.eventbrite.co.nz/e/punjabi-takeover-tickets-1986207384755",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.255756"
+  },
+  {
+    "title": "FREE* Professional Mother's Day Photoshoot at Hunters Plaza!",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-09T00:00:00",
+    "location": "217 Great South Road, Auckland",
+    "description": "Join us from Saturday 9th - Sunday 10th May, between 11am - 2pm for a keepsake professional photoshoot at Hunters Plaza!",
+    "source_url": "https://www.eventbrite.co.nz/e/free-professional-mothers-day-photoshoot-at-hunters-plaza-tickets-1988369200805",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.256676"
+  },
+  {
+    "title": "Mixology Masterclass",
+    "date_start": "2026-05-29T00:00:00",
+    "date_end": "2026-05-29T00:00:00",
+    "location": "Cnr Waterloo Quadrant & Princes Street, Auckland",
+    "description": "Master the art of shaking, stirring, and pouring three signature cocktails in this immersive, hands on mixology masterclass.",
+    "source_url": "https://www.eventbrite.co.nz/e/mixology-masterclass-tickets-1983050797317",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.257074"
+  },
+  {
+    "title": "JuniorDev Auckland Meet",
+    "date_start": "2026-05-06T06:00:00Z",
+    "date_end": null,
+    "location": "96 Saint Georges Bay Road, Auckland",
+    "description": "We’re thrilled to announce the next **JuniorDev Auckland event**!\n\nJoin us for an evening of learning and connection as we hear from our speakers and the experiences they’ll be sharing.\n\n**Important Note for Attendees:**\n\n* **Please use the following link to pre-register for Xero Venue before arriving** [https://invites.envoy.com/group-invite/FrIVJLDeysniDTV4](https://invites.envoy.com/group-invite/FrIVJLDeysniDTV4).\n\n**Talk 1: How Changing the Way I Interpret Problems Transformed My Performance and Mental Health by Mark Pearl**\nAs I’ve moved into more senior roles in tech, the size and impact of the problems I’ve had to solve have grown significantly. Over time, I realised that the way I was interpreting those challenges was negatively affecting both my mental health and how I showed up at work.\n\nIn this short talk, I’ll share how changing the way I interpret problems has helped me become more resilient, learn faster, and perform better—while maintaining my wellbeing. You’ll walk away with a few practical techniques you can apply immediately as a engineer to improve your effectiveness, how you show up, and ultimately help you stand out from your peers.\n\n**A bit about Mark:**\n\n* Mark Pearl is a VP of Engineering at Serko - a business revolutionising business travel. He's a former software engineer, now focused on supporting and leading engineering orgs. He is passionate about helping engineers grow, perform effectively, and show up as good humans. He enjoys sharing practical lessons from his leadership journey to support early-career technologists.\n\n**Talk 2: Resilience and Rapport by Roger Ford**\nBeing part of a Dev Team means working with others, who each have their own way of working and job to do. Successful teams deliver great products because they know how to work effectively together.\n\n**A bit about Roger:**\n\n* Roger has been leading teams, building software products, and delivering software solutions for over 20 years. He is an industry leader, with more tha",
+    "source_url": "https://www.meetup.com/juniordev-auckland/events/314372336/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "找工有帮助",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.146934"
+  },
+  {
+    "title": "EMC English Conversation Club",
+    "date_start": "2026-05-07T04:00:00Z",
+    "date_end": null,
+    "location": "1 Freyberg Place, Auckland Central, Auckland",
+    "description": "**EMC English Conversation Club**\n**Thursdays, 4 to 6pm**\n**Free.** Please **join this group** and **reserve** your seat every week.\n\nWhether you want to improve your English or you're a native speaker keen to help others, this is a great place to connect and build friendships.\nThis is not a classroom. It’s a relaxed community space where you can share stories, practise everyday English, and learn about life, work, and culture in New Zealand and other countries.\nEach session is guided by an experienced facilitator and supported by friendly volunteers.\n**What to expect:**\n• Casual, friendly conversations on real-life topics\n• Supportive facilitators and volunteers\n• Language learning through connection, not pressure\n• A welcoming environment to build friendships and confidence\n\nPlease **join this group** and **reserve** your seat every week.",
+    "source_url": "https://www.meetup.com/ellen-melville-centre-free-events-classes-clubs/events/314176750/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147379"
+  },
+  {
+    "title": "Tātāwhāinga Kēmu -  NBA 2K26",
+    "date_start": "2026-05-26T16:00:00",
+    "date_end": "2026-05-26T19:00:00",
+    "location": "11 Symonds Street, Auckland, Auckland 1010",
+    "description": "He Āhuru Mōwai and the Esports Arena are teaming up to bring you tauira Māori Esports tournaments!",
+    "source_url": "https://www.eventbrite.co.nz/e/tatawhainga-kemu-nba-2k26-tickets-1985414636624",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Sports & Fitness",
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.451509"
+  },
+  {
+    "title": "Making Spaces",
+    "date_start": "2026-05-06T18:00:00",
+    "date_end": "2026-05-06T20:00:00",
+    "location": "10 Symonds Street, Auckland, Auckland 1010",
+    "description": "Join Making Spaces with artist and Elam alumnus Reuben Paterson, recently awarded the University of Auckland Distinguished Alumni Award.",
+    "source_url": "https://www.eventbrite.co.nz/e/making-spaces-tickets-1986946695052",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Home & Lifestyle",
+      "Home & Garden"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452449"
+  },
+  {
+    "title": "Whānau friendly exercise class",
+    "date_start": "2025-11-18T18:00:00+13:00",
+    "date_end": "2026-06-30T19:00:00+12:00",
+    "location": "Te Manawa, 11 Kohuhu Lane, Westgate, Auckland, Auckland",
+    "description": "Join Matavaine each Tuesday in this exercise programme for high-energy classes that will make you feel great.\nPlease bring along a non-perishable food item as koha each week to support a local food bank.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2025/11/whanau-friendly-exercise-class/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:31.743169"
+  },
+  {
+    "title": "Botanical Art Classes",
+    "date_start": "2026-05-06T10:00:00+12:00",
+    "date_end": "2026-06-10T12:00:00+12:00",
+    "location": "Highwic, 40 Gillies Avenue/Mortimer Pass, Newmarket, Auckland 1023, Auckland",
+    "description": "Join artist Jennifer Duval Smith at Highwic for a six-week botanical art class on Wednesday mornings, where she invites participants to slow down, observe, and reconnect with the natural beauty that has surrounded Aucklanders for generations.\nThe heritage gardens at Highwic offer a vivid tapestry of seasonal colour as inspiration – from the formality of its sweeping lawns to the intimacy of its flower beds and orchard.\nThe class will take place in the atmospheric Billard House, and in the gardens. Each session blends artistic technique with mindful observations, linking the botanical past and present through creative practice.\nThe six-week course covers:\n\nNature journaling and observational techniques\nSuccessful drawing strategy\nSmarter colour mixing\nMastering watercolour techniques\nCreativity and finding your artistic confidence\n\nTo see more of Jennifers work see her Instagram page https://www.instagram.com/jenniferduvalsmithart/\nStudents will supply their own materials (a list of what is required will be supplied before the class starts).",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/botanical-art-classes/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "涨知识"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:43.717773"
+  },
+  {
+    "title": "Dinner, Drinks and Games Night! (Karaoke Later On!)",
+    "date_start": "2026-05-16T06:00:00Z",
+    "date_end": null,
+    "location": "167 Symonds Street, Eden Terrace, Auckland",
+    "description": "\\*\\*We will be exploring new restaurants each month! Make sure to answer this event's question, as I need to make booking at the restaurant for exact number of people on Saturday. In case, if there is additional space, it can be filled by people on the waiting list.\nAlso, if you wanna just attend for board games, that's fine too. Just make sure to let me know by answering this event's question. Thanks!\\*\\*\n\nHey everyone!\n\nThe time has arrived for another evening of Dinner, Board Games and Drinks! The plan is to meetup for dinner, drinks and socializing at\n**Ramen Do - Japanese Noodle Bar on Symonds street** at **6 PM** and then, head off to Cakes and Ladders at **6:55 PM** for some board gaming action.\n\nAfter jamming board games until 9:30 PM, we will head off to a Karaoke Bar. 10 spots max for Karaoke.\n\nRSVP and come on over. Have a good meal, get acceptably intoxicated (optional), make new friends (and old!) and play some games!\n\n**Other details:**\n\n* Cakes & Ladders is a few meters away from the restaurant on the opposite side of the street.\n* Cakes & Ladders charges $4 an hour.\n* To support this awesome board gaming place, go ahead and order something to drink or eat. (Optional)\n* Make sure to bring in your identity proof along with you. Either Passport or NZ Driver's license. Physical copy is required and digital copies will not be accepted at bars and Clubs.\n* Finally, for whatever reason, if you RSVP and can no longer make it to the event, change your RSVP by Friday 10 PM so that people on the wait list can fill your space instead. No-Show members will be marked accordingly and potentially banned from future events.\n\nIf you are lost or unable to find the group, text or call me on 0221 762 752 and I will be happy to help out. See you all then!\n\nJoin us on facebook for more events related to game nights, movies, sci-fi and socializing. [https://www.facebook.com/groups/SocialGeekNZ/](https://www.facebook.com/groups/SocialGeekNZ/)\n\nRegards,\nRaziq",
+    "source_url": "https://www.meetup.com/the-social-geek/events/312727276/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友",
+      "有吃喝"
+    ],
+    "score": 74,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147414"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-05-06T16:00:00",
+    "date_end": "2026-05-06T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656803926",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 73,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:25.452402"
+  },
+  {
+    "title": "GitHub Copilot Dev Days",
+    "date_start": "2026-05-12T05:30:00Z",
+    "date_end": null,
+    "location": "Level 5/22 Viaduct Harbour Avenue, Auckland",
+    "description": "## **GitHub Copilot Dev Days \\| Auckland\\, NZ**\n\nJoin us for a community-led developer event focused on **AI-assisted coding with GitHub Copilot**. This event brings together developers to explore practical workflows, real-world use cases, and hands-on experiences using GitHub Copilot.\nWhether you are new to GitHub Copilot or already using it, this event will help you better understand how to apply AI-assisted coding techniques in everyday development.\n\n## 🗓️ Event format\n\nWe will be running workshops so bring your laptop fully charged, charger in case you might still need it, VS Code Insider installed, GitHub Copilot subscription, GitHub account.\n\n## 📅 Agenda\n\nWe will be following the workshops found at [GitHub Copilot Dev Days](https://copilot-dev-days.github.io/#workshops)\n\n* [Jerome Brown](https://www.linkedin.com/in/owretch/) \\- Copilot CLI\n* [Ricky Gummadi](https://www.linkedin.com/in/rickygummadi/) \\- MCP with Copilot\n* [Daniel (DSR) Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford/) Agentic Workflows\n* [Sinan Nar](https://www.linkedin.com/in/sinannar/) Agent Lab w .Net\n\n## 📜 Code of Conduct\n\nWe are committed to providing a welcoming and inclusive environment for all participants. Please review the event **Code of Conduct** before attending.\n👉 [Event Code of Conduct](https://github.com/github/GitHub-Copilot-Dev-Days/blob/main/EVENT_CODE_OF_CONDUCT.md)\n\n## 🍕 Logistics\n\n* Food & drinks provided (thanks Arinco!)\n* In‑person and remote attendees welcome\n* Please RSVP so we can plan catering\n\n## **🤝 Sponsors**\n\n* Arinco (Food)\n* Microsoft (Venue)",
+    "source_url": "https://www.meetup.com/akl-net/events/314375395/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "找工有帮助"
+    ],
+    "score": 72,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147129"
+  },
+  {
+    "title": "Don't Call Me 90s Auckland",
+    "date_start": "2026-05-23T00:00:00",
+    "date_end": "2026-05-24T00:00:00",
+    "location": "10 Darby Street, Auckland",
+    "description": "A celebration of 90s club anthems. Relive the golden era of dance for one night only!",
+    "source_url": "https://www.eventbrite.co.nz/e/dont-call-me-90s-auckland-tickets-1984441313388",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.255869"
+  },
+  {
+    "title": "SHAWTY'S",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-10T00:00:00",
+    "location": "13 Shortland Street, Auckland",
+    "description": "THROWBACK HIP HOP & R&B",
+    "source_url": "https://www.eventbrite.co.nz/e/shawtys-tickets-1984444574141",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.256001"
+  },
+  {
+    "title": "Mindfulness Pottery Workshop w/ Siriporn Falcon-Grey",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-09T00:00:00",
+    "location": "70 Hill Road, Hill Park",
+    "description": "Learn the fundamentals of pottery and handbuilding with clay.",
+    "source_url": "https://www.eventbrite.co.nz/e/mindfulness-pottery-workshop-w-siriporn-falcon-grey-tickets-1987382558732",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.256611"
+  },
+  {
+    "title": "The Bastards Of Bollywood Auckland Edition",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-10T00:00:00",
+    "location": "9 Vulcan Lane, Auckland",
+    "description": "Bastards of Bollywood hit Auckland  Heavy bass, Bollywood + EDM madness. DJ Drag & DJ Sunny. Don’t miss it ⚡ Tickets selling fast!",
+    "source_url": "https://www.eventbrite.co.nz/e/the-bastards-of-bollywood-auckland-edition-tickets-1985891334440",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友",
+      "文化体验"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.256710"
+  },
+  {
+    "title": "Mimosa & Chai",
+    "date_start": "2026-05-24T00:00:00",
+    "date_end": "2026-05-24T00:00:00",
+    "location": "320 Parnell Road, Auckland",
+    "description": "Our secon Daylight Social has arrived. Whether you're here for the fizz or the spice, the vibes are 100% sunshine. Bringing Chai Rave to NZ.",
+    "source_url": "https://www.eventbrite.co.nz/e/mimosa-chai-tickets-1988316284531",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:17.257041"
+  },
+  {
+    "title": "Using Copilot for Design and Actions Workflows",
+    "date_start": "2026-05-13T05:30:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "We are back for another edition of the GitHub User Group. This month we dive into using Copilot and AI to enhance the design workflow, and look at how we can leverage AI in our GitHub Actions.\n\n**Product Design with Source Control: Using GitHub, AI, and Preview Builds as Your Source of Truth \\~ [Walt Lim](https://www.linkedin.com/in/waltzaround/)**\n\nIn this talk, Walt shares how he uses GitHub and AI to rethink the design process, moving beyond traditional prototypes to code as the source of truth. By using pull requests and ephemeral preview builds, he creates fast, realistic, and testable environments where ideas can be reviewed, iterated, and validated in context. Combined with AI-assisted workflows, this approach helps his team move quicker, reduce ambiguity, and make better decisions with less overhead\n\n**From One PR to Another: Agentic Workflows on GitHub \\~ [Sinan Nar](https://www.linkedin.com/in/sinannar/)**\n\nA live demo of using AI-driven workflows to trigger actions across repositories—automatically creating a PR in a second repo when changes are merged.\nbio: Sinan is an Apps and AI Consultant at ARINCO, a Microsoft and GitHub partner consultancy. He co-organises the Aotearoa Azure User Group and the Auckland .NET User Group. An experienced and certified software engineer, he specialises in the Microsoft ecosystem, with a focus on Azure and GitHub.\n\n**Agenda**\n5:30 - Start of pizza and networking\n6:00 - Talk 1\n6:30 - Break\n6:40 - Talk 2\n7:15 - Finish\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees, but you can [join online](https://aka.ms/aotearoanzgithub/stream) on the day.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/catego",
+    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/314446159/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "找工有帮助",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147089"
+  },
+  {
+    "title": "Welcome to the next AWS Auckland Well-Architected Meetup for 2026!",
+    "date_start": "2026-05-20T05:30:00Z",
+    "date_end": null,
+    "location": "Level 13, Commercial Bay, 15 Customs Street West, Auckland CBD, Auckland 1010, Auckland",
+    "description": "Hi Architects,\n\nWelcome to the next [AWS Auckland Well Architected User Group](https://www.meetup.com/aws-canberra-well-architected-user-group/) Meetup of 2026!\n\nAt each meetup, we focus on learning and networking in a friendly and inclusive atmosphere and explore best-practices in AWS. This has resulted in the AWS Well-Architected Meetups becoming the most popular AWS Meetups in ANZ 🥳\n\n**Please also note that AWS Security now requests a company name and company email where it is available. If you are a student, please list your institution and your student email address at that institution 👍**\n\n* **Yadwinder Sharma, Founder, https://www.nimbal.ai**\n\n**From 5 Days to 5 Minutes: Reimagining Well-Architected QA with Autonomous AI**\n\nModern software delivery is accelerating faster than traditional QA can keep up. Teams are facing rising costs, delayed releases and significant reputational risks when quality is compromised. At the same time, AI-generated code and rapid release cycles are outpacing manual testing capabilities.\n\nThis session explores how autonomous, cloud-native QA powered by AI agents is transforming software verification—reducing testing time from days to minutes and costs from thousands to tens of dollars, supported by AWS Well-Architected principles of:\n\nOperational Excellence: Automating QA workflows with self-service, zero-setup AI agents\nReliability: Detecting broken links, errors and performance issues before production\nCost Optimization: Moving from high fixed QA costs to on-demand, per-run pricing models and more\n\n* **Mystery Speaker**\n\n**Well-Architected Agents**\nIn this talk we will go into the detail of not only the launch of the first Well-Architected agents from both AWS and other AWS partners (and what they can and can't do) but will also go through best-practice agentic architecture as verified by AWS senior architects.\n\nThis month's menu will include:\n\n* Pizzas\n* Beer: Nastro Azzurro\n* Wine: Big and red 🤤\n\nSo come join us at 5:30pm for a",
+    "source_url": "https://www.meetup.com/aws-auckland-well-architected-user-group/events/314176077/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147176"
+  },
+  {
+    "title": "G-O Hike: Orewa Boardwalk",
+    "date_start": "2026-05-15T21:00:00Z",
+    "date_end": null,
+    "location": "100 Wellington St, Freemans Bay, Auckland",
+    "description": "Hello fellow Get‑Outsiders!\n\nCome join us for a peaceful and refreshing walk around the beautiful Ōrewa Estuary. After introductions, we will follow the Te Ara Tahuna shared path, enjoying the calm water, birdlife, boardwalks, and open green spaces. This is a gentle, scenic outing designed to help us slow down, breathe, and enjoy the natural rhythms of the morning.\n\nWe will walk the full estuary loop at a relaxed pace, taking time to appreciate the views and the changing landscape as we circle around the water. After completing the loop, we will finish with a short stroll along Ōrewa Beach together before wrapping up (with possible ice cream).\n\n## **IMPORTANT NOTES & UPDATES:**\n\n• **Car‑pool Meeting Point:** 9.00am at **Nishiki Restaurant, Freemans Bay** (meet in the main carpark area). • **Ōrewa Meeting Point:** 10:00am at the **Ōrewa Surf Lifesaving Club carpark** (on the beachfront). • **Official Route Map:** Auckland Council’s Te Ara Tahuna Estuary Pathway map — `https://www.aucklandcouncil.govt.nz/parks-recreation/get-outdoors/Pages/park-details.aspx?Location=Orewa%20Estuary%20Path` (aucklandcouncil.govt.nz in Bing)\n\n• **Difficulty Rating:** Easy (flat shared path, suitable for most fitness levels). • **Suitability:** Ideal for beginners, returning walkers, and anyone wanting a gentle, scenic outing. • **Completion Time:** We expect to finish by around **2:00pm**. • **Footwear:** Comfortable walking shoes; the path is mostly paved or boardwalk. • **Drinking Water:** Please bring your own. • **Toilets:** Public toilets available near the surf club and along the estuary.\n\n• **RSVP to this event:** Please RSVP “Yes” only if you genuinely intend to come. If your plans change, update your RSVP as soon as possible so others can join. Late cancellations (within 24 hours) or no‑shows may be recorded as such. • **Cellphone Coverage:** Good coverage throughout the walk. • **Transport/Car Pooling:** Please answer the car‑pool question when you RSVP to help with planning. ",
+    "source_url": "https://www.meetup.com/get-outside-auckland/events/313333535/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "户外活动",
+      "交朋友"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:19.147343"
+  },
+  {
+    "title": "Adult digital class - Facebook Marketplace",
+    "date_start": "2026-05-06T14:00:00+12:00",
+    "date_end": "2026-05-06T15:00:00+12:00",
+    "location": "Blockhouse Bay Library, 578 Blockhouse Bay Road, Blockhouse Bay, Auckland, Auckland",
+    "description": "Learn about Facebook Marketplace, a platform to discover, buy and sell items with people in your community.\nWhether you’re selling electronics, cars, furniture, fashion, or services, Marketplace has it all!\nMarketplace connects buyers and sellers directly, making it faster-paced and less regulated than other online trading platforms.\nLearn how to navigate the service with this in mind and develop skills to help you stay safe online while buying and selling.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/adult-digital-class-facebook-marketplace/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:34.729726"
+  },
+  {
+    "title": "Little Lit' Fest",
+    "date_start": "2026-05-06T12:30:00+12:00",
+    "date_end": "2026-05-27T16:00:00+12:00",
+    "location": "Devonport Community House, 32 Clarence Street, Devonport, Auckland 0624, Auckland",
+    "description": "Introducing Lil’ Lit Fest at the Devonport Community House this May!\nJoin two incredible Aotearoa authors and writing mentors for hands-on workshops designed to get your pen moving and elevate your writing style.\nJudith White's Four Week Workshop | Every Wednesday in May, 12.30pm - 2.30pm\nUsing reality as a source of inspiration for the fictionally challenged!\nJudith White will nurture the emerging writer in you, building your confidence, craft and storytelling skills.\nJudith is an author of two novels and a collection of short stories. She has been mentoring and facilitating creative writing workshops for various Community Educations, Auckland University Continuing Education, Toi Ora Live Trust and the Creative Hub for over three decades. Learn more about Judith White.\nDominic Hoey's One Day Intensive Novel Writing Workshop |&nbsp;Saturday 16 May, 10am - 4pm\nDominic Hoey (New Zealand Best Seller and long listed for Ockham NZ Book Awards) will cover the core techniques used in writing short stories and novels, helping you build a strong foundation for your work. You’ll explore:\n\ncharacter development\ndialogue\nstructure\nsetting\npoint of view\nediting\npractical tools to strengthen and refine your writing.\n\nDominic Hoey is a poet, author and playwright from Aotearoa, New Zealand. His novels Iceland, Poor People With Money&nbsp;and 1985 were all New Zealand bestsellers, with Iceland and 1985 longlisted for the Ockham New Zealand Book Awards. He won the 2021 Sunday Star-Times Short Story Award and was also longlisted for the 2018 Ockham Book Awards.\nSince 2015, Dominic has run his Learn to Write Good creative writing courses, teaching hundreds of students across the country. Drawing on over 25 years of experience across prose, poetry, theatre and music, his classes are relaxed, inclusive and focused on nurturing creativity.\nOpen to writers of all disciplines and skill levels, the course welcomes everyone - from beginners to experienced writers, including those with little",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/little-lit-fest/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:40.720005"
+  },
+  {
+    "title": "In mud we trust",
+    "date_start": "2026-04-29T18:00:00+12:00",
+    "date_end": "2026-06-03T21:00:00+12:00",
+    "location": "Studio One Toi T&#x16B;, 1 Ponsonby Road, Grey Lynn, Auckland, Auckland",
+    "description": "Whether you’re aiming to become a Mud Master or simply looking to relax after a long day, this six-week multi-level evening workshop will take you through wheel throwing, trimming, and glazing techniques.\nWith Iza’s guidance, you can create your own cups, mugs, bowls &amp; vases or materialize a clay project you have in mind. Open to beginner and intermediate potters—no prior experience needed, just curiosity and a willingness to get a little muddy.\nFinished works will be fired and ready for collection once completed.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/03/in-mud-we-trust/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "练英语",
+      "有吃喝"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-05-05T21:06:51.225526"
+  },
+  {
+    "title": "Back to the 2000s – Auckland Viaduct Takeover",
+    "date_start": "2026-05-16T00:00:00",
+    "date_end": "2026-05-17T00:00:00",
+    "location": "204 Quay Street, Auckland",
+    "description": "SOLDOUT - WAITLIST OPEN.. Get ready to vibe like it’s the early 2000s with tunes, style, and good times all night long!",
+    "source_url": "https://www.eventbrite.co.nz/e/back-to-the-2000s-auckland-viaduct-takeover-tickets-1983582207780",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.255802"
+  },
+  {
+    "title": "Saint Kentigern College - Middle School Musical - Beauty and the Beast",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-09T00:00:00",
+    "location": "130 Pakuranga Road, Auckland",
+    "description": "Step into the enchanted world of Disney's Beauty and the Beast, this \"tale as old as time\"",
+    "source_url": "https://www.eventbrite.co.nz/e/saint-kentigern-college-middle-school-musical-beauty-and-the-beast-tickets-1986276164477",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256644"
+  },
+  {
+    "title": "My Domestic Kitchen Cook-Off !",
+    "date_start": "2026-05-29T00:00:00",
+    "date_end": "2026-05-29T00:00:00",
+    "location": "4 Williamson Avenue, Auckland",
+    "description": "Get ready to show off your cooking skills and have fun at My Domestic Kitchen Cook-Off! Let’s cook and compete!",
+    "source_url": "https://www.eventbrite.com/e/my-domestic-kitchen-cook-off-tickets-1985348482756",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.257114"
+  },
+  {
+    "title": "Saint Kentigern College - Middle School Musical - Beauty and the Beast",
+    "date_start": "2026-05-07T00:00:00",
+    "date_end": "2026-05-07T00:00:00",
+    "location": "130 Pakuranga Road, Auckland",
+    "description": "Step into the enchanted world of Disney's Beauty and the Beast, this \"tale as old as time\"",
+    "source_url": "https://www.eventbrite.co.nz/e/saint-kentigern-college-middle-school-musical-beauty-and-the-beast-tickets-1986275744220",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.257461"
+  },
+  {
+    "title": "Monthly drinks in the city",
+    "date_start": "2026-05-07T06:00:00Z",
+    "date_end": null,
+    "location": "7 Sale Street, Freemans Bay, Auckland",
+    "description": "Hi Expats,\n\nJoin us for monthly social drinks at the Sweatshop Brew Kitchen, near Victoria Park. High tables in the outdoor area are booked for our group, weather permitting.\n\nAs always, please remember:\n\n* If you want to attend, you need to RSVP\n* Change your RSVP to NO if you can't make it anymore\n* We ask that each member of the Expats group makes a (one-off) $2 contribution to help cover the cost of the group subscription to the Meetup platform - If you have not contributed yet, please bring cash or make a bank transfer (06-0998-0748978-00 to S Ridoux - Add your name + Meetup Expats as reference)\n* Expats in Auckland is a social group, not a singles group\n\nSee you there!",
+    "source_url": "https://www.meetup.com/expats-in-auckland/events/314240869/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:19.147216"
+  },
+  {
+    "title": "Painting workshop",
+    "date_start": "2026-05-06T10:00:00+12:00",
+    "date_end": "2026-05-06T12:00:00+12:00",
+    "location": "&#x14C;t&#x101;huhu Library, 28-30 Mason Avenue, &#x14C;t&#x101;huhu, Auckland, Auckland",
+    "description": "As part of the Tōia Hauora - A vibrant wellbeing series for adults, this Sip &amp; Paint session invites you to unwind, relax and explore your creativity.\nHave fun in a gentle, encouraging space with a non-alcoholic drink to enjoy as you create.\n12 participants - first-in, first-served. Arrive earlier to guarantee your place.\nAdults only.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/painting-workshop/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "练英语",
+      "有吃喝"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:37.718292"
+  },
+  {
+    "title": "Listen up!",
+    "date_start": "2026-05-06T10:00:00+12:00",
+    "date_end": "2026-07-29T17:00:00+12:00",
+    "location": "Central City Library, 44 - 46 Lorne Street, Auckland City Centre, Auckland",
+    "description": "Listen up! showcases some of the different ways people have enjoyed music - from sheet music to iPods - through material held in Auckland Libraries Heritage Collections. The display celebrates the history of Auckland Libraries’ music collection and its connections with the city’s music community.\nThis activation is part of the heritage exhibition, Encore!\nEncore! celebrates how live music brings people together through collective experience.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/listen-up/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "交朋友"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:45.222052"
+  },
+  {
+    "title": "Introducing Everpure (Auckland)",
+    "date_start": "2026-05-13T00:00:00",
+    "date_end": "2026-05-13T00:00:00",
+    "location": "67 Customs Street East, Auckland",
+    "description": "Our CTO, Alex McMullan shares Everpure’s vision, technology plans  and how we help you unlock more value from your data.",
+    "source_url": "https://www.eventbrite.co.nz/e/introducing-everpure-auckland-tickets-1987952489410",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256079"
+  },
+  {
+    "title": "Deschlers Live Music Thursdays",
+    "date_start": "2026-05-14T00:00:00",
+    "date_end": "2026-05-14T00:00:00",
+    "location": "125 Queen Street, Auckland",
+    "description": "Deschlers on Queen Celebrates NZ Music Month with a series of live music nights",
+    "source_url": "https://www.eventbrite.com.au/e/deschlers-live-music-thursdays-tickets-1988389547663",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "交朋友"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256878"
+  },
+  {
+    "title": "Encore! Librarians at lunchtime",
+    "date_start": "2026-05-06T12:00:00+12:00",
+    "date_end": "2026-05-27T13:00:00+12:00",
+    "location": "Central City Library | T&#x101;maki P&#x101;taka K&#x14D;rero, 44-46 Lorne Street, Auckland City Centre 1010, Auckland",
+    "description": "This May, enjoy a special lunchtime DJ set featuring librarians spinning their favourite tunes right here at the library.\nEvery Wednesday in May, staff from Central City Library will be spinning some of their favourite Aotearoa New Zealand records from the Auckland Libraries collection. Some of it rare! Some of it weird! All of it cool!\nThis activation is part of the upcoming heritage exhibition, Encore!\nEncore! celebrates how live music brings people together through collective experience.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/encore-librarians-at-lunchtime/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "文化体验"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:39.217878"
+  },
+  {
+    "title": "I Was There!",
+    "date_start": "2026-05-01T09:00:00+12:00",
+    "date_end": "2026-05-31T17:00:00+12:00",
+    "location": "Central City Library, 44-46 Lorne Street, Auckland City Centre, Auckland, Auckland",
+    "description": "I Was There! celebrates one man’s deep love of live music in Tāmaki Makaurau. This exhibition brings together original gig posters and handwritten set lists from shows attended between 1990 and 1995 - a golden era for New Zealand music fans.\nFeaturing legendary acts such as The 3Ds, Straightjacket Fits, Able Tasmans, Tall Dwarfs and many more. Each piece is paired with a short personal reflection that captures what it felt like to be in the room on the night.\nCurated by longtime gig‑goer Paul Rowe, who has attended hundreds of shows over his lifetime, the exhibition reflects a time when NZ live music was thriving - played loud and late in iconic venues, some of which have since disappeared.\nStep back into the 1990s, relive the sweat, noise and moments that mattered. Bring your own musical memories along and reconnect with the gigs this May.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/i-was-there/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "交朋友"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:49.723011"
+  },
+  {
+    "title": "The Koro Chronicles",
+    "date_start": "2026-05-08T00:00:00",
+    "date_end": "2026-05-08T00:00:00",
+    "location": "47A Hill Road, Auckland",
+    "description": "The Koro Chronicles",
+    "source_url": "https://www.eventbrite.co.nz/e/the-koro-chronicles-tickets-1983605060132",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 55,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256500"
+  },
+  {
+    "title": "Arran Single Malt Whisky Tasting Night",
+    "date_start": "2026-05-14T00:00:00",
+    "date_end": "2026-05-14T00:00:00",
+    "location": "181 Point Chevalier Road, Auckland",
+    "description": "Join us for a fun night tasting Arran Single Malt whiskies and discovering their rich, smooth flavors!",
+    "source_url": "https://www.eventbrite.co.nz/e/arran-single-malt-whisky-tasting-night-tickets-1988597054321",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 55,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.257008"
+  },
+  {
+    "title": "Musical connections",
+    "date_start": "2026-05-06T10:30:00+12:00",
+    "date_end": "2026-05-06T11:30:00+12:00",
+    "location": "Franklin: The Centre, 12 Massey Avenue, Auckland, Auckland",
+    "description": "A morning of piano, participation and community for seniors, with local pianist, Dan.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/musical-connections/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "交朋友",
+      "有吃喝"
+    ],
+    "score": 55,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:36.255269"
+  },
+  {
+    "title": "Speech-language therapists can talk you into anything",
+    "date_start": "2026-05-14T00:00:00",
+    "date_end": "2026-05-14T00:00:00",
+    "location": "85 Park Road, Auckland",
+    "description": "Professor Clare McCann's Inaugural Lecture",
+    "source_url": "https://www.eventbrite.co.nz/e/speech-language-therapists-can-talk-you-into-anything-tickets-1975871437659",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256115"
+  },
+  {
+    "title": "Community activity, line dancing for seniors.",
+    "date_start": "2026-05-13T00:00:00",
+    "date_end": "2026-05-13T00:00:00",
+    "location": "4 Aeroview Drive, Auckland",
+    "description": "Community activity, line dancing for seniors.",
+    "source_url": "https://www.eventbrite.com/e/community-activity-line-dancing-for-seniors-tickets-1988557471929",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "0元参加"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-05-05T21:06:17.256845"
+  },
+  {
+    "title": "Chats for carers",
+    "date_start": "2026-05-06T11:00:00+12:00",
+    "date_end": "2026-06-03T12:00:00+12:00",
+    "location": "Takapuna Library, 9 The Strand, Takapuna, Auckland 0622, Auckland",
+    "description": "Dementia carers in our community - join us for a cuppa, a chat, a catch up with other carers and find out what support is available.\nFor more information contact Lynn Dawson lynn.BIP@xtra.co.nz\nAll donations to Dementia Auckland.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/05/chats-for-carers/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友"
+    ],
+    "score": 50,
+    "priority": "C",
+    "scraped_at": "2026-05-05T21:06:42.218125"
+  },
+  {
+    "title": "Paint n Chill Sat 3pm with Free Drink @Auckland  - Hydrangea Flowers",
+    "date_start": "2026-05-09T00:00:00",
+    "date_end": "2026-05-09T00:00:00",
+    "location": "157 Hobson Street, Auckland",
+    "description": "【BUY YOUR TICKETS NOW!!】$59 or 2 for $118  - Paint n Chill Sat arvo  3pm: with a paintbrush in one hand and a glass of wine in the other!",
+    "source_url": "https://www.eventbrite.co.nz/e/paint-n-chill-sat-3pm-with-free-drink-auckland-hydrangea-flowers-tickets-1988143793606",
+    "source_name": "eventbrite",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好"
+    ],
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-05-05T21:06:17.256577"
+  }
+]
