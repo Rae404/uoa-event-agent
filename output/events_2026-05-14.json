@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Engineering: Her Student Experience 2026",
+    "date_start": "2026-06-10T18:00:00",
+    "date_end": "2026-06-10T20:00:00",
+    "location": "5 Grafton Rd, Auckland, Auckland 1010",
+    "description": "An info evening for secondary school girls & whānau to explore UoA’s 10 Engineering specialisations with insights from current students.",
+    "source_url": "https://www.eventbrite.co.nz/e/engineering-her-student-experience-2026-tickets-1986274375125",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Other"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-05-14T21:24:44.528530"
+  },
+  {
+    "title": "Augmenting Scientific Discovery with AI",
+    "date_start": "2026-05-26T18:00:00",
+    "date_end": "2026-05-26T19:30:00",
+    "location": "General Library Basement, (109-B10) The University of Auckland, 5 Alfred Street, Auckland CBD, 1010",
+    "description": "2026 Gibbons Lecture Series",
+    "source_url": "https://www.eventbrite.co.nz/e/augmenting-scientific-discovery-with-ai-tickets-1984099959389",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-05-14T21:24:44.529384"
+  },
+  {
+    "title": "Augmenting Scientific Discovery with AI",
+    "date_start": "2026-06-02T18:00:00",
+    "date_end": "2026-06-02T19:30:00",
+    "location": "General Library Basement, (109-B10) The University of Auckland, 5 Alfred Street, Auckland CBD, 1010",
+    "description": "2026 Gibbons Lecture Series",
+    "source_url": "https://www.eventbrite.co.nz/e/augmenting-scientific-discovery-with-ai-tickets-1984099962398",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-05-14T21:24:44.529461"
+  },
+  {
+    "title": "Co-curator tour",
+    "date_start": "2026-05-30T14:00:00",
+    "date_end": "2026-05-30T15:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join Gus Fisher Gallery co-curators for a guided tour of the exhibition Studies for a Keepsake: Claude Cahun and Marcel Moore.",
+    "source_url": "https://www.eventbrite.co.nz/e/co-curator-tour-tickets-1989354319321",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [],
+    "score": 30,
+    "priority": null,
+    "scraped_at": "2026-05-14T21:24:44.527330"
+  }
+]
