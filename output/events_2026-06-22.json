@@ -1,0 +1,38 @@
+[
+  {
+    "title": "WEN Outreach x Rocketry Club Workshop",
+    "date_start": "2026-07-19T10:00:00",
+    "date_end": "2026-07-19T15:00:00",
+    "location": "36 Dominion Street, North Shore, Auckland 0622",
+    "description": "Build and launch rockets! A fun STEM day for Y9–10 students with UoA WIE & Rocketry Club. Free pizza & activities!",
+    "source_url": "https://www.eventbrite.co.nz/e/wen-outreach-x-rocketry-club-workshop-tickets-1991157787543",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [],
+    "score": 55,
+    "priority": null,
+    "scraped_at": "2026-06-22T22:09:03.606204"
+  },
+  {
+    "title": "Nature Nerds Network: Marine Conservation Workshop",
+    "date_start": "2026-06-27T09:15:00",
+    "date_end": "2026-06-27T16:00:00",
+    "location": "160 Goat Island Road, Auckland, Auckland 0985",
+    "description": "A day-long workshop for young adults; let your inner nature nerd shine & explore our moana at Te Hāwere a Maki Goat Island Marine Reserve",
+    "source_url": "https://www.eventbrite.co.nz/e/nature-nerds-network-marine-conservation-workshop-tickets-1989267924913",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Hobbies & Special Interest",
+      "Other"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-06-22T22:09:03.607201"
+  }
+]
