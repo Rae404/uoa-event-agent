@@ -1,0 +1,933 @@
+[
+  {
+    "title": "WEN Outreach x Rocketry Club Workshop",
+    "date_start": "2026-07-19T10:00:00",
+    "date_end": "2026-07-19T15:00:00",
+    "location": "36 Dominion Street, North Shore, Auckland 0622",
+    "description": "Build and launch rockets! A fun STEM day for Y9–10 students with UoA WIE & Rocketry Club. Free pizza & activities!",
+    "source_url": "https://www.eventbrite.co.nz/e/wen-outreach-x-rocketry-club-workshop-tickets-1991157787543",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "交朋友",
+      "0元参加",
+      "有吃喝",
+      "户外活动"
+    ],
+    "score": 90,
+    "priority": "S",
+    "scraped_at": "2026-07-07T21:26:56.522893"
+  },
+  {
+    "title": "University of Auckland Three Minute Thesis (3MT) Finals 2026",
+    "date_start": "2026-07-17T17:00:00",
+    "date_end": "2026-07-17T19:00:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "An 80,000 word thesis would take nine hours to present. Our participants have just three minutes...",
+    "source_url": "https://www.eventbrite.co.nz/e/university-of-auckland-three-minute-thesis-3mt-finals-2026-tickets-1988355841848",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "涨知识",
+      "交朋友"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.521544"
+  },
+  {
+    "title": "Collage self-portraits workshop",
+    "date_start": "2026-07-11T11:00:00",
+    "date_end": "2026-07-11T15:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Drop by Gus Fisher Gallery for an informal collage-making workshop!",
+    "source_url": "https://www.eventbrite.co.nz/e/collage-self-portraits-workshop-tickets-1990144142704",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Craft"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.521827"
+  },
+  {
+    "title": "Code, Coffee & Connect ☕💻🤝",
+    "date_start": "2026-07-12T01:45:00Z",
+    "date_end": null,
+    "location": "36 Lorne Street, Auckland Central ,, Auckland",
+    "description": "Looking for a chill but productive space to code, learn, and connect with other developers? Whether you’re just starting out or deep into a side project, you’re welcome here.\n\nThis is a casual, community-driven meetup where you can:\n• 💻 Work on your coding projects\n• 🎯 Share goals or progress (totally optional!)\n• 🎤 Enjoy short talks or demos from fellow devs\n• ☕ Meet like-minded people over coffee\n\nSome weeks, members give quick presentations or demos on cool things they’re building or learning. Got something to share? Let us know!\n\nCome with your laptop, your curiosity, or just a love for tech. Stay for the connections and good vibes.\n\n☕ This event is hosted at a local café, so we kindly ask that you support the venue by purchasing a drink or snack if you can.\n\nNo pressure, no strict schedule—just code, coffee, and vibes.",
+    "source_url": "https://www.meetup.com/code-coffee-auckland/events/315098019/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 82,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.135210"
+  },
+  {
+    "title": "JuniorDev Auckland Meet",
+    "date_start": "2026-07-08T06:00:00Z",
+    "date_end": null,
+    "location": "96 Saint Georges Bay Road, Auckland",
+    "description": "We’re happy to announce the next **JuniorDev Auckland event**!\n\nJoin us for an evening of learning and connection as we hear from our speakers and the experiences they’ll be sharing.\n\n**Important Note for Attendees:**\n\n* **Please use the following link to pre-register for Xero Venue before arriving** [https://invites.envoy.com/group-invite/O8Ih4IdzCowjvyIM](https://invites.envoy.com/group-invite/O8Ih4IdzCowjvyIM).\n* **The event venue entry will be closed at 6:30pm, please make sure you arrive on time.**\n\n**Talk 1: From Zero Interviews to Real Projects: What to Build When No One's Calling Back? by Ismael Silva**\nThis talk is aimed squarely at where most of the room actually is right now — applying, waiting, wondering if the market has forgotten about them. The core idea is that waiting is the worst use of a junior's time, and there's a better way to spend those weeks that turns a CV into a portfolio and an interview into a conversation about something you've actually built.\n\nThe session will show that \"building leverage\" does not require massive side projects. It will also touch on the value of soft skills and leadership, making the discussion relevant for both junior and experienced developers.\n\n**A bit about Ismael:**\n\n* Ismael is a full-stack engineer specializing in Next.js, TypeScript, Node.js, and Postgres, and currently runs a small product studio called Base Logic Labs. Before transitioning into tech, he spent more than 20 years in public speaking, sales, and leadership roles, delivering over a thousand talks across various settings.\n\n**Talk 2: How Fast Can You Rise? by Katrina Clokie**\nKatrina meets a lot of ambitious young people who seem to believe that it's possible for them to advance in their careers at an aggressive pace (once they get their foot in the door). She also meets a lot of people in Senior Engineering roles in their mid 20s who seem a little lost about where to go next. Let's talk about individual promotion trajectory and how we think about ",
+    "source_url": "https://www.meetup.com/juniordev-auckland/events/315003643/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.134558"
+  },
+  {
+    "title": "New Zealand Sign Language tour",
+    "date_start": "2026-07-16T11:00:00",
+    "date_end": "2026-07-16T12:30:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join us for a New Zealand Sign Language (NZSL) interpreted tour of Studies for a Keepsake and Phone Tree with Platform Interpreting NZ.",
+    "source_url": "https://www.eventbrite.co.nz/e/new-zealand-sign-language-tour-tickets-1990144173797",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.521893"
+  },
+  {
+    "title": "Research to Start-up Bootcamp",
+    "date_start": "2026-07-15T10:00:00",
+    "date_end": "2026-07-15T16:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Tools for your entrepreneurial journey",
+    "source_url": "https://www.eventbrite.co.nz/e/research-to-start-up-bootcamp-tickets-1985030347204",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [
+      "找工有帮助",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.523923"
+  },
+  {
+    "title": "Matariki night market and performances",
+    "date_start": "2026-07-10T17:00:00+12:00",
+    "date_end": "2026-07-10T21:00:00+12:00",
+    "location": "Te Whare Roto o Toi - Lake House Arts, 37 Fred Thomas Drive, Takapuna, Auckland, Auckland",
+    "description": "A free community celebration activating our grounds with artists, stallholders and performers.\nThe event will include Māori and diverse cultural creatives, live performance including kapa haka, and opportunities for whānau engagement.\nMatariki he wā whakamaumahara, he wā whakanui – Matariki is a time to remember and to celebrate. The market provides paid opportunities for local artists while offering an accessible celebration for the wider community. It strengthens kotahitanga (unity) across Devonport-Takapuna and Kaipātiki, welcoming people of all backgrounds to gather under the New Year stars.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/matariki-night-market-and-performances/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:27:04.530797"
+  },
+  {
+    "title": "Prompt Poets Society: July - AI Engineering Auckland",
+    "date_start": "2026-07-21T05:30:00Z",
+    "date_end": null,
+    "location": "4 Williamson Avenue, Grey Lynn, Auckland",
+    "description": "Join us as we discuss the latest and greatest with our July 2026 Prompt Poets Society. We are going back to where it all began, the BizDojo Ponsonby, from 5.30pm Tuesday 21st of July.\n\nLet's gather to discuss and swap notes on AI-assisted coding. We aspire to a collegial atmosphere with a mix of prepared talks and open discussion.\n\nAgenda:\n**5.30pm** \\- Enjoy pizza from Totos and beverages of all kinds \\(thanks to [GD1](https://www.gd1.vc), [New and Improved](https://newandimproved.ventures) and [Tracksuit](https://www.gotracksuit.com))\n**6.00pm** \\- Intro\\, house keeping and a few words from our sponsors\n**6.10pm** \\- Kick off with short talks\n\n* **Anthony Marter** (Auror) on Should we tho? The Makers Manifesto for product builders\n* **Ali Haydar** (Tracksuit) on Eyes on the Agent\n\n**7.00pm** \\- Short break\n**7.15pm** \\- Main speaker\n\n* **Mitch Harris** (Vital) - Details to come\n\n**8.00pm** \\- Wrap up\n\nLocation: **BizDojo Ponsonby, 4 Williamson Avenue**\nTotos Pizza and Drinks (Beer, pals and non-alcoholic drinks) provided\n\n**Thanks to [GD1](https://www.gd1.vc), [New and Improved](https://newandimproved.ventures) and [Tracksuit](https://www.gotracksuit.com) for providing Pizza and Drinks**\n**Shout out to our friends at [Vital](https://vital.io/) for hosting ❤️**",
+    "source_url": "https://www.meetup.com/prompt-poets-society-ai-vibe-coding-auckland/events/315437772/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "交朋友"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.135097"
+  },
+  {
+    "title": "Ready for research? Four stories from undergraduate interns",
+    "date_start": "2026-07-22T13:00:00",
+    "date_end": "2026-07-22T14:00:00",
+    "location": "28 Park Avenue, Auckland, Auckland 1023",
+    "description": "Want to try your hand at clinical research without the three year commitment?",
+    "source_url": "https://www.eventbrite.co.nz/e/ready-for-research-four-stories-from-undergraduate-interns-tickets-1990535307689",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Medicine"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "找工有帮助"
+    ],
+    "score": 78,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.522350"
+  },
+  {
+    "title": "Connect, Converse, Create Opportunities",
+    "date_start": "2026-07-08T06:00:00Z",
+    "date_end": null,
+    "location": "134 PONSONBY ROAD, Auckland",
+    "description": "Are you a driven young professional or a business owner who is intentional about building strong relationships?\nSurround yourself with other ambitious people who value good conversation, genuine connection, and being in a room with people who are working towards something, whether that is growing a business, advancing in their career, or creating new opportunities.\n\n**We will be hosted by Hoppers Garden Bar in Ponsonby. This is a free event, but I encourage everyone to buy a drink to show appreciation for our host.**\n\nIf you RSVP, we kindly ask that you make every effort to attend, If you are unsure whether you can make it, we ask that you please hold off on RSVPing for now, as this helps us get a clearer idea of genuine attendance, and because there is a guest limit, it allows someone else to attend. We are planning to host these events monthly, so there will be plenty of opportunities to join a future event once the timing suits.\n\nOpen to any questions or suggestions, feel free to flick me a message.",
+    "source_url": "https://www.meetup.com/auckland-young-professionals-small-business-owners-club/events/315221270/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.134682"
+  },
+  {
+    "title": "OWASP New Zealand - Auckland Meetup",
+    "date_start": "2026-07-14T05:30:00Z",
+    "date_end": null,
+    "location": "2 Nuffield Street, Newmarket, Auckland 1023, Auckland",
+    "description": "Join us for the next **OWASP New Zealand Chapter** meetup! We are gathering the local application security community for an evening of technical talks, networking, and knowledge sharing.\n\n* **When:** Tuesday, 14th July 2026\n* **Where:** **Lightspeed Office** 2 Nuffield Street, Newmarket, Auckland 1023, New Zealand\n* **Time:** 5:30 PM (Doors open for networking), 6:00 PM (Presentations begin)\n\nWe present an introductory talk about the OWASP Top 10 (2025 edition) with a new item each meeting. With the new edition OWASP Top 10, we're starting at A01:2025 Broken Access Control.\n\n**Thanks to Our Host**\nA big thank you to [Lightspeed](https://www.lightspeedhq.com/au/) for sponsoring the venue and catering and for supporting the local security community.\n\n**Agenda**\n\n* 6:00 PM OWASP Introduction, Top 10\n* 6:30 PM Break\n* 6:45 PM Technical Talk\n\n**Technical Topic Speaker: Ricky Gummadi**\nRicky Gummadi is a Senior Solution Architect at Microsoft, based in Auckland, focused on AI, cloud architecture, and developer platforms. He works closely with enterprise customers across New Zealand to design and implement production-ready AI systems. Ricky is also part of the core development team contributing to the Agent Governance Toolkit, with a focus on enabling safe, reliable, and governed agentic AI workloads.\n**Talk Title: Agentic AI Governance**\nAs AI systems evolve from assistants to autonomous agents, the focus shifts from what the model says to what the system actually does. This talk introduces the Agent Governance Toolkit (AGT), a framework for bringing deterministic, runtime governance to agentic systems. We’ll explore why prompt-based safety is not sufficient for production scenarios, walk through the OWASP Agentic Top 10 risks, and look at how policies, identity, sandboxing, and observability can be applied to mitigate these risks in real-world architectures.\n\n\\-\\-\\-\\-\nOWASP Auckland is on Meetup for now - please watch this space.\n\nWe're always looking for presenters and ",
+    "source_url": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/315218553/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "交朋友"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.135012"
+  },
+  {
+    "title": "Lover Other film screening",
+    "date_start": "2026-07-25T14:00:00",
+    "date_end": "2026-07-25T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join us for a film screening of Barbara Hammer’s hybrid documentary on Claude Cahun and Marcel Moore, Lover Other (2006).",
+    "source_url": "https://www.eventbrite.co.nz/e/lover-other-film-screening-tickets-1990148569946",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.521960"
+  },
+  {
+    "title": "Me, Myself & Microbes: The Microbial Roots of Complex Life",
+    "date_start": "2026-07-28T17:00:00",
+    "date_end": "2026-07-28T18:30:00",
+    "location": "38 Princes Street, Auckland, Auckland 1010",
+    "description": "Join symbiosis expert Prof. Matthias Horn (University of Vienna) to explore how ancient microbes shaped complex life and modern pathogens.",
+    "source_url": "https://www.eventbrite.co.nz/e/me-myself-microbes-the-microbial-roots-of-complex-life-tickets-1992087130232",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.522627"
+  },
+  {
+    "title": "Velocity $100k Challenge Networking Night 2026",
+    "date_start": "2026-07-23T17:00:00",
+    "date_end": "2026-07-23T19:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Come meet potential team members to join you on your $100k Challenge journey! Whether you have an idea or are looking to join a team...",
+    "source_url": "https://www.eventbrite.co.nz/e/velocity-100k-challenge-networking-night-2026-tickets-1990061730206",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [
+      "交朋友",
+      "找工有帮助",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.523985"
+  },
+  {
+    "title": "Matariki Festival 2026",
+    "date_start": "2026-07-04T00:00:00",
+    "date_end": "2026-07-19T00:00:00",
+    "location": null,
+    "description": null,
+    "source_url": "https://www.matarikifestival.org.nz/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:59.332825"
+  },
+  {
+    "title": "Ihaka Lecture Series 2026",
+    "date_start": "2026-07-23T18:00:00",
+    "date_end": "2026-07-23T19:30:00",
+    "location": "38 Princes Street, Auckland, Auckland 1010",
+    "description": "Thinking Critically, Creatively, and Responsibly with Data",
+    "source_url": "https://www.eventbrite.co.nz/e/ihaka-lecture-series-2026-tickets-1991653993709",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 72,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.522540"
+  },
+  {
+    "title": "Walk & Talk Cornwall Park: Conversations that Matter",
+    "date_start": "2026-07-12T01:00:00Z",
+    "date_end": null,
+    "location": "Campbell Road, Epsom, Auckland",
+    "description": "Sick of loud bars, awkward small talk, and surface-level chats?\nI am too.\n\nLet’s do something low-key - but *real*.\n\n**🌿 Walk & Talk** \\- a casual\\, open\\-invite stroll with people who enjoy movement\\, connection\\, and actual conversation\\.\n\nNo agenda, no pressure, and no hierarchies.\n\nJust walking. Talking. Sharing thoughts. Or simply listening. Flat surface - energy spent on the talk, not the terrain.\n\nBring your water bottle & hat. Also bring your thoughts, your awkwardness - it’s all welcome.\n\nThe event language is English, but you are welcome to use other languages when chatting with others.\n\n📅 **Date & Time:** Sunday, July 12, 1 pm\n**📍 Meeting Spot:** Entrance to Cornwall Park Cafe\n**🚶‍♂️ Route:** Cornwall Park Loop Path\n**🐢 Pace:** Chill\n**💬 Vibe:** Honest, warm, thoughtful\n\nDrop me a message if you’re curious - or just show up 🙂\n\nIn case of difficulty finding the group, check the live location - it will be posted when the walk starts!\n\nSupport Walk&Talk on Patreon: [https://www.patreon.com/Walks_and_Talks](https://www.patreon.com/Walks_and_Talks?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExc2lteWZtMlBTV3RwcnN4cwEec_FgP2pKgPFHgNCTls9jGUWLeJWhDVAiDc7CtkDKtscEr9xpw-7ZeP3djqQ_aem_s7hOYz9R94P0t1QyeocFqg)",
+    "source_url": "https://www.meetup.com/meetup-group-eeblvhxv/events/315479462/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.134757"
+  },
+  {
+    "title": "0x21 Auckland Meetup at ASB's The Cube",
+    "date_start": "2026-07-16T05:00:00Z",
+    "date_end": null,
+    "location": "'The Cube', ASB North Wharf, 12 Jellicoe Street, Auckland",
+    "description": "**WHAT TO EXPECT**\nJoin us for another Hack The Box meetup in Auckland! Whether you're thinking about being a hacker or are already a seasoned one, this event has something for everyone.\n\nThe event will include a guided walk through of an HTB machine, demonstrating essential tools and techniques for enumeration, exploitation, and privilege escalation. After the walk through, you'll have the opportunity to explore an additional HTB machine, collaborate with other members, and tackle various challenges together.\n\nAt the end, we will do a raffle where we will give out HTB prizes, such as VIP access to the platform and HTB Academy cubes.\n\nThis is an on-site event in Auckland CBD.\n\n**WHAT YOU GET**\n\n* A chance to win some HTB giveaways\n* Access to our HTB dedicated lab during the event\n\n**WHAT YOU NEED**\n\n* A laptop.\n* A HTB account.\n* Discord application.\n\n**HOUSE RULES**\n\n* Follow all rules and guidelines in the **[HTB TOS: HTB Terms of Service](https://www.hackthebox.com/tos)**\n* Active HTB content cannot be shared publicly. Retired challenges or machines are fair game.\n* ASB hosts the event to support the growth of the local cybersecurity community and to support students and professionals in their journeys to learn. Respect for the venue and people is expected from all attendees.\n\n**ADDITIONAL NOTES**\n\n* Join our Discord for event discussion, upcoming event announcements, and CTFs here: **[https://discord.gg/aDWymsDxWu](https://discord.gg/aDWymsDxWu)**\n* Free parking is not available at the location.\n\n**CODE OF CONDUCT**\nWe strive to create a safe, welcoming, and inclusive environment for all attendees. To ensure a positive experience for everyone, the following behaviors are strictly prohibited:\n\n* Smoking\n* Drinking alcohol\n* Any form of discrimination or racism\n* Any other forms of misconduct\n\nAny attendee found engaging in these behaviours will be immediately banned and permanently removed from the group. Thank you for helping us maintain a respectful and enjoya",
+    "source_url": "https://www.meetup.com/hack-the-box-meetup-new-zealand/events/315535784/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.134897"
+  },
+  {
+    "title": "AI Policy & Governance - AI Safety Discussion Group",
+    "date_start": "2026-07-08T06:30:00Z",
+    "date_end": null,
+    "location": "Grafton, Auckland",
+    "description": "Welcome back (or welcome if this is your first time)!\n\nThe AI Safety Discussion group is a place for Aucklanders to discuss AI Safety. **All levels of expertise are catered for and welcome :)**\n\n**This week's topic is AI Policy & Governance**\n\nHere's what to expect:\n\n**Agenda**\n\n* 6.30 pm kickoff\n* 5 min — Group recap for newcomers\n* 5 min — AI safety news blast: what happened in the last month\n* 15 min — Speaker talk with Mac Jordan (BlueDot & Electric Sheep): [linkedin.com/in/mac-jordan](https://www.linkedin.com/in/mac-jordan%F0%9F%94%B8-b74883202/)\n* 30 min — Group discussion\n\n**Discussion format**\nCome ready to share something you read, watched, or worked on in the last month — a paper, article, video (or even a personal project). If you didn't get a chance, no worries — you'll be grouped with others in the same boat and we'll have discussion topics on the screen for you.\n\n**Recommended reading (pick at least one)**\n*Videos*\n\n* Helen Toner — \"How to govern AI — even if it's hard to predict\" (TED, \\~12 min) — [link](https://www.ted.com/talks/helen_toner_how_to_govern_ai_even_if_it_s_hard_to_predict)\n* \"Should Governments or Markets Control AI?\" — Dean Ball x Daniel Kokotajlo (\\~1 hr) — [link](https://www.youtube.com/watch?v=wkPsbwzyOa8)\n\n*Articles*\n\n* \"What SB 53 Does\" — LessWrong (\\~5 min) — [link](https://www.lesswrong.com/posts/z5wJMvTafuvBgHnEj/what-sb-53-california-s-new-ai-law-does)\n* \"How China Views AI Risks\" — Carnegie Endowment (\\~15 min) — [link](https://carnegieendowment.org/russia-eurasia/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them)\n* EU AI Act — High-Level Summary (\\~30 min) — [link](https://artificialintelligenceact.eu/high-level-summary/)\n* \"Strategic Visions in AI Governance\" — Oscar Delaney (\\~30 min) — [link](https://oscardelaney.substack.com/p/strategic-visions-in-ai-governance)\n* NZ AI Strategy — \"Investing with Confidence\" (\\~30 min) — [link](https://www.beehive.govt.nz/release/government-ai-strategy-boost-productivit",
+    "source_url": "https://www.meetup.com/auckland-ai-i-society-discussion-group/events/315394334/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:51.135306"
+  },
+  {
+    "title": "Coastal marine invertebrates in a climate change world",
+    "date_start": "2026-07-15T18:00:00",
+    "date_end": "2026-07-15T19:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "A public lecture by Professor Maria Byrne FAA.",
+    "source_url": "https://www.eventbrite.co.nz/e/coastal-marine-invertebrates-in-a-climate-change-world-tickets-1991652177276",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.522476"
+  },
+  {
+    "title": "Ihaka Lecture Series 2026",
+    "date_start": "2026-07-30T18:00:00",
+    "date_end": "2026-07-30T19:30:00",
+    "location": "38 Princes Street, Auckland, Auckland 1010",
+    "description": "Thinking Critically, Creatively, and Responsibly with Data",
+    "source_url": "https://www.eventbrite.co.nz/e/ihaka-lecture-series-2026-tickets-1991653994712",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.522691"
+  },
+  {
+    "title": "$100k Challenge for Researchers",
+    "date_start": "2026-07-29T12:00:00",
+    "date_end": "2026-07-29T13:30:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Want to discover out how you could commercialise your university research through the Velocity $100k Challenge? Come along to find out more!",
+    "source_url": "https://www.eventbrite.co.nz/e/100k-challenge-for-researchers-tickets-1990062805422",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [
+      "涨知识",
+      "找工有帮助"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:26:56.524043"
+  },
+  {
+    "title": "Ngā Whetū o te Tau Hou | The Stars of the New Year",
+    "date_start": "2026-06-02T16:00:00+12:00",
+    "date_end": "2026-07-31T21:00:00+12:00",
+    "location": "Te Whatu Stardome | Observatory &amp; Planetarium, 670 Manukau Rd, Maungakiekie/One Tree Hill Domain, Epsom, Auckland 1023, Auckland",
+    "description": "In this immersive planetarium experience, you’ll journey through the night sky to explore the Matariki star cluster and its importance in Aotearoa and te ao Māori.\nDiscover the rich pūrākau (stories), science and traditions connected to each of the nine whetū, learn about the Maramataka (the Māori lunar calendar), and reflect on how Matariki guides us through the cycles of the year along with many other significant stars.\nWhether you’re reconnecting with Matariki or experiencing it for the first time, this show is a great way to honour the season and gain a deeper appreciation of Māori astronomy and our place within the cosmos.\nKeywords: Nga Whetu o te Tau Hou The Stars of the New Year",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/06/nga-whetu-o-te-tau-hou-the-stars-of-the-new-year/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:27:03.031989"
+  },
+  {
+    "title": "Healthy winter living - Prevention and wellbeing",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-08T11:30:00+12:00",
+    "location": "Takapuna Library, 9 The Strand, Takapuna, Auckland, Auckland",
+    "description": "Winter can bring challenges to our health and wellbeing. Join us for an informative health talk.&nbsp;\nDiscussion including:\n\ncommon winter illnesses\nmanaging long-term health conditions\nsocial connection and mental health\ncommunity services and support\nwinter safety tips.\n\n温暖过冬，健康同行— 预防与保健冬季常见疾病慢性疾病管理社交联系与心理健康2026年7月8号，周三 上午10点–11点半Takapuna 图书馆（北岸）寒冷的冬季可能会增加患病风险，并影响身心健康。欢迎参加我们的健康座谈会，一起讨论实用的冬季保健知识：社区服务与支持冬季安全小贴士更多信息请联系：Takapuna 图书馆工作人员或致电：09 815 2338-2（中文）地址：9 The Strand, Takapuna, Auckland.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/healthy-winter-living-prevention-and-wellbeing/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "有吃喝",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:27:12.031303"
+  },
+  {
+    "title": "Self-guided Matariki Hikoi",
+    "date_start": "2026-07-08T05:00:00+12:00",
+    "date_end": "2026-07-12T07:00:00+12:00",
+    "location": "Cornwall Park and Maungakiekie One Tree Hill Domain, Entrances at 670 Manukau Road (Stardome side) and Greenlane West (Cornwall Park side), Auckland",
+    "description": "Come and see Matariki rise with a self-guided hīkoi to Maungakiekie tihi (summit).\nFollow the path and learn a little about te taiao (the environment) and the Matariki stars. Glow-in-the-dark markers will provide kōrero and guide your way. Reach the summit just before dawn - in time to see Matariki rise above the horizon.\nStart the walk either from Huia Lodge, Cornwall Park or from the Olive Grove next to Stardome. Visitors are encouraged to bring their own torches. Huia Lodge and its toilets will be open during the walk. Hīkoi pamphlets will be available for all visitors.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/self-guided-matariki-hikoi/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "户外活动",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-07-07T21:27:21.137352"
+  },
+  {
+    "title": "Welcome to the next AWS Auckland Well-Architected Meetup for 2026!",
+    "date_start": "2026-07-29T05:30:00Z",
+    "date_end": null,
+    "location": "Level 13, Commercial Bay, 15 Customs Street West, Auckland CBD, Auckland 1010, Auckland",
+    "description": "Hi Architects,\n\nWelcome to the next AWS Auckland Well Architected User Group Meetup of 2026!\n\nAt each meetup, we focus on learning and networking in a friendly and inclusive atmosphere and explore best-practices in AWS. This has resulted in the AWS Well-Architected Meetups becoming the most popular AWS Meetups in ANZ 🥳\n\n**Please also note that AWS Security now requests a company name and company email where it is available. If you are a student, please list your institution and your student email address at that institution 👍**\n\nWe'll be announcing more speakers on [https://well-architected.me](https://well-architected.me/) and previewing presentations during the coming weeks - our speakers and details this month include:\n\n* **SkillzLab Build Gen AI Well-Architected Reviews**\n\n**Well-Architecting App Build-off Review!**\nIn this session, we will have review the apps from the previous session and perform AWS Gen AI Well-Architected Framework Reviews, with the drone going to the most **Gen AI Well-Architected** app on the night.\n\nThis month's menu will include:\n\n* Pizzas\n* Beer: Nastro Azzurro\n* Wine: Big and red 🤤\n*\n\nSo come join us at 5:30pm for a 6pm **SHARP** start, followed by beer, wine, pizza and networking after our talks :-)\n\nTired of Linkedin’s \"thought leadership”, spam and advertising?\nJoin https://well-architected.me/ , the AWS community built for architects, developers and cloud professionals.\n\n* Connect with experienced AWS practitioners\n* Preview upcoming AWS Meetups and relive past content\n* Create and review beautiful AWS case studies in minutes\n* Prepare for AWS certifications with curated quizzes\n* Show your manager and reports you’re well-architected\n\n(Please note that by registering to attend you agree to your details being shared as and where required with Amazon Web Services and AWS Well-Architected User Group partners)",
+    "source_url": "https://www.meetup.com/aws-auckland-well-architected-user-group/events/315221592/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "交朋友"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:51.134832"
+  },
+  {
+    "title": "Agent Governance Toolkit",
+    "date_start": "2026-07-15T05:30:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "**Details**\n📅 Wednesday, 15 July 2026\n🕠 5:30pm – 7:300pm NZDT\n📍 Microsoft Auckland (Hybrid)\n\n**🎤 Session: Agent Governance Toolkit**\nRuntime governance for AI agents -- deterministic policy enforcement, zero-trust identity, execution sandboxing, and SRE for autonomous agents. Covers all 10 OWASP Agentic risks with 13,000+ tests.\n\n**[Ricky Gummadi](https://www.linkedin.com/in/rickygummadi/)** is a Cloud & AI Solution Architect at Microsoft. He is passionate about Cloud, AI, and startups; focused on building scalable systems, exploring emerging tech, and connecting with innovative founders.\n\n**🍕 Logistics**\n\n* Food & drinks provided (thanks Arinco!)\n* In‑person and remote attendees welcome\n* Please RSVP so we can plan catering\n\n**🤝 Sponsors**\n\n* Arinco (Food)\n* Microsoft (Venue)",
+    "source_url": "https://www.meetup.com/akl-net/events/314967596/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:51.135257"
+  },
+  {
+    "title": "Small Practices: Rogan Nash Architects | Lynda Simmons • Architect",
+    "date_start": "2026-07-29T18:30:00",
+    "date_end": "2026-07-29T19:30:00",
+    "location": "22 Symonds Street, Auckland, Auckland 1010",
+    "description": "Kate Rogan and Eva Nash",
+    "source_url": "https://www.eventbrite.co.nz/e/small-practices-rogan-nash-architects-lynda-simmons-architect-tickets-1992885360761",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.523015"
+  },
+  {
+    "title": "$100k Challenge Workshop",
+    "date_start": "2026-08-04T17:00:00",
+    "date_end": "2026-08-04T19:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Do you want advice from experts about your idea for the Velocity $100k Challenge? This is your opportunity!",
+    "source_url": "https://www.eventbrite.co.nz/e/100k-challenge-workshop-tickets-1990064135400",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [
+      "涨知识",
+      "找工有帮助"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.524101"
+  },
+  {
+    "title": "Rōreka workshop - Matariki session",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-08T12:00:00+12:00",
+    "location": "&#x14C;t&#x101;huhu Library, 28-30 Mason Avenue, &#x14C;t&#x101;huhu, Auckland 1062, Auckland",
+    "description": "As part of the Tōia Hauora - A vibrant wellbeing series for adults, a community-led workshop celebrating te reo Māori and waiata. We invite you to connect through language, music and shared storytelling.&nbsp;\nHeld in honour of Matariki, this session offers a warm, creative space to learn, reflect and celebrate Māori culture together.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/roreka-workshop-matariki-session/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "文化体验"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:18.103891"
+  },
+  {
+    "title": "Less Grind, More Ship: AI-Powered Development in Practice",
+    "date_start": "2026-07-12T04:00:00Z",
+    "date_end": null,
+    "location": "2 Freyberg Place, Auckland",
+    "description": "This session looks at how AI is reshaping every stage of the development process itself – from the programming paradigms, to the PRD specification processes, to the way we manage multiple innovative projects at once.\n\nThe focus is practical and aimed at AI developers, project managers, product owners, and tech architects - anyone writing software or managing projects with AI will find something useful.\n\nWe'll explore-\n\n* The current cutting edge in AI dev processes, specifically circuit/loop engineering approaches\n* Desired state methodologies in AI development\n* New concepts for better project management and better results\n* Strategies for concurrent development\n* New ideation processes leveraging AI to generate novel solutions and approaches\n* Where new techniques offer breakthrough performance vs. where they add unnecessary complexity\n* Practical workflows and tools that are actually worth integrating\n\nAfter these sessions we typically grab dinner nearby if you want to keep the conversation going and connect with other professionals.",
+    "source_url": "https://www.meetup.com/auckland-ai-collective/events/315505277/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:51.135153"
+  },
+  {
+    "title": "Fast Forward 2026 | Inheritance and Intervention",
+    "date_start": "2026-07-23T18:30:00",
+    "date_end": "2026-07-23T19:30:00",
+    "location": "22 Symonds Street, Auckland, Auckland 1010",
+    "description": "Jemima Retallack and Mitchell Thompson",
+    "source_url": "https://www.eventbrite.co.nz/e/fast-forward-2026-inheritance-and-intervention-tickets-1992459964389",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.522958"
+  },
+  {
+    "title": "Match and Smooth: Designing Highly Renewable Electricity Systems",
+    "date_start": "2026-07-08T11:00:00",
+    "date_end": "2026-07-08T12:00:00",
+    "location": "Case Room 2 12 Grafton Road, Auckland, 1010",
+    "description": "The era of highly renewable electricity systems is upon us, and they are different from those of the past; new designs are needed.",
+    "source_url": "https://www.eventbrite.co.nz/e/match-and-smooth-designing-highly-renewable-electricity-systems-tickets-1992029685413",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "High Tech"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.524582"
+  },
+  {
+    "title": "Harakeke collection guided walk",
+    "date_start": "2026-07-08T01:00:00+12:00",
+    "date_end": "2026-07-08T12:00:00+12:00",
+    "location": "Auckland Botanic Gardens, 102 Hill Road, Manurewa, Auckland, Auckland",
+    "description": "To celebrate Matariki, join our curator for a guided walk through the harakeke collection.\nDiscover the rich diversity of varieties and their cultural significance, including their use in creating everyday taonga such as:\n\nkākahu (garments)\nkete (kits)\ntaura (rope)\nwhāriki (matting)\nrourou (food baskets).\n\nLearn about the design and purpose of Te Puna Raranga, our dedicated weaving shelter, and how it supports our weaving community through teaching, workshops and education.\nThis is a free guided walk. Meet at the Visitor Centre to begin.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/harakeke-collection-guided-walk/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "文化体验"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:10.532086"
+  },
+  {
+    "title": "Make poi and learn how to swing it",
+    "date_start": "2026-07-08T10:30:00+12:00",
+    "date_end": "2026-07-08T12:00:00+12:00",
+    "location": "R&#x101;nui Community Library, 431 Swanson Road, R&#x101;nui, Auckland, Auckland",
+    "description": "Celebrate Matariki with a fun hands-on cultural experience!\nCreate your own poi and learn the art of poi swinging together.\nThis workshop is suitable for ages 6+. Parent help is needed for younger tamariki.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/make-poi-and-learn-how-to-swing-it/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "文化体验",
+      "新手友好"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:15.031198"
+  },
+  {
+    "title": "School Holidays - Grey Lynn",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-16T11:30:00+12:00",
+    "location": "Grey Lynn Library, 474 Great North Road, Grey Lynn, Auckland, Auckland",
+    "description": "Come along and enjoy our fun school holiday activities!\nMatariki Lantern Magic |&nbsp;Wednesday 8 July, 10am - 11am&nbsp;\nEnjoy papercraft with the stars!\nWorm Farming For Kids Workshop |&nbsp;Thursday 16 July, 10.30am - 11.30am\nJoin Laura (from Compost Collective) for a fun hands-on worm farming workshop for kids and whānau. Children will meet tiger worms and learn how they turn food scraps into fertiliser.\nThese events are recommended for children aged 3-12 and they must be accompanied by an adult.&nbsp;",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/school-holidays-grey-lynn/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "交朋友"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:22.538909"
+  },
+  {
+    "title": "It’s the little things that count: lessons in metabolism, academia and life",
+    "date_start": null,
+    "date_end": null,
+    "location": "38 Princes Street, Auckland, Auckland 1010",
+    "description": "Professor Jennifer Miles-Chan's Inaugural Lecture",
+    "source_url": "https://www.eventbrite.co.nz/e/its-the-little-things-that-count-lessons-in-metabolism-academia-and-life-tickets-1975871927123",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.522829"
+  },
+  {
+    "title": "The Posthumous Trust: From Dead Hand to Mortality Management",
+    "date_start": "2026-07-21T17:30:00",
+    "date_end": "2026-07-21T19:00:00",
+    "location": "Auckland Law School 9 Eden Crescent, Auckland, 1010",
+    "description": "Public Lecture by Professor Irit Samet, King’s College London",
+    "source_url": "https://www.eventbrite.co.nz/e/the-posthumous-trust-from-dead-hand-to-mortality-management-tickets-1991512140422",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Finance"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:26:56.523501"
+  },
+  {
+    "title": "LIVE Day: Weather Science",
+    "date_start": "2026-07-19T10:00:00+12:00",
+    "date_end": "2026-07-19T16:00:00+12:00",
+    "location": "MOTAT, 805 Great North Road and 98 Motions Road, Western Springs, Auckland, Auckland",
+    "description": "LIVE Days are interactive and hands-on days filled with learning, play and special moments, perfect for the whole whānau!\nWith live entertainment, collection items, plus plenty of activities - there's a little something for everyone.\nThis July at LIVE DAY: Weather Science uncover the stories of the weather-related stars in the Matariki cluster, Waipunarangi and Ururangi.\nWaipunarangi is associated with the various forms of rain that we experience throughout the year as it falls from the sky and washes over the earth, nourishing all living things. If you can’t see Waipunarangi clearly during Matariki, the year will bring lots of rain and maybe some flooding. If she’s bright and clear, the rain will be light.\nUrurangi connects us to the different winds and this whetū determines the nature of these winds. If Ururangi is hard to see when the cluster of Matariki rises, the year will be windy. If he is bright and clear, the winds will be calm.\nMake and take home your own cloud finder, have fun with weather science experiments featuring raindrops and rainbows, and find out more about the different winds and how they work at our latest exhibition Ngā hau a Tāwhirirangi Forces of Flight, in the Aviation Hall.\nIncluded in General Admission.\nWe recommend parking outside the Aviation Hall and enjoying the free heritage tram ride between sites.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/live-day-weather-science/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:01.530100"
+  },
+  {
+    "title": "Circability",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-08T13:00:00+12:00",
+    "location": "Beachlands Memorial Hall, 49 Wakelin Road, Beachlands, Auckland, Auckland",
+    "description": "Ignite your inner social circus skills!\nSocial circus is a form of circus arts that supports the development of self-confidence, communication, teamwork and perseverance.&nbsp;\nCircability offers events for a cross-section of disability, culture and ages.\nSuitable for everyone.&nbsp;Join in anytime between 10am and 1pm.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/circability/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "练英语"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:07.531118"
+  },
+  {
+    "title": "Korowai making workshop",
+    "date_start": "2026-07-08T14:00:00+12:00",
+    "date_end": "2026-07-08T15:00:00+12:00",
+    "location": "Flat Bush Library, 5 William Ralph Road, Flat Bush, Auckland, Auckland",
+    "description": "Join us to design and weave paper kākahu, inspired by traditional Māori cloak-making techniques and patterns.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/korowai-making-workshop/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "文化体验"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-07-07T21:27:13.562494"
+  },
+  {
+    "title": "Map the Matariki stars",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-08T12:00:00+12:00",
+    "location": "Auckland Botanic Gardens, 102 Hill Road, Manurewa, Auckland, Auckland",
+    "description": "Create your own map of the Matariki stars that you can hang up in your window letting you enjoy the stars even in the daytime.\nChildren must be supervised by a parent or guardian at all times.&nbsp;\nNo booking required - just drop in to the Auckland Botanic Gardens Visitor Centre.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/map-the-matariki-stars/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好"
+    ],
+    "score": 50,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:27:16.532767"
+  },
+  {
+    "title": "School Holidays with Auckland Council Pools and Leisure",
+    "date_start": "2026-07-06T00:00:00+12:00",
+    "date_end": "2026-07-17T00:00:00+12:00",
+    "location": "Auckland",
+    "description": "Give your kids an unforgettable winter break filled with fun, adventure and new friendships at our Auckland Council Pools and Leisure School Holiday Programme!\nThese winter holidays, we’ve lined up the perfect mix of cosy indoor activities, exciting outings and creative challenges to keep kids aged 5-13 entertained every day - rain, shine or chilly skies.\nEnrol them in our school holiday programme - it’s affordable, safe, varied and packed with winter fun.\nWhat’s in store these holidays?\n\nFrosty adventures - challenges, team-building fun and quizzes to defrost your brain!\nCool excursions - movie days, ice skating and trips to some of Auckland’s favourite attractions!\nGame on - sports showdowns, gymnastics and arcade games to keep you warm and active!\nCosy creativity - crafty creations, pyjama days and more!\n\nHow to get ready for all the fun? Simply pack a lunch, snacks, water, a hat and comfy clothes - and bring along a big smile for the winter adventure ahead!\nSpaces are limited, so don’t miss out. Head to our website to check out your local centre’s schedule, download an enrolment form or pop in to sign up today!\nHoliday programme locations:\n\nAllan Brewster Leisure Centre, 7 Tavern Lane, Papatoetoe\nBirkenhead Pool and Leisure Centre, 46 Mahara Avenue, Birkenhead\nEast Coast Bays Leisure Centre, 12 Bute Road, Browns Bay\nHowick Leisure Centre, 563 Pakuranga Road, Howick\nManurewa Leisure Centre, Frances Street, Manurewa\nMoana Nui-a-Kiwa Pool and Leisure Centre, 66R Mascot Road, Māngere\nŌtara Pool and Leisure Centre, Newbury Street, Ōtara\nStanmore Bay Pool and Leisure Centre, 159 Brightside Road, Whangaparāoa\nTe Matarik Clendon Community Centre, Palmers Road, Clendon\nWest Wave Pool and Leisure Centre 20 Alderman Road, Henderson\n",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/school-holidays-with-auckland-council-pools-and-leisure/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [],
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:27:00.033830"
+  },
+  {
+    "title": "Fish weaving",
+    "date_start": "2026-07-08T14:00:00+12:00",
+    "date_end": "2026-07-08T16:00:00+12:00",
+    "location": "Glen Innes Library, 108 Line Road Glen Innes, Auckland, Auckland",
+    "description": "Join The ReCreators these school holidays to weave a vibrant fish sculpture made entirely from upcycled materials.\nThis hands-on creative workshop encourages imagination and sustainability while transforming discarded items into a unique piece of art.",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/fish-weaving/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "涨知识"
+    ],
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:27:09.030028"
+  },
+  {
+    "title": "Rumpelstiltskin",
+    "date_start": "2026-07-08T10:30:00+12:00",
+    "date_end": "2026-07-11T14:00:00+12:00",
+    "location": "Oratia Settlers&#x27; Hall, 565 - 569 West Road, Oratia, Auckland, Auckland",
+    "description": "Join us in the first week of the July school holidays on a magical quest where you will meet a boastful father, his brave daughter, a greedy king, a mysterious imp and maybe even a yeti!\nFollowing on from their hit show Hansel and Gretel, and after a sell-out first season of Rumpelstiltskin last year in Onehunga, Ladder &amp; Thread Productions are very excited to bring this wonderful new show to the historic Oratia Settlers’ Hall.\nAn original retelling of a beloved classic, this innovative theatre adventure features live music, physical theatre, puppetry and gold galore. Performed by professional actors, Rumpelstiltskin has been devised with children aged 3 to 10 in mind, but will charm children and adults alike!\nOur show is a perfect school holiday activity, tailored for children who see theatre often or as a great first step for those who have never experienced the delight of a live theatre show. Auckland Council Creative Communities have kindly supported us.\nWe look forward to seeing you!",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/rumpelstiltskin/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好"
+    ],
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:27:19.531210"
+  },
+  {
+    "title": "Your chance to learn Vietnamese",
+    "date_start": "2026-07-16T18:00:00",
+    "date_end": "2026-09-03T20:30:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Get ready to take your Vietnamese skills to the next level with interactive lessons and engaging activities!",
+    "source_url": "https://www.eventbrite.co.nz/e/your-chance-to-learn-vietnamese-tickets-1990602954021",
+    "source_name": "uoa",
+    "cost": "$287.5-$330.25",
+    "categories": [
+      "Community & Culture",
+      "Language"
+    ],
+    "tags": [],
+    "score": 30,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:26:56.524666"
+  },
+  {
+    "title": "3D Native Bird Craft",
+    "date_start": "2026-07-08T10:00:00+12:00",
+    "date_end": "2026-07-08T12:00:00+12:00",
+    "location": "Wait&#x101;kere Central Library, 3 Ratanui Street, Henderson, Auckland, Auckland",
+    "description": "In this fun and creative workshop, kids will make their own 3D artwork inspired by native birds.\nUsing bird templates as a starting point, they will decorate their designs with fabric, paint, magazines, and a variety of craft materials to add colour and texture. The birds will then be attached to small branches and set against a beautifully painted background, creating a unique nature-inspired piece to take home.\nAlong the way, participants will also learn about New Zealand’s native birds, making this workshop both creative and educational. A great experience that encourages imagination, exploration and connection with nature.\nPlease note that this activity is for tamariki over five years old with adult or caregiver supervision.\nThank you to The ReCreators for facilitating this workshop and Community Matters and Mānawa Maiea a Matariki for supporting!",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/07/3d-native-bird-craft/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "涨知识"
+    ],
+    "score": 30,
+    "priority": "C",
+    "scraped_at": "2026-07-07T21:27:06.033873"
+  }
+]
