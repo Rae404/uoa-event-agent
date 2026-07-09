@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Fast Friends Friday",
+    "date_start": "2026-07-24T16:00:00",
+    "date_end": "2026-07-24T18:00:00",
+    "location": "12 Grafton Road Level 1 Foyer, Auckland, Auckland 1010",
+    "description": "An event for new UoA business and property students - making new friends in a flash  -  enjoy quick connections and good vibes!",
+    "source_url": "https://www.eventbrite.co.nz/e/fast-friends-friday-tickets-1991156219854",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:46.833627"
+  },
+  {
+    "title": "Career Pitch Live:  Real Stories, Real Pathways, Real Futures in Accounting",
+    "date_start": "2026-08-06T17:30:00",
+    "date_end": "2026-08-06T19:30:00",
+    "location": "Level 0 Foyer Sir Owen G Glenn Building, 12 Grafton Road, Auckland, Auckland 1010",
+    "description": "5 CA’s. 5 Career Stories. 30 mins",
+    "source_url": "https://www.eventbrite.co.nz/e/career-pitch-live-real-stories-real-pathways-real-futures-in-accounting-tickets-1992026390558",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Finance"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:46.833687"
+  },
+  {
+    "title": "2026 Q4 Business School Professional Programmes Orientation",
+    "date_start": null,
+    "date_end": null,
+    "location": "Decima Glenn Room, Level 3, Sir Owen G Glenn Building 12 Grafton Road, Auckland, 1010",
+    "description": "University of Auckland Business School Professional Programmes Orientation",
+    "source_url": "https://www.eventbrite.co.nz/e/2026-q4-business-school-professional-programmes-orientation-tickets-1992732653008",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Career"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:46.833757"
+  },
+  {
+    "title": "2027 Kupe Leadership Scholarships - 22 July",
+    "date_start": "2026-07-22T12:05:00",
+    "date_end": "2026-07-22T12:45:00",
+    "location": null,
+    "description": "Join us online to find out more about the 2027 Kupe Leadership Scholarships",
+    "source_url": "https://www.eventbrite.co.nz/e/2027-kupe-leadership-scholarships-22-july-tickets-1990825886819",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Startups & Small Business"
+    ],
+    "tags": [],
+    "score": 30,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:46.833504"
+  },
+  {
+    "title": "Your chance to learn Thai!",
+    "date_start": "2026-07-23T17:30:00",
+    "date_end": "2026-09-10T19:00:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Learning Thai provides a meaningful way to experience this culture more deeply - for travel, personal interest or future engagement",
+    "source_url": "https://www.eventbrite.co.nz/e/your-chance-to-learn-thai-tickets-1987791126770",
+    "source_name": "uoa",
+    "cost": "$250",
+    "categories": [
+      "Community & Culture",
+      "Language"
+    ],
+    "tags": [],
+    "score": 25,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:46.833567"
+  },
+  {
+    "title": "Wriggle and Rhyme - Whangaparāoa",
+    "date_start": "2026-02-12T10:30:00+13:00",
+    "date_end": "2026-12-10T11:00:00+13:00",
+    "location": "Whangapar&#x101;oa Library, 9 Main Street, Whangapar&#x101;oa, Auckland, Auckland",
+    "description": "Wriggle and Rhyme is a programme that promotes active movement and brain development for babies and toddlers aged two years and under.\nJoin us on Thursday mornings during term time for a fun and interactive morning for you and your little one.\nFor ages 0 - 2",
+    "source_url": "https://ourauckland.aucklandcouncil.govt.nz/events/2026/02/wriggle-and-rhyme-whangaparaoa/",
+    "source_name": "council",
+    "cost": "free",
+    "categories": [],
+    "tags": [],
+    "score": 25,
+    "priority": null,
+    "scraped_at": "2026-07-09T21:30:54.893990"
+  }
+]
