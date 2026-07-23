@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Fast Friends Friday",
+    "date_start": "2026-07-24T16:00:00",
+    "date_end": "2026-07-24T18:00:00",
+    "location": "12 Grafton Road Level 1 Foyer, Auckland, Auckland 1010",
+    "description": "An event for new UoA business and property students - making new friends in a flash  -  enjoy quick connections and good vibes!",
+    "source_url": "https://www.eventbrite.co.nz/e/fast-friends-friday-tickets-1991156219854",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [],
+    "score": 55,
+    "priority": null,
+    "scraped_at": "2026-07-23T21:10:01.355168"
+  },
+  {
+    "title": "Career Pitch Live:  Real Stories, Real Pathways, Real Futures in Accounting",
+    "date_start": "2026-08-06T17:30:00",
+    "date_end": "2026-08-06T19:30:00",
+    "location": "Level 0 Foyer Sir Owen G Glenn Building, 12 Grafton Road, Auckland, Auckland 1010",
+    "description": "5 CA’s. 5 Career Stories. 30 mins",
+    "source_url": "https://www.eventbrite.co.nz/e/career-pitch-live-real-stories-real-pathways-real-futures-in-accounting-tickets-1992026390558",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Finance"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-07-23T21:10:01.355249"
+  },
+  {
+    "title": "Your chance to learn Thai!",
+    "date_start": "2026-07-23T17:30:00",
+    "date_end": "2026-09-10T19:00:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Learning Thai provides a meaningful way to experience this culture more deeply - for travel, personal interest or future engagement",
+    "source_url": "https://www.eventbrite.co.nz/e/your-chance-to-learn-thai-tickets-1987791126770",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Language"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-07-23T21:10:01.355075"
+  },
+  {
+    "title": "2026 Q4 Business School Professional Programmes Orientation",
+    "date_start": null,
+    "date_end": null,
+    "location": "Decima Glenn Room, Level 3, Sir Owen G Glenn Building 12 Grafton Road, Auckland, 1010",
+    "description": "University of Auckland Business School Professional Programmes Orientation",
+    "source_url": "https://www.eventbrite.co.nz/e/2026-q4-business-school-professional-programmes-orientation-tickets-1992732653008",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Career"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-07-23T21:10:01.355340"
+  },
+  {
+    "title": "Your chance to learn Vietnamese",
+    "date_start": "2026-07-16T18:00:00",
+    "date_end": "2026-09-03T20:30:00",
+    "location": "12 Grafton Road, Auckland, Auckland 1010",
+    "description": "Get ready to take your Vietnamese skills to the next level with interactive lessons and engaging activities!",
+    "source_url": "https://www.eventbrite.co.nz/e/your-chance-to-learn-vietnamese-tickets-1990602954021",
+    "source_name": "uoa",
+    "cost": "$287.5-$330.25",
+    "categories": [
+      "Community & Culture",
+      "Language"
+    ],
+    "tags": [],
+    "score": 25,
+    "priority": null,
+    "scraped_at": "2026-07-23T21:10:01.354991"
+  }
+]
