@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-08-21T16:00:00",
+    "date_end": "2026-08-21T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657115859",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [],
+    "score": 55,
+    "priority": null,
+    "scraped_at": "2026-07-30T21:16:47.422754"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-08-20T14:00:00",
+    "date_end": "2026-08-20T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657425786",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-07-30T21:16:47.422691"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-08-27T14:00:00",
+    "date_end": "2026-08-27T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657426789",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-07-30T21:16:47.422951"
+  },
+  {
+    "title": "Clarinet Day",
+    "date_start": "2026-08-22T09:00:00",
+    "date_end": "2026-08-22T17:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "The University of Auckland Clarinet Day! | A full day of activities related to the clarinet: playing, listening, and learning together!",
+    "source_url": "https://www.eventbrite.co.nz/e/clarinet-day-tickets-1992892069828",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-07-30T21:16:47.422817"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-08-26T16:00:00",
+    "date_end": "2026-08-26T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656819974",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-07-30T21:16:47.422891"
+  }
+]
