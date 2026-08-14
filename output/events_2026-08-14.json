@@ -1,0 +1,586 @@
+[
+  {
+    "title": "Global Social Hangout in Auckland",
+    "date_start": "2026-08-15T07:30:00Z",
+    "date_end": null,
+    "location": "Level1/16 Wyndham Street, Auckland CBD, Auckland 1010, auckland",
+    "description": "Looking to expand your social circle and connect with international minds?\n\n[ [Click this Whatsapp groupchat link to join](https://chat.whatsapp.com/F6KGc1k82s6GL9OtiU0e9J) ]\n\nWe meet every Saturday evening at 7:30 PM for a relaxed language and culture gathering where people in their 20s and 30s come to chat, learn, and make genuine connections.\n\nWhether you’ve just landed in New Zealand or you’ve lived here all your life, this group is about sharing cultures and celebrating diversity — no pressure, just good people and open conversations",
+    "source_url": "https://www.meetup.com/social-party-in-auckland/events/313960440/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 90,
+    "priority": "S",
+    "scraped_at": "2026-08-14T20:33:49.904561"
+  },
+  {
+    "title": "0x23 Auckland Meetup at Spark City Office",
+    "date_start": "2026-08-27T05:00:00Z",
+    "date_end": null,
+    "location": "50 Albert Street, Auckland (The Large Conference Room at Ground Floor), Auckland",
+    "description": "**WHAT TO EXPECT**\nJoin us for another Hack The Box meetup in Auckland! Whether you're thinking about being a hacker or are already a seasoned one, this event has something for everyone.\n\n**A massive shoutout to Spark for opening their doors to us and sponsoring the event venue and catering.**\n\nThe event will include a guided walk through of a security challenge, demonstrating essential tools and techniques for enumeration, exploitation, and privilege escalation. Attendees will have the opportunity to network and collaborate with other members.\n\nAt the end, we will do a raffle where we will give out HTB prizes, such as VIP access to the platform and HTB Academy cubes.\n\nThis is an on-site event in Auckland CBD.\n\n**WHAT YOU GET**\n\n* A chance to win some HTB giveaways\n* Access to our HTB dedicated lab during the event\n\n**WHAT YOU NEED**\n\n* A laptop.\n* A HTB account.\n* Discord application.\n\n**HOUSE RULES**\n\n* Follow all rules and guidelines in the **[HTB TOS: HTB Terms of Service](https://www.hackthebox.com/tos)**\n* Active HTB content cannot be shared publicly. Retired challenges or machines are fair game.\n* **Spark** hosts the event to support the growth of the local cybersecurity community and to support students and professionals in their journeys to learn. Respect for the venue and people is expected from all attendees.\n\n**ADDITIONAL NOTES**\n\n* Join our Discord for event discussion, upcoming event announcements, and CTFs here: **[https://discord.gg/aDWymsDxWu](https://discord.gg/aDWymsDxWu)**\n* Free parking is not available at the location.\n\n**CODE OF CONDUCT**\nWe strive to create a safe, welcoming, and inclusive environment for all attendees. To ensure a positive experience for everyone, the following behaviors are strictly prohibited:\n\n* Smoking\n* Drinking alcohol\n* Any form of discrimination or racism\n* Any other forms of misconduct\n\nAny attendee found engaging in these behaviours will be immediately banned and permanently removed from the group. Thank you for he",
+    "source_url": "https://www.meetup.com/hack-the-box-meetup-new-zealand/events/315757943/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904152"
+  },
+  {
+    "title": "360 International General  Info Session",
+    "date_start": "2026-08-25T11:00:00",
+    "date_end": "2026-08-25T12:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1988054066229",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.288458"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-08-19T16:00:00",
+    "date_end": "2026-08-19T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656818971",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289850"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-08-20T14:00:00",
+    "date_end": "2026-08-20T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657425786",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290011"
+  },
+  {
+    "title": "Clarinet Day",
+    "date_start": "2026-08-22T09:00:00",
+    "date_end": "2026-08-22T17:00:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "The University of Auckland Clarinet Day! | A full day of activities related to the clarinet: playing, listening, and learning together!",
+    "source_url": "https://www.eventbrite.co.nz/e/clarinet-day-tickets-1992892069828",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Classical"
+    ],
+    "tags": [
+      "0元参加",
+      "文化体验"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290173"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-08-26T16:00:00",
+    "date_end": "2026-08-26T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656819974",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290261"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-08-27T14:00:00",
+    "date_end": "2026-08-27T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657426789",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290341"
+  },
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-08-28T16:00:00",
+    "date_end": "2026-08-28T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657116862",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290422"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-09-03T14:00:00",
+    "date_end": "2026-09-03T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657427792",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290500"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-09-10T14:00:00",
+    "date_end": "2026-09-10T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657428795",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加",
+      "涨知识"
+    ],
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290600"
+  },
+  {
+    "title": "Walk & Talk Pakuranga: Conversations that Matter",
+    "date_start": "2026-08-15T01:00:00Z",
+    "date_end": null,
+    "location": "96 Pakuranga Road, Pakuranga, Auckland 2010, Auckland",
+    "description": "Sick of loud bars, awkward small talk, and surface-level chats?\nI am too.\n\nLet’s do something low-key - but *real*.\n\n**🌿 Walk & Talk** \\- a casual\\, open\\-invite stroll with people who enjoy movement\\, connection\\, and actual conversation\\.\n\nNo agenda, no pressure, and no hierarchies.\n\nJust walking. Talking. Sharing thoughts. Or simply listening. Flat surface - energy spent on the talk, not the terrain.\n\nBring your water bottle & hat. Also bring your thoughts, your awkwardness - it’s all welcome.\n\nThe event language is English, but you are welcome to use other languages when chatting with others.\n\n📅 **Date & Time:** Saturday, August 15, 1 pm\n**📍 Meeting Spot:** Rotary Reserve (96 Pakuranga Road, Pakuranga, Auckland 2010)\n**🚶‍♂️ Route:** Pakuranga Rotary Path\n**🐢 Pace:** Chill\n**💬 Vibe:** Honest, warm, thoughtful\n\nDrop me a message if you’re curious - or just show up 🙂\n\nIn case of difficulty finding the group, check the live location - it will be posted when the walk starts!\n\nIf you want to share your ride coming to the event, write so in the comments!\n\nSupport Walk&Talk on Patreon: [https://www.patreon.com/Walks_and_Talks](https://www.patreon.com/Walks_and_Talks?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExc2lteWZtMlBTV3RwcnN4cwEec_FgP2pKgPFHgNCTls9jGUWLeJWhDVAiDc7CtkDKtscEr9xpw-7ZeP3djqQ_aem_s7hOYz9R94P0t1QyeocFqg)",
+    "source_url": "https://www.meetup.com/meetup-group-eeblvhxv/events/315916181/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "练英语",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904066"
+  },
+  {
+    "title": "JuniorDev Auckland Meet",
+    "date_start": "2026-09-02T06:00:00Z",
+    "date_end": null,
+    "location": "96 Saint Georges Bay Road, Auckland",
+    "description": "We’re happy to announce the next **JuniorDev Auckland event**!\n\nJoin us for an evening of learning and connection as we hear from our speakers and the experiences they’ll be sharing.\n\n**Important Note for Attendees:**\n\n* **Please use the following link to pre-register for Xero Venue before arriving** [https://invites.envoy.com/group-invite/myweaHurOU55lj2S](https://invites.envoy.com/group-invite/myweaHurOU55lj2S).\n* **Organisers will be at the building entrance to bring everyone to the venue.**\n* **The event venue entry will be closed at 6:30pm, please make sure you arrive on time.**\n\n**Talk 1: Shipping software as a Junior without burning out by Enry Villamizar**\nStepping into software engineering is exciting, but navigating the steep learning curve alongside deliverable deadlines can easily lead to early-career fatigue. In this talk, you will learn actionable strategies for shipping production-ready code confidently without sacrificing well-being. From setting clear boundaries and managing workload expectations to building sustainable dev habits.\n\n**A bit about Enry:**\n\n* Enry is a Senior Software Developer driven by solving real-world business problems through smart internal software, such as building Whites Powersports’ warehouse system and Wireless Nation’s dashboard. A huge fan of video games and AI, he cares deeply about keeping development work sustainable, efficient, and burnout-free.\n\n**Talk 2: Beyond the Prompt: Becoming a Better Developer in the Age of AI by Keith Patton**\nAI tools can help junior developers produce working code faster than ever, but speed is not the same as engineering competence.\nIn this talk, he will share practical lessons from using AI coding tools and agentic development workflows in real software teams. He will cover where AI is genuinely useful, where it can create false confidence, and how developers can use it without outsourcing their understanding or judgement.\nThe session will introduce a practical workflow for planning, gen",
+    "source_url": "https://www.meetup.com/juniordev-auckland/events/316078650/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904465"
+  },
+  {
+    "title": "Pacific Research Symposium 2026: Futures of Pacific-Led Science",
+    "date_start": "2026-09-03T09:00:00",
+    "date_end": "2026-09-03T16:00:00",
+    "location": "6 Osterley Way #Level G, Auckland, Auckland 2104",
+    "description": "Showcasing Pacific-led and Pacific-relevant research, innovation, teaching and engagement across the Faculty of Science, Waipapa Taumata Rau",
+    "source_url": "https://www.eventbrite.co.nz/e/pacific-research-symposium-2026-futures-of-pacific-led-science-tickets-1992094197370",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.288075"
+  },
+  {
+    "title": "Careers in the Innovation Ecosystem - Session 2",
+    "date_start": "2026-08-20T16:00:00",
+    "date_end": "2026-08-20T18:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Finding Your Place in Innovation: Roles, Skills and Career Pathways",
+    "source_url": "https://www.eventbrite.co.nz/e/careers-in-the-innovation-ecosystem-session-2-tickets-1990541780048",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Career"
+    ],
+    "tags": [
+      "找工有帮助",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.288910"
+  },
+  {
+    "title": "Activation by Rosamund Philpott and Hun Lynch",
+    "date_start": "2026-08-22T17:00:00",
+    "date_end": "2026-08-22T18:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Celebrate the final day to view Studies for a Keepsake with a performance by Rosamund Philpott with live sound by Hun Lynch.",
+    "source_url": "https://www.eventbrite.co.nz/e/activation-by-rosamund-philpott-and-hun-lynch-tickets-1989888446911",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Dance"
+    ],
+    "tags": [
+      "新手友好",
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289580"
+  },
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-08-21T16:00:00",
+    "date_end": "2026-08-21T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657115859",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.290092"
+  },
+  {
+    "title": "Prompt Poets Society: The Augurs - AI Engineering Auckland",
+    "date_start": "2026-08-25T05:30:00Z",
+    "date_end": null,
+    "location": "136 Fanshawe Street, Auckland",
+    "description": "Join us as we discuss the latest and greatest with our August 2026 Prompt Poets Society. We will convene again at the 2degrees headquarters on Fanshawe St on the 25th of August at 5.30pm.\n\nLet's gather to discuss and swap notes on AI-assisted coding. We aspire to a collegial atmosphere with a mix of prepared talks and open discussion.\n\nAgenda:\n**5.30pm** \\- Enjoy pizza from Totos and beverages of all kinds \\(thanks to GD1\\, New and Improved and Talent Army\\)\n**6.00pm** \\- Intro\\, house keeping and a few words from our sponsors\n**6.10pm** \\- Kick off with our short talks\n\n* **Anna An** (Tracksuit) on Building a Support Agent: Backed by a Context Graph and Database Access\n* **Mike Hall** (ab0t) on Looking ahead: the future of fully automated companies\n\n**7.00pm** \\- Short break\n**7.15pm** \\- Main Speaker\n\n* **Sam Minnée** (New & Improved) on Malleable software, Micro UIs, and the future of interactive agents\n\n**8.00pm** \\- Wrap up\n\n**Location**: 2degrees, 136 Fanshawe Street, Auckland Central, Auckland 1010\nTotos Pizza and Drinks (Beer, pals and non-alcoholic drinks) provided\n\n**Thanks to [GD1](https://www.gd1.vc), [New and Improved](https://newandimproved.ventures) and [Talent Army](https://talent.army) for providing Pizza and Drinks**\n**Shout out to [2degrees](https://www.2degrees.nz) for hosting ❤️**",
+    "source_url": "https://www.meetup.com/prompt-poets-society-ai-vibe-coding-auckland/events/315943578/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.903961"
+  },
+  {
+    "title": "Demystifying Git",
+    "date_start": "2026-09-02T05:30:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "**Topic**\nMany of us use git for our day to day work, but do we really know whats going on? Today we will peek under the hood and get an idea of how git works under the covers. By understanding some of the git internals, we will be better equipped to recover when things go wrong (hello merge hell). No matter if you’re a beginner or an expert, there will be something you can use to improve your workflow.\n\n**Agenda**\n5:30 - Start of pizza and networking\n6:00 - Demystifying Git\n7:15 - Finish\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees, but you can [join online](https://aka.ms/aotearoanzgithub/stream) on the day.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/categories/ideas).\n\n**Sponsors**\n\n* Arinco (Food)\n* Microsoft (Venue)",
+    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/315967352/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904319"
+  },
+  {
+    "title": "Meet new people: Billiards at CBD!",
+    "date_start": "2026-08-22T03:00:00Z",
+    "date_end": null,
+    "location": "56 Wakefield Street, Auckland",
+    "description": "Auckland New Friends Circle is a group for meeting new people and making friends through shared experiences.\n\nWe're meeting up at YYDS, a Pool Hall in CBD. They have a drink bar, too :-)\n\nMessage me, the organiser, to be added to the WhatsApp group so we can find the place and each other.\n\n**About YYDS Pool Hall**\n**Address**: 56 Wakefield Street\n**Phone**: 210 227 3202\n**Easiest place to park**: P40 Wakefield Street (Wilson Parking)\n\nAll are welcome. We'd be thrilled for you to join us ^.^",
+    "source_url": "https://www.meetup.com/auckland-new-friends-circle/events/315755575/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904730"
+  },
+  {
+    "title": "It’s the little things that count: lessons in metabolism, academia and life",
+    "date_start": null,
+    "date_end": null,
+    "location": "38 Princes Street, Auckland, Auckland 1010",
+    "description": "Professor Jennifer Miles-Chan's Inaugural Lecture",
+    "source_url": "https://www.eventbrite.co.nz/e/its-the-little-things-that-count-lessons-in-metabolism-academia-and-life-tickets-1975871927123",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.288176"
+  },
+  {
+    "title": "New date: A close reading of Claude Cahun and Marcel Moore",
+    "date_start": "2026-08-22T13:00:00",
+    "date_end": "2026-08-22T14:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join us for conversation examining Claude Cahun and Marcel Moore’s portraiture with Cameron Ah-Loo Matamua, Kirsty Baker and Lisa Beauchamp.",
+    "source_url": "https://www.eventbrite.co.nz/e/new-date-a-close-reading-of-claude-cahun-and-marcel-moore-tickets-1992795605300",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289407"
+  },
+  {
+    "title": "Seashells and razorblades: an ode to Surrealist cinema",
+    "date_start": "2026-08-22T15:00:00",
+    "date_end": "2026-08-22T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Gus Fisher Gallery presents Seashells and razorblades, a screening of select Surrealist films from the 1920s to 1940s.",
+    "source_url": "https://www.eventbrite.co.nz/e/seashells-and-razorblades-an-ode-to-surrealist-cinema-tickets-1990149311163",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Film, Media & Entertainment",
+      "Film"
+    ],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289485"
+  },
+  {
+    "title": "Grad Dip Teaching Pop-ups",
+    "date_start": "2026-08-20T12:00:00",
+    "date_end": "2026-08-20T13:00:00",
+    "location": "10 Symonds Street, Auckland, Auckland 1010",
+    "description": "Get ready to dive into the world of teaching with Grad Dip Teaching Pop-ups, where education meets fun!",
+    "source_url": "https://www.eventbrite.co.nz/e/grad-dip-teaching-pop-ups-tickets-1995395554819",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "0元参加"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289930"
+  },
+  {
+    "title": "Welcome to the next AWS Auckland Well-Architected Meetup for 2026!",
+    "date_start": "2026-08-26T05:30:00Z",
+    "date_end": null,
+    "location": "Level 13, Commercial Bay, 15 Customs Street West, Auckland CBD, Auckland 1010, Auckland",
+    "description": "Hi Architects,\n\nWelcome to the next AWS Auckland Well Architected User Group Meetup of 2026!\n\nAt each meetup, we focus on learning and networking in a friendly and inclusive atmosphere and explore best-practices in AWS. This has resulted in the AWS Well-Architected Meetups becoming the most popular AWS Meetups in ANZ 🥳\n\n**Please also note that AWS Security now requests a company name and company email where it is available. If you are a student, please list your institution and your student email address at that institution 👍**\n\nWe'll be announcing more speakers on [https://well-architected.me](https://well-architected.me/) and previewing presentations during the coming weeks - our speakers and details this month include:\n\n* **Mystery Speaker**\n\n**AWS Partner Revenue Management; A New Dawn or... ;-)**\nPartner Revenue Measurement (PRM) is the biggest change to the AWS Partner Network (APN) and in this session we will dive deep into the details and importance - essential for any AWS partner or customer.\n\nThis month's menu will include:\n\n* Pizzas\n* Beer: Nastro Azzurro\n* Wine: Big and red 🤤\n*\n\nSo come join us at 5:30pm for a 6pm **SHARP** start, followed by beer, wine, pizza and networking after our talks :-)\n\nTired of Linkedin’s \"thought leadership”, spam and advertising?\nJoin https://well-architected.me/ , the AWS community built for architects, developers and cloud professionals.\n\n* Connect with experienced AWS practitioners\n* Preview upcoming AWS Meetups and relive past content\n* Create and review beautiful AWS case studies in minutes\n* Prepare for AWS certifications with curated quizzes\n* Show your manager and reports you’re well-architected\n\n(Please note that by registering to attend you agree to your details being shared as and where required with Amazon Web Services and AWS Well-Architected User Group partners)",
+    "source_url": "https://www.meetup.com/aws-auckland-well-architected-user-group/events/315870240/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904240"
+  },
+  {
+    "title": "ETF & Managed Funds - is this trading ?",
+    "date_start": "2026-08-20T05:00:00Z",
+    "date_end": null,
+    "location": "Jubilee Building, 545 Parnell Rd, Parnell, Auckland",
+    "description": "Hosted by Robert & Adam\n\nManaged funds let someone else do the talking....\n\nUltra friendly group all welcome from beginners to professionals, all financial products from loans to shares, crypto, forex, options, futures and other derivatives.\n\n**Agenda**\n\n* Meet and greet\n* Market overview - Presented by Adam\n* Managed Funds and ETF's, is this trading?\n* Open questions and discussion\n\nVery informal open group.\n\nFeel free to bring drink non alcoholic and or snack.\n\nHobson room\nNew location 😁\nJubilee Building (Parnell Community Centre)\n545 Parnell Road,\nParnell, Auckland",
+    "source_url": "https://www.meetup.com/auckland-share-traders-social/events/313016963/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:49.904793"
+  },
+  {
+    "title": "If cows didn't like mustard screening",
+    "date_start": "2026-08-15T14:00:00",
+    "date_end": "2026-08-15T15:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join us for a special screening programme organised by Lucy Meyle and Ziggy Lever.",
+    "source_url": "https://www.eventbrite.co.nz/e/if-cows-didnt-like-mustard-screening-tickets-1990360973250",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "文化体验",
+      "0元参加"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-14T20:33:55.289321"
+  },
+  {
+    "title": "Beyond the Chat Window: Building a Real AI Workspace",
+    "date_start": "2026-08-16T04:00:00Z",
+    "date_end": null,
+    "location": "2 Freyberg Place, Auckland",
+    "description": "This session looks at what it takes to move beyond a single chat window and build a genuine AI workspace – a considered set of tools, habits, and workflows that support the way you actually work and live.\n\nWe'll map the landscape by category rather than by brand, so you can understand what each type of tool is for, where the boundaries between them sit, and how they fit together into something coherent.\n\nThe focus is practical and aimed at professionals, builders, operators, and anyone who has accumulated a scattering of AI subscriptions without a sense of how they connect – team leads and those setting direction for others will also find plenty to take away.\n\nWe'll explore-\n\n* The categories that make up an AI workspace – conversational assistants, coding and agentic tools, automation and orchestration, knowledge capture, research and search, generation of images, audio and video, and where each genuinely earns its place.\n* Choosing between frontier models, specialised tools, and local options – the trade-offs in capability, cost, privacy, and control.\n* Connecting your tools to your context – files, notes, calendars, email, and codebases, and what changes when AI can actually see your work.\n* Techniques that separate casual use from serious use – prompting patterns, structured context, reusable instructions, and knowing when to hand off a task versus do it yourself.\n* Automation and agents – identifying which recurring work is worth automating, and recognising the tasks where supervision still matters more than speed.\n* Extending the workspace into life beyond work – planning, learning, health, finances, household logistics, and creative projects.\n* The cost of complexity – tool sprawl, subscription creep, fragile workflows, and how to keep a stack small enough to actually maintain.\n* Privacy, data boundaries, and trust – deciding what you're willing to put where, and building sensible defaults.\n* Assembling your own stack – starting points for different kinds of ",
+    "source_url": "https://www.meetup.com/auckland-ai-collective/events/315925508/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识",
+      "0元参加"
+    ],
+    "score": 68,
+    "priority": "B",
+    "scraped_at": "2026-08-14T20:33:49.904394"
+  },
+  {
+    "title": "Design for Manufacture in Medical Device Development",
+    "date_start": "2026-08-26T09:00:00",
+    "date_end": "2026-08-26T16:30:00",
+    "location": "70 Symonds Street, Auckland, Auckland 1010",
+    "description": "This workshop focuses on practical Design for Manufacture considerations across the medical device development lifecycle.",
+    "source_url": "https://www.eventbrite.co.nz/e/design-for-manufacture-in-medical-device-development-tickets-1989265881802",
+    "source_name": "uoa",
+    "cost": "$50",
+    "categories": [
+      "Science & Technology",
+      "Medicine"
+    ],
+    "tags": [
+      "0元参加"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-08-14T20:33:55.289679"
+  }
+]
