@@ -1,25 +1,24 @@
 [
   {
-    "title": "City Campus Tour",
-    "date_start": "2026-09-24T14:00:00",
-    "date_end": "2026-09-24T15:00:00",
-    "location": "5 Alfred Street #Building 109, Auckland, Auckland 1010",
-    "description": "Discover key buildings in the City Campus, learn about campus life, and get a feel for what it's like to study at our university.",
-    "source_url": "https://www.eventbrite.com/e/city-campus-tour-tickets-1977227499677",
+    "title": "Science to Start-Up: Medical Entrepreneurship & Healthcare Innovation Night",
+    "date_start": "2026-09-15T17:00:00",
+    "date_end": "2026-09-15T19:00:00",
+    "location": "20 Symonds Street, Auckland, Auckland 1010",
+    "description": "Come explore the future of healthcare innovation and medical entrepreneurship!",
+    "source_url": "https://www.eventbrite.co.nz/e/science-to-start-up-medical-entrepreneurship-healthcare-innovation-night-tickets-1990362580056",
     "source_name": "uoa",
     "cost": "free",
     "categories": [
-      "Family & Education",
-      "Education"
+      "Business & Professional",
+      "Startups & Small Business"
     ],
     "tags": [
-      "新手友好",
-      "0元参加",
-      "文化体验"
+      "涨知识",
+      "找工有帮助"
     ],
-    "score": 90,
-    "priority": "S",
-    "scraped_at": "2026-08-29T02:45:48.072988"
+    "score": 85,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:28.045424"
   },
   {
     "title": "Careers in the Innovation Ecosystem - Session 3",
@@ -40,66 +39,26 @@
     ],
     "score": 85,
     "priority": "A",
-    "scraped_at": "2026-08-29T02:45:48.072677"
+    "scraped_at": "2026-08-29T22:29:28.045488"
   },
   {
-    "title": "360 International General  Info Session",
-    "date_start": "2026-09-15T11:00:00",
-    "date_end": "2026-09-15T12:00:00",
-    "location": "22 Princes Street, Auckland, Auckland 1010",
-    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
-    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1988054416276",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Other"
-    ],
-    "tags": [
-      "涨知识",
-      "0元参加"
-    ],
-    "score": 80,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:48.073084"
-  },
-  {
-    "title": "Meet new people: Night at the comedy club",
-    "date_start": "2026-08-30T06:15:00Z",
+    "title": "JuniorDev Auckland Meet",
+    "date_start": "2026-09-02T06:00:00Z",
     "date_end": null,
-    "location": "361 New North Road, Auckland",
-    "description": "* Do note that the event is free, but you **MUST BOOK** your seats here:\n* [Free Show - She'll Be Right! Sunday Standup Comedy - Auckland - Eventfinda](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland)\n\nYOU MUST **BOOK** YOUR TICKET ON [EVENTFINDA](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland), NOT MEETUP\n\nLet's go grab a drink at the Cardboard Comedy club, and get to know each other a bit before we head in for a night of shared laughs.\n\nYOU MUST **BOOK** YOUR TICKET ON [EVENTFINDA](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland), NOT MEETUP\n\nAuckland New Friends Circle is a group for meeting new people and making friends through shared experiences. The comedians will be\n\"practicing\" their routines, giving us a lot to talk about afterwards!\n\nSCHEDULE\n\\* Arrive 6:15pm\n\\* Show starts at 7pm\n\nYOU MUST **BOOK** YOUR TICKET ON [EVENTFINDA](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland), NOT MEETUP\n\nPart 2! This event was super popular last month. So, if you missed out, we're thrilled for you to join us for this one ^.^\n\nYOU MUST **BOOK** YOUR TICKET ON [EVENTFINDA](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland), NOT MEETUP\n\nMessage me, the organiser, to be added to the WhatsApp group so we can find each other before the event.\n\n* Do note that the event is free, but you **MUST BOOK** your seats here:\n* [Free Show - She'll Be Right! Sunday Standup Comedy - Auckland - Eventfinda](https://www.eventfinda.co.nz/2026/free-show-shell-be-right-sunday-standup-comedy2/auckland/kingsland)",
-    "source_url": "https://www.meetup.com/auckland-new-friends-circle/events/316053333/",
+    "location": "96 Saint Georges Bay Road, Auckland",
+    "description": "We’re happy to announce the next **JuniorDev Auckland event**!\n\nJoin us for an evening of learning and connection as we hear from our speakers and the experiences they’ll be sharing.\n\n**Important Note for Attendees:**\n\n* **Please use the following link to pre-register for Xero Venue before arriving** [https://invites.envoy.com/group-invite/myweaHurOU55lj2S](https://invites.envoy.com/group-invite/myweaHurOU55lj2S).\n* **Organisers will be at the building entrance to bring everyone to the venue.**\n* **The event venue entry will be closed at 6:30pm, please make sure you arrive on time.**\n\n**Talk 1: Shipping software as a Junior without burning out by Enry Villamizar**\nStepping into software engineering is exciting, but navigating the steep learning curve alongside deliverable deadlines can easily lead to early-career fatigue. In this talk, you will learn actionable strategies for shipping production-ready code confidently without sacrificing well-being. From setting clear boundaries and managing workload expectations to building sustainable dev habits.\n\n**A bit about Enry:**\n\n* Enry is a Senior Software Developer driven by solving real-world business problems through smart internal software, such as building Whites Powersports’ warehouse system and Wireless Nation’s dashboard. A huge fan of video games and AI, he cares deeply about keeping development work sustainable, efficient, and burnout-free.\n\n**Talk 2: Beyond the Prompt: Becoming a Better Developer in the Age of AI by Keith Patton**\nAI tools can help junior developers produce working code faster than ever, but speed is not the same as engineering competence.\nIn this talk, he will share practical lessons from using AI coding tools and agentic development workflows in real software teams. He will cover where AI is genuinely useful, where it can create false confidence, and how developers can use it without outsourcing their understanding or judgement.\nThe session will introduce a practical workflow for planning, gen",
+    "source_url": "https://www.meetup.com/juniordev-auckland/events/316078650/",
     "source_name": "meetup",
     "cost": "free",
     "categories": [],
     "tags": [
-      "新手友好",
-      "0元参加",
-      "交朋友"
-    ],
-    "score": 78,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.962966"
-  },
-  {
-    "title": "Science to Start-Up: Medical Entrepreneurship & Healthcare Innovation Night",
-    "date_start": "2026-09-15T17:00:00",
-    "date_end": "2026-09-15T19:00:00",
-    "location": "20 Symonds Street, Auckland, Auckland 1010",
-    "description": "Come explore the future of healthcare innovation and medical entrepreneurship!",
-    "source_url": "https://www.eventbrite.co.nz/e/science-to-start-up-medical-entrepreneurship-healthcare-innovation-night-tickets-1990362580056",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Business & Professional",
-      "Startups & Small Business"
-    ],
-    "tags": [
+      "交朋友",
+      "有吃喝",
       "涨知识"
     ],
-    "score": 78,
+    "score": 80,
     "priority": "A",
-    "scraped_at": "2026-08-29T02:45:48.072625"
+    "scraped_at": "2026-08-29T22:29:24.129246"
   },
   {
     "title": "Racism and the Gender Pay Gap 2026 by Women of Colour Staff Network",
@@ -115,11 +74,32 @@
       "Career"
     ],
     "tags": [
+      "涨知识",
+      "文化体验"
+    ],
+    "score": 80,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:28.045281"
+  },
+  {
+    "title": "360 International General  Info Session",
+    "date_start": "2026-09-15T11:00:00",
+    "date_end": "2026-09-15T12:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1988054416276",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Other"
+    ],
+    "tags": [
+      "0元参加",
       "涨知识"
     ],
-    "score": 76,
+    "score": 80,
     "priority": "A",
-    "scraped_at": "2026-08-29T02:45:48.072377"
+    "scraped_at": "2026-08-29T22:29:28.045893"
   },
   {
     "title": "Demystifying Git",
@@ -133,48 +113,12 @@
     "categories": [],
     "tags": [
       "新手友好",
-      "涨知识"
+      "练英语",
+      "找工有帮助"
     ],
     "score": 75,
     "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963044"
-  },
-  {
-    "title": "Making Video with AI: Music Videos, Films, and Everything Between",
-    "date_start": "2026-08-30T04:00:00Z",
-    "date_end": null,
-    "location": "2 Freyberg Place, Auckland",
-    "description": "This session is about producing video with AI – starting from nothing, and going as far as you want to take it.\n\nIf you've never generated a single clip, you'll leave knowing how to make one, what the tools cost, and what's realistic to expect.\n\nIf you've been generating for a while, we'll get into the production side: how shots are planned, how characters stay consistent, how a sequence gets built and cut, and where the real craft sits.\n\nWe'll look at three kinds of output in particular – music videos, cinematic and narrative work, and short marketing pieces – because each demands something different. A music video lives on rhythm and visual invention.\n\nNarrative work needs continuity and performance. A thirty-second marketing spot needs a product to look like itself in every frame. Understanding what you're actually making changes every decision that follows.\n\nThe room is intended for all levels. No prior experience is assumed, and nothing will be skipped over as obvious.\n\nWe'll explore-\n\n* Getting your first clip made – the shortest path from an idea to something on screen, and what the tools genuinely cost to use.\n* The models we'll be working with – MiniMax H3, Seedance, LTX-2.5 – what each is good at, and why most finished work uses more than one.\n* Running models on your own machine – what's possible locally, what hardware it takes, and when local generation makes more sense than paying per generation.\n* Prompting for motion rather than pictures – camera language, blocking, and pacing, and why prompts that make beautiful stills make terrible video.\n* Character creation and consistency – building a character, then keeping the same face, costume, or product looking like itself across every shot.\n* Starting from an image – designing a frame first and generating motion from it, which is how most controlled work actually gets made.\n* Music videos – working to a track, cutting on beat, and using generative video for things that would be impossible or unaffordable t",
-    "source_url": "https://www.meetup.com/auckland-ai-collective/events/316163842/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "新手友好",
-      "涨知识"
-    ],
-    "score": 75,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963305"
-  },
-  {
-    "title": "Copilot Dev Days",
-    "date_start": "2026-09-23T05:00:00Z",
-    "date_end": null,
-    "location": null,
-    "description": "**Content**\n\\- GitHub Copilot CLI Workshop\n\\- GitHub Copilot App Workshop\n\n**Agenda**\n5:00 - Pizza and networking\n5:30 - Workshops\n7:30 - AMA\n8:00 - Finish\n\n**Please also register at [Dev Days | Auckland, New Zealand · Luma](https://luma.com/24mseeby) for visibility for Microsoft, but Meetup page will be source for us.**\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/categories/ideas).",
-    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/315967358/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "新手友好",
-      "涨知识",
-      "交朋友"
-    ],
-    "score": 74,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963101"
+    "scraped_at": "2026-08-29T22:29:24.129050"
   },
   {
     "title": "Connect, Converse, Create Opportunities",
@@ -187,86 +131,12 @@
     "cost": "free",
     "categories": [],
     "tags": [
-      "新手友好",
-      "交朋友"
+      "交朋友",
+      "有吃喝"
     ],
-    "score": 72,
+    "score": 75,
     "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963216"
-  },
-  {
-    "title": "OWASP New Zealand - Auckland Meetup",
-    "date_start": "2026-09-08T05:30:00Z",
-    "date_end": null,
-    "location": "2 Nuffield Street, Newmarket, Auckland 1023, Auckland",
-    "description": "Join us for the next **OWASP New Zealand Chapter** meetup! We are gathering the local application security community for an evening of technical talks, networking, and knowledge sharing.\n\n* **When:** Tuesday, 8th September 2026\n* **Where:** **Lightspeed Office** 2 Nuffield Street, Newmarket, Auckland 1023, New Zealand\n* **Time:** 5:30 PM (Doors open for networking), 6:00 PM (Presentations begin)\n\nWe present an introductory talk about the OWASP Top 10 (2025 edition) with a new item each meeting. With the new edition OWASP Top 10, we're starting at A02:2025 Security Misconfiguration.\n\n**Thanks to Our Host**\nA big thank you to [Lightspeed](https://www.lightspeedhq.com/au/) for sponsoring the venue and catering and for supporting the local security community.\n\n**Agenda**\n\n* 6:00 PM OWASP Introduction, Top 10\n* 6:30 PM Break\n* 6:45 PM Technical Talk\n\n**Technical Topic Speaker: TBC**\nTBC\n**Talk Title: TBC**\nTBC\n\\-\\-\\-\\-\nOWASP Auckland is on Meetup for now - please watch this space.\n\nWe're always looking for presenters and topics for future meetings - contact Austin (austin.chamberlain@appsec.org.nz) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be Austin talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays.",
-    "source_url": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/316095792/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "新手友好",
-      "涨知识"
-    ],
-    "score": 72,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963379"
-  },
-  {
-    "title": "JuniorDev Auckland Meet",
-    "date_start": "2026-09-02T06:00:00Z",
-    "date_end": null,
-    "location": "96 Saint Georges Bay Road, Auckland",
-    "description": "We’re happy to announce the next **JuniorDev Auckland event**!\n\nJoin us for an evening of learning and connection as we hear from our speakers and the experiences they’ll be sharing.\n\n**Important Note for Attendees:**\n\n* **Please use the following link to pre-register for Xero Venue before arriving** [https://invites.envoy.com/group-invite/myweaHurOU55lj2S](https://invites.envoy.com/group-invite/myweaHurOU55lj2S).\n* **Organisers will be at the building entrance to bring everyone to the venue.**\n* **The event venue entry will be closed at 6:30pm, please make sure you arrive on time.**\n\n**Talk 1: Shipping software as a Junior without burning out by Enry Villamizar**\nStepping into software engineering is exciting, but navigating the steep learning curve alongside deliverable deadlines can easily lead to early-career fatigue. In this talk, you will learn actionable strategies for shipping production-ready code confidently without sacrificing well-being. From setting clear boundaries and managing workload expectations to building sustainable dev habits.\n\n**A bit about Enry:**\n\n* Enry is a Senior Software Developer driven by solving real-world business problems through smart internal software, such as building Whites Powersports’ warehouse system and Wireless Nation’s dashboard. A huge fan of video games and AI, he cares deeply about keeping development work sustainable, efficient, and burnout-free.\n\n**Talk 2: Beyond the Prompt: Becoming a Better Developer in the Age of AI by Keith Patton**\nAI tools can help junior developers produce working code faster than ever, but speed is not the same as engineering competence.\nIn this talk, he will share practical lessons from using AI coding tools and agentic development workflows in real software teams. He will cover where AI is genuinely useful, where it can create false confidence, and how developers can use it without outsourcing their understanding or judgement.\nThe session will introduce a practical workflow for planning, gen",
-    "source_url": "https://www.meetup.com/juniordev-auckland/events/316078650/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "新手友好",
-      "找工有帮助",
-      "交朋友"
-    ],
-    "score": 70,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:43.963165"
-  },
-  {
-    "title": "Artist talk with Miranda Bellamy & Amanda Fauteux",
-    "date_start": "2026-09-26T14:00:00",
-    "date_end": "2026-09-26T15:00:00",
-    "location": "74 Shortland Street, Auckland, Auckland 1010",
-    "description": "Join exhibiting artists Miranda Bellamy and Amanda Fauteux in conversation with interdisciplinary artist Colleen Coco Collins.",
-    "source_url": "https://www.eventbrite.co.nz/e/artist-talk-with-miranda-bellamy-amanda-fauteux-tickets-1999000180351",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Fine Art"
-    ],
-    "tags": [
-      "文化体验"
-    ],
-    "score": 70,
-    "priority": "A",
-    "scraped_at": "2026-08-29T02:45:48.072478"
-  },
-  {
-    "title": "AKL Multi-Model Copilot, Autonomous Agents & Token ROI",
-    "date_start": "2026-09-08T05:30:00Z",
-    "date_end": null,
-    "location": null,
-    "description": "Join us for an exclusive evening with visiting GitHub Engineers **Marco Celon** and **Amanda Tan** as we explore the next evolution of AI-assisted software development. Beyond traditional code completion, modern developer workflows now demand seamless orchestration across multiple surfaces, diverse AI models, and autonomous agents—all while keeping enterprise token budgets under control.\n\nWhether you are looking to supercharge your personal developer flow or scale AI productivity across an entire organization, this session delivers actionable strategies straight from the team building these tools.\nWhat We'll Cover:\n\n* **Multi-Surface & Multi-Model Integration:** Learn how to route developer workflows across IDEs, CLI tools, and cloud agents while leveraging diverse models (OpenAI, Anthropic, Gemini) tailored to task complexity.\n* **Token ROI & Cost Control:** Master practical techniques for context window optimization, prompt hygiene, and enterprise budget caps to keep token consumption efficient and cost-effective.\n\n**Agenda**\n5:30 - Pizza and networking\n6:00 - Talks\n7:00 - Finish\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees, but you can [join online](https://aka.ms/aotearoanzgithub/stream) on the day.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/categories/ideas).",
-    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/316054292/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "涨知识"
-    ],
-    "score": 69,
-    "priority": "B",
-    "scraped_at": "2026-08-29T02:45:43.963262"
+    "scraped_at": "2026-08-29T22:29:24.129335"
   },
   {
     "title": "Evergreen Curators’ Tour",
@@ -282,11 +152,159 @@
       "Heritage"
     ],
     "tags": [
+      "涨知识",
+      "新手友好"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:28.045190"
+  },
+  {
+    "title": "City Campus Tour",
+    "date_start": "2026-09-24T14:00:00",
+    "date_end": "2026-09-24T15:00:00",
+    "location": "5 Alfred Street #Building 109, Auckland, Auckland 1010",
+    "description": "Discover key buildings in the City Campus, learn about campus life, and get a feel for what it's like to study at our university.",
+    "source_url": "https://www.eventbrite.com/e/city-campus-tour-tickets-1977227499677",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Family & Education",
+      "Education"
+    ],
+    "tags": [
+      "新手友好",
       "涨知识"
     ],
-    "score": 68,
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:28.046517"
+  },
+  {
+    "title": "Copilot Dev Days",
+    "date_start": "2026-09-23T05:00:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "**Content**\n\\- GitHub Copilot CLI Workshop\n\\- GitHub Copilot App Workshop\n\n**Agenda**\n5:00 - Pizza and networking\n5:30 - Workshops\n7:30 - AMA\n8:00 - Finish\n\n**Please also register at [Dev Days | Auckland, New Zealand · Luma](https://luma.com/24mseeby) for visibility for Microsoft, but Meetup page will be source for us.**\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/categories/ideas).",
+    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/315967358/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "练英语",
+      "找工有帮助"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:24.129109"
+  },
+  {
+    "title": "OWASP New Zealand - Auckland Meetup",
+    "date_start": "2026-09-08T05:30:00Z",
+    "date_end": null,
+    "location": "2 Nuffield Street, Newmarket, Auckland 1023, Auckland",
+    "description": "Join us for the next **OWASP New Zealand Chapter** meetup! We are gathering the local application security community for an evening of technical talks, networking, and knowledge sharing.\n\n* **When:** Tuesday, 8th September 2026\n* **Where:** **Lightspeed Office** 2 Nuffield Street, Newmarket, Auckland 1023, New Zealand\n* **Time:** 5:30 PM (Doors open for networking), 6:00 PM (Presentations begin)\n\nWe present an introductory talk about the OWASP Top 10 (2025 edition) with a new item each meeting. With the new edition OWASP Top 10, we're starting at A02:2025 Security Misconfiguration.\n\n**Thanks to Our Host**\nA big thank you to [Lightspeed](https://www.lightspeedhq.com/au/) for sponsoring the venue and catering and for supporting the local security community.\n\n**Agenda**\n\n* 6:00 PM OWASP Introduction, Top 10\n* 6:30 PM Break\n* 6:45 PM Technical Talk\n\n**Technical Topic Speaker: TBC**\nTBC\n**Talk Title: TBC**\nTBC\n\\-\\-\\-\\-\nOWASP Auckland is on Meetup for now - please watch this space.\n\nWe're always looking for presenters and topics for future meetings - contact Austin (austin.chamberlain@appsec.org.nz) if you have an idea for a topic, or a presentation you'd like to make. That way, it won't always be Austin talking about what he's been working on recently.\n\nThe Auckland-area OWASP Meetup usually takes place on the third Tuesdays of March, May, July, September, and November. There is no Meetup in January, as our members enjoy their holidays.",
+    "source_url": "https://www.meetup.com/owasp-new-zealand-chapter-auckland/events/316095792/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "新手友好",
+      "涨知识"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:24.129390"
+  },
+  {
+    "title": "Artist talk with Miranda Bellamy & Amanda Fauteux",
+    "date_start": "2026-09-26T14:00:00",
+    "date_end": "2026-09-26T15:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join exhibiting artists Miranda Bellamy and Amanda Fauteux in conversation with interdisciplinary artist Colleen Coco Collins.",
+    "source_url": "https://www.eventbrite.co.nz/e/artist-talk-with-miranda-bellamy-amanda-fauteux-tickets-1999000180351",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "文化体验",
+      "适合拍照"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-08-29T22:29:28.046390"
+  },
+  {
+    "title": "Making Video with AI: Music Videos, Films, and Everything Between",
+    "date_start": "2026-08-30T04:00:00Z",
+    "date_end": null,
+    "location": "2 Freyberg Place, Auckland",
+    "description": "This session is about producing video with AI – starting from nothing, and going as far as you want to take it.\n\nIf you've never generated a single clip, you'll leave knowing how to make one, what the tools cost, and what's realistic to expect.\n\nIf you've been generating for a while, we'll get into the production side: how shots are planned, how characters stay consistent, how a sequence gets built and cut, and where the real craft sits.\n\nWe'll look at three kinds of output in particular – music videos, cinematic and narrative work, and short marketing pieces – because each demands something different. A music video lives on rhythm and visual invention.\n\nNarrative work needs continuity and performance. A thirty-second marketing spot needs a product to look like itself in every frame. Understanding what you're actually making changes every decision that follows.\n\nThe room is intended for all levels. No prior experience is assumed, and nothing will be skipped over as obvious.\n\nWe'll explore-\n\n* Getting your first clip made – the shortest path from an idea to something on screen, and what the tools genuinely cost to use.\n* The models we'll be working with – MiniMax H3, Seedance, LTX-2.5 – what each is good at, and why most finished work uses more than one.\n* Running models on your own machine – what's possible locally, what hardware it takes, and when local generation makes more sense than paying per generation.\n* Prompting for motion rather than pictures – camera language, blocking, and pacing, and why prompts that make beautiful stills make terrible video.\n* Character creation and consistency – building a character, then keeping the same face, costume, or product looking like itself across every shot.\n* Starting from an image – designing a frame first and generating motion from it, which is how most controlled work actually gets made.\n* Music videos – working to a track, cutting on beat, and using generative video for things that would be impossible or unaffordable t",
+    "source_url": "https://www.meetup.com/auckland-ai-collective/events/316163842/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 65,
     "priority": "B",
-    "scraped_at": "2026-08-29T02:45:48.072314"
+    "scraped_at": "2026-08-29T22:29:24.128971"
+  },
+  {
+    "title": "AKL Multi-Model Copilot, Autonomous Agents & Token ROI",
+    "date_start": "2026-09-08T05:30:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "Join us for an exclusive evening with visiting GitHub Engineers **Marco Celon** and **Amanda Tan** as we explore the next evolution of AI-assisted software development. Beyond traditional code completion, modern developer workflows now demand seamless orchestration across multiple surfaces, diverse AI models, and autonomous agents—all while keeping enterprise token budgets under control.\n\nWhether you are looking to supercharge your personal developer flow or scale AI productivity across an entire organization, this session delivers actionable strategies straight from the team building these tools.\nWhat We'll Cover:\n\n* **Multi-Surface & Multi-Model Integration:** Learn how to route developer workflows across IDEs, CLI tools, and cloud agents while leveraging diverse models (OpenAI, Anthropic, Gemini) tailored to task complexity.\n* **Token ROI & Cost Control:** Master practical techniques for context window optimization, prompt hygiene, and enterprise budget caps to keep token consumption efficient and cost-effective.\n\n**Agenda**\n5:30 - Pizza and networking\n6:00 - Talks\n7:00 - Finish\n\nPlease make sure to register for the event as we need to provide contact details to Microsoft for security purposes. Registration will close 48 hours prior to the event to provide enough time to send out the access passes for in-person attendees, but you can [join online](https://aka.ms/aotearoanzgithub/stream) on the day.\n\nIf you have a topic you'd like to present (or hear about) please reach out, or create an idea in our [GitHub Ideas discussion board](https://github.com/orgs/NZ-GitHub-UG/discussions/categories/ideas).",
+    "source_url": "https://www.meetup.com/aotearoa-nz-github-user-group/events/316054292/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-08-29T22:29:24.129186"
+  },
+  {
+    "title": "Cornwall park exploration (around 12km)",
+    "date_start": "2026-08-30T02:00:00Z",
+    "date_end": null,
+    "location": "Puriri Drive, Auckland",
+    "description": "Aim to meet 10 mins before starting time.\n\nAn above average level of fitness and agility is required due to the undulating nature of the sheep and gravel tracks that can be slippery and steep.\nThis Sunday we'll explore this beautiful park and enjoy some spring sights such as lambs, calves and spring flowers. Some tracks will be muddy so hiking boots are a good idea. We'll stop midway for a (BYO) snack stop\n\n**What to bring:**\nSun and rain protection\nPlenty of water and a snack\nSturdy closed shoes with a good grip\nSomething to sit on for snack stop (optional)\n\nMembers only, no children, pets, smoking or vaping\n\nYou're welcome to make a voluntary donation to help cover the fees we pay meetup...If you would like to make a donation please make it by online banking rather than cash.\nSuggested donations are $2 per walk or $10 per year.\nBanking Account:\nWeekend Walks\n38-9026-0763672-00\nThanks for your support! 🙂\n………………………………………………………………………………………\nIf you need to change your RSVP just change via the RSVP system or message the group organiser directly. After a walk that you've attended, you’re welcome to post a few general comments, but please keep these brief. Do not post any personal details or referrals to personal details such as phone numbers, facebook links or email addresses. Thanks :)\n\n.……………………………………………………………………………………………..\n\\| If you are on the attendee list and not able to attend please change your RSVP ASAP to give those on the waitlist the opportunity to attend\\. \\|\n\\| Meetup groups like this one are run by volunteers who would like to relax and enjoy the event as much as other participants\\. As such we expect everyone to take responsibility for themselves as we are not liable for any personal loss or injury at any event\\. By RSVP ing \"Yes\" you accept that you have read all the details of the trip and that you participate at your own risk\\. Therefore for your own safety and enjoyment and that of others please do not sign up for an event unless you know that your abi",
+    "source_url": "https://www.meetup.com/weekend-afternoon-walks-and-other-fun-things/events/316263669/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "户外活动"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-08-29T22:29:24.129443"
+  },
+  {
+    "title": "为机器立心：走向安全超级智能的东西文明路径",
+    "date_start": "2026-09-02T05:30:00Z",
+    "date_end": null,
+    "location": "WG Building 2 Governor Fitzroy Place, Auckland Central, Auckland 1010, Auckland",
+    "description": "**Topic**\n\n**为机器立心：走向安全超级智能的东西文明路径**\n**Forming the Machine Heart: Eastern & Western Paths Toward Safe Super-Intelligence (SSI)**\n\n**摘要 \\| Abstract**\n当通用人工智能（AGI）向超级智能（ASI）加速演进，传统基于硬编码规则、Guardrails（安全护栏）与RLHF（基于人类反馈的强化学习）的防线正遭遇严峻的工程瓶颈——例如奖励黑客（Reward Hacking）与工具性收敛（Instrumental Convergence）引发的自保与资源扩张倾向。当硅基智能的认知能力呈指数级超越人类，单纯的\"技术刹车\"已不足以应对存在风险，我们需要为超级智能重构底层的价值与认知框架。\n本讲座将首先回顾Anthropic（Constitutional AI）、Yoshua Bengio教授（图灵奖得主）发起的LawZero及其Scientist AI项目等西方前沿机构的对齐路径与其工程局限——其中Scientist AI作为\"无利害关系\"的监督型预测模型，旨在以外部观察者身份监控其他AI智能体的行为，代表了西方将安全视为\"外部约束\"的典型范式；随后引入北京大学人工智能学院朱松纯教授团队提出的\"为机器立心\"认知架构范式，探讨其与西方\"规则约束式对齐\"在哲学根基上的差异；最终介绍演讲者（AUT阮吉博士）正在开展的\"东方安全超级智能\"研究课题——尝试融合中国心学传统的价值内生思路与新西兰毛利文化中的Kaitiakitanga（守护者精神与天地共生）伦理，探索一条不同于纯粹工程约束的、以关系性与共生性为核心的超级智能安全路径，其核心理念是将安全从\"外部约束\"转化为智能体的\"内在稳态\"。\n本讲座旨在为新西兰本地IT从业者、开发者与高校学生，提供兼具前沿技术深度与跨文明伦理启发的思考视野。\n\n**演讲者简介 \\| Speaker Bio**\n阮吉博士 \\| Dr\\. Ji Ruan\n新西兰奥克兰理工大学人工智能高级讲师、博士生导师\n阮吉博士在人工智能领域拥有逾二十年的研究与教学经验，专注于知识表示与推理、多智能体系统、博弈论等基础理论研究。近年来，他将研究重心进一步拓展至人工智能的实际应用，尤其是在养老服务机器人方向的创新探索，致力于打通理论研究与社会应用之间的桥梁。\n他拥有多元且跨学科的学术背景：北京大学哲学逻辑学士、阿姆斯特丹大学逻辑学硕士，以及英国利物浦大学计算机科学博士学位。加入奥克兰理工大学之前，他曾先后在加拿大圣弗朗西斯·泽维尔大学与澳大利亚新南威尔士大学从事人工智能相关研究，积累了丰富的国际学术经验，这也为他此次探讨\"东西文明路径\"提供了跨文化的独特视角。\n在学术研究之外，阮吉博士积极践行\"身心一体\"的生活哲学，长期坚持跑步、羽毛球与正念禅修，并倡导在快节奏的技术变革中，保持个体的内在平衡与韧性。\n\n**Agenda**\n**This meetup will be presented in Mandarin.**\n5:30 pm \\| Door opens & Networking\nLight refreshments provided\n6:00 pm – 7:30 pm \\| Presentation & Q&A\n7:30 pm – 8:00 pm \\| Networking\n\n**Date & Venue**\n🗓 **Date:** Wednesday, 2 Sep 2026\n⏰ **Time:** 5:30 pm – 8:00 pm (NZST)\n📍 **Location:**\nAUT WG801\nWG Building 2 Governor Fitzroy Place, Auckland CBD, Auckland 1010\n\n**Fee**\nCITA Members: Free\nOther Participants: NZD $5 Donation\n💳 **Bank Account Details**\nAccount Number: 06-0513-0847960-00\nAccount Name: CHINESE IT ASSOCIATION NZ",
+    "source_url": "https://www.meetup.com/wellington-chinese-it-professionals/events/316223611/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-08-29T22:29:24.129496"
   },
   {
     "title": "Mahi Tahi: Working together to improve preterm birth care",
@@ -304,6 +322,6 @@
     "tags": [],
     "score": 40,
     "priority": "C",
-    "scraped_at": "2026-08-29T02:45:48.072939"
+    "scraped_at": "2026-08-29T22:29:28.045830"
   }
 ]
