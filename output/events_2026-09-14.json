@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-10-02T16:00:00",
+    "date_end": "2026-10-02T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657121877",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [],
+    "score": 55,
+    "priority": null,
+    "scraped_at": "2026-09-14T23:02:39.980896"
+  },
+  {
+    "title": "17th Annual Waipapa Taumata Rau / University of Auckland Jazz Academy",
+    "date_start": "2026-10-02T18:00:00",
+    "date_end": "2026-10-04T17:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "The Jazz Academy is a 3-day intensive educational event hosted by Te Whare o ngā Pūkōrero (School of Music) at the University of Auckland",
+    "source_url": "https://www.eventbrite.co.nz/e/17th-annual-waipapa-taumata-rau-university-of-auckland-jazz-academy-tickets-1996516302004",
+    "source_name": "uoa",
+    "cost": "$99",
+    "categories": [
+      "Performing & Visual Arts",
+      "Musical"
+    ],
+    "tags": [],
+    "score": 30,
+    "priority": null,
+    "scraped_at": "2026-09-14T23:02:39.980943"
+  }
+]
