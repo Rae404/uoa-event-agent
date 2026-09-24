@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Music Composition Workshops",
+    "date_start": "2026-10-16T16:00:00",
+    "date_end": "2026-10-16T17:30:00",
+    "location": "6 Symonds Street, Auckland, Auckland 1010",
+    "description": "Music Composition workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/music-composition-workshops-tickets-1984657123883",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Other"
+    ],
+    "tags": [],
+    "score": 55,
+    "priority": null,
+    "scraped_at": "2026-09-24T23:08:16.024001"
+  },
+  {
+    "title": "Songcraft & Music Production Workshops",
+    "date_start": "2026-10-22T14:00:00",
+    "date_end": "2026-10-22T16:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Songcraft & Music Production Workshops featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/songcraft-music-production-workshops-tickets-1984657434813",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Pop"
+    ],
+    "tags": [],
+    "score": 45,
+    "priority": null,
+    "scraped_at": "2026-09-24T23:08:16.024075"
+  },
+  {
+    "title": "Jazz Forum Workshops",
+    "date_start": "2026-10-21T16:00:00",
+    "date_end": "2026-10-21T22:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Jazz Performance workshops and seminars featuring local, national, and international guests.",
+    "source_url": "https://www.eventbrite.co.nz/e/jazz-forum-workshops-tickets-1984656827998",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Music",
+      "Jazz"
+    ],
+    "tags": [],
+    "score": 40,
+    "priority": null,
+    "scraped_at": "2026-09-24T23:08:16.024039"
+  },
+  {
+    "title": "New Zealand is MĀORILAND: Language, literature and lifeworlds in Aotearoa",
+    "date_start": "2026-10-15T16:30:00",
+    "date_end": "2026-10-15T19:00:00",
+    "location": "16 Wynyard Street, Auckland, Auckland 1010",
+    "description": "New Zealand is Māori land. To belong here is to live in relationship with Māori - with tangata and whenua. Tomo mai, welcome.",
+    "source_url": "https://www.eventbrite.co.nz/e/new-zealand-is-maoriland-language-literature-and-lifeworlds-in-aotearoa-tickets-1999959335209",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [],
+    "score": 30,
+    "priority": null,
+    "scraped_at": "2026-09-24T23:08:16.023962"
+  }
+]
