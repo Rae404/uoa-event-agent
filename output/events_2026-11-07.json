@@ -1,5 +1,24 @@
 [
   {
+    "title": "Japanese/English Exchange group ENKAI（縁会）",
+    "date_start": "2026-11-14T02:00:00Z",
+    "date_end": null,
+    "location": "143 Carlton Gore Road, Auckland",
+    "description": "Update from Bev: From November 2026 the ENKAI event will be held twice a month!\n\n日本語と英語で話そう！Let's join the Japanese/English Exchange group ENKAI（縁会）!\nLearn Japanese/English, make friends, learn about culture! All levels welcome! Are you looking for opportunities to practice your Japanese or English? Have fun meeting new people while practicing your target language with native speakers. Plus, you get to return the favor and help others reach their goal to become fluent in another language! Not only will you walk away feeling like you've improved your English or Japanese, but you'll also feel great about helping someone else reach his or her goals. Let's enjoy ENKAI!\nThis event only allows attendees that are 18 years old or older.\nFee: $1 (one dollar) plus please buy one drink to help support the cafe!\n日本語と英語で楽しくおしゃべりしませんか？英語を勉強中の人、日本語を勉強中の人、まだ話すことに自信がなくても、一人での参加でも大丈夫！お茶を飲んだり、お菓子を食べながら、みんなで楽しく交流しましょう！\nこのイベントは１８歳以上なら参加Okです。\n会費　$1. 参加費は1ドルです。また、カフェの支援のため、ドリンクを1杯ご注文ください。",
+    "source_url": "https://www.meetup.com/auckland-japanese-english-exchange-enkai-%E7%B8%81%E4%BC%9A/events/316466768/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "练英语",
+      "交朋友",
+      "文化体验"
+    ],
+    "score": 90,
+    "priority": "S",
+    "scraped_at": "2026-11-07T23:30:08.000610"
+  },
+  {
     "title": "[Auckland] Reimagining Technology Careers in the Age of AI",
     "date_start": "2026-11-18T04:30:00Z",
     "date_end": null,
@@ -11,11 +30,11 @@
     "categories": [],
     "tags": [
       "涨知识",
-      "0元参加"
+      "找工有帮助"
     ],
-    "score": 80,
+    "score": 85,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:32.983306"
+    "scraped_at": "2026-11-07T23:30:08.000426"
   },
   {
     "title": "City Campus Tour",
@@ -31,116 +50,31 @@
       "Education"
     ],
     "tags": [
-      "文化体验",
-      "0元参加"
-    ],
-    "score": 80,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.259425"
-  },
-  {
-    "title": "Nin Tomas Memorial Lecture 2026",
-    "date_start": "2026-11-19T17:30:00",
-    "date_end": "2026-11-19T20:00:00",
-    "location": "12 Grafton Road Auckland Central, Auckland, Auckland 1010",
-    "description": "Delivered by UN Special Rapporteur on the Rights of Indigenous Peoples, Dr Albert K. Barume of the Democratic Republic of the Congo.",
-    "source_url": "https://www.eventbrite.co.nz/e/nin-tomas-memorial-lecture-2026-tickets-2004465269580",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Business & Professional",
-      "Educators"
-    ],
-    "tags": [
       "新手友好",
       "0元参加",
-      "涨知识"
+      "交朋友"
     ],
-    "score": 80,
+    "score": 85,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260137"
+    "scraped_at": "2026-11-07T23:30:12.590738"
   },
   {
-    "title": "360 International General  Info Session",
-    "date_start": "2026-11-17T11:00:00",
-    "date_end": "2026-11-17T12:00:00",
-    "location": "22 Princes Street, Auckland, Auckland 1010",
-    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
-    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1988054480468",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Other"
-    ],
-    "tags": [
-      "涨知识",
-      "0元参加"
-    ],
-    "score": 78,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.259337"
-  },
-  {
-    "title": "Ivan Zhang - Chinese Art Song Recital",
-    "date_start": "2026-11-13T16:25:00",
-    "date_end": "2026-11-13T17:00:00",
-    "location": "6 Symonds Street #Building 250 Room 117, Auckland, Auckland 1010",
-    "description": "Ivan Zhang's research recital presents a selection of Chinese art songs sung completely in Mandarin and by 20th century and modern composers",
-    "source_url": "https://www.eventbrite.co.nz/e/ivan-zhang-chinese-art-song-recital-tickets-2003749496684",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Musical"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "文化体验"
-    ],
-    "score": 78,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260457"
-  },
-  {
-    "title": "ReDesign Graduate Showcase 2026",
-    "date_start": "2026-11-07T10:00:00",
-    "date_end": "2026-11-07T16:00:00",
-    "location": "20 Symonds St, Auckland, Auckland 1010",
-    "description": "Encounter the future of design at the ReDesign Graduate Showcase 2026. On display for 2 days!",
-    "source_url": "https://www.eventbrite.co.nz/e/redesign-graduate-showcase-2026-tickets-2002265445848",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Business & Professional",
-      "Design"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "涨知识"
-    ],
-    "score": 76,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260836"
-  },
-  {
-    "title": "Global Social Hangout in Auckland",
-    "date_start": "2026-11-07T06:30:00Z",
+    "title": "Welcome to the next AWS Auckland Well-Architected Meetup for 2026!",
+    "date_start": "2026-11-19T04:30:00Z",
     "date_end": null,
-    "location": "372-376 Broadway, Newmarket, Auckland",
-    "description": "Looking to expand your social circle and connect with international minds?\n\n[ [Click this Whatsapp groupchat link to join](https://chat.whatsapp.com/F6KGc1k82s6GL9OtiU0e9J) ]\n\nWe meet every Saturday evening at 7:30 PM for a relaxed language and culture gathering where people in their 20s and 30s come to chat, learn, and make genuine connections.\n\nWhether you’ve just landed in New Zealand or you’ve lived here all your life, this group is about sharing cultures and celebrating diversity — no pressure, just good people and open conversations",
-    "source_url": "https://www.meetup.com/social-party-in-auckland/events/317117562/",
+    "location": "Level 13, Commercial Bay, 15 Customs Street West, Auckland CBD, Auckland 1010, Auckland",
+    "description": "Hi Architects,\n\nWelcome to the next AWS Auckland Well Architected User Group Meetup of 2026!\n\nAt each meetup, we focus on learning and networking in a friendly and inclusive atmosphere and explore best-practices in AWS. This has resulted in the AWS Well-Architected Meetups becoming the most popular AWS Meetups in ANZ 🥳\n\n**Please also note that AWS Security now requests a company name and company email where it is available. If you are a student, please list your institution and your student email address at that institution 👍**\n\nWe'll be announcing more speakers on [https://well-architected.me](https://well-architected.me/) and previewing presentations during the coming weeks - our speakers and details this month include:\n\n* **Michael Taylor, Lakebase Specialist, Databricks**\n\n**How Lakebase provides a well-architected platform for next generation application and AI development.**\nCome and hear how Databricks experts show how customers run applications and agents on Lakebase; serverless Postgres governed by Unity Catalog. See instant branching, scale-to-zero, point-in-time recovery and synced tables in action. The Databricks team will also give a first look at LTAP; one open, governed copy of data for transactions and analytics, with no ETL in between.\n\n* **Kristof Ringleff, Solution Architect, Fooman**\n\n**From Weekend Project to Well-Architected: Putting AWS's new Well-Architected Agent to Work**\n\nKristoff had a small serverless weekend project running on AWS. So he pointed the brand-new AWS Well-Architected Agent at it. Then I did what any sensible engineer would do with a hobby app; I followed its advice. This talk covers what the agent found, what I learned along the way and the fun of over-engineering something that never needed it. I'll also compare it with the open-source Well-Architected Review skill, which runs in your own coding agent and needs no AWS Support plan.\n\n* **Mystery Speaker**\n\n**The AWS AI Competency - can automation support?**\nAchieving the AW",
+    "source_url": "https://www.meetup.com/aws-auckland-well-architected-user-group/events/317042150/",
     "source_name": "meetup",
     "cost": "free",
     "categories": [],
     "tags": [
       "交朋友",
-      "新手友好"
+      "找工有帮助"
     ],
-    "score": 75,
+    "score": 80,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:32.983384"
+    "scraped_at": "2026-11-07T23:30:08.000340"
   },
   {
     "title": "Reaching Those Who Need You Most: Accessibility in Health Technology",
@@ -160,97 +94,9 @@
       "0元参加",
       "涨知识"
     ],
-    "score": 75,
+    "score": 80,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260056"
-  },
-  {
-    "title": "University of Auckland Dance Studies Performance Series",
-    "date_start": "2026-11-07T19:00:00",
-    "date_end": "2026-11-07T20:30:00",
-    "location": "Orly Avenue, Auckland, Auckland 2022",
-    "description": "Second- and third-year end of year performances as part of University of Auckland course work",
-    "source_url": "https://www.eventbrite.co.nz/e/university-of-auckland-dance-studies-performance-series-tickets-1997094678945",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Theatre"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "文化体验"
-    ],
-    "score": 72,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260297"
-  },
-  {
-    "title": "Modos+ 2026 End of Year Exhibition",
-    "date_start": "2026-11-19T18:00:00",
-    "date_end": "2026-11-19T21:00:00",
-    "location": "26 Symonds Street, Auckland, Auckland 1010",
-    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
-    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483296472",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Fine Art"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "涨知识"
-    ],
-    "score": 72,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260916"
-  },
-  {
-    "title": "Modos+ 2026 End of Year Exhibition",
-    "date_start": "2026-11-20T10:00:00",
-    "date_end": "2026-11-20T16:00:00",
-    "location": "26 Symonds Street, Auckland, Auckland 1010",
-    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
-    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483365679",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Fine Art"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "涨知识"
-    ],
-    "score": 72,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260997"
-  },
-  {
-    "title": "Modos+ 2026 End of Year Exhibition",
-    "date_start": "2026-11-21T10:00:00",
-    "date_end": "2026-11-21T16:00:00",
-    "location": "26 Symonds Street, Auckland, Auckland 1010",
-    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
-    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483366682",
-    "source_name": "uoa",
-    "cost": "free",
-    "categories": [
-      "Performing & Visual Arts",
-      "Fine Art"
-    ],
-    "tags": [
-      "新手友好",
-      "0元参加",
-      "涨知识"
-    ],
-    "score": 72,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.261083"
+    "scraped_at": "2026-11-07T23:30:12.591545"
   },
   {
     "title": "OWASP New Zealand - Auckland Meetup",
@@ -263,34 +109,53 @@
     "cost": "free",
     "categories": [],
     "tags": [
-      "涨知识",
-      "0元参加"
+      "交朋友",
+      "涨知识"
     ],
-    "score": 70,
+    "score": 75,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:32.983453"
+    "scraped_at": "2026-11-07T23:30:08.000534"
   },
   {
-    "title": "It’s the little things that count: lessons in metabolism, academia and life",
-    "date_start": "2026-11-26T17:30:00",
-    "date_end": "2026-11-26T19:00:00",
-    "location": "38 Princes Street, CBD, Auckland 1010",
-    "description": "Professor Jennifer Miles-Chan's Inaugural Lecture",
-    "source_url": "https://www.eventbrite.co.nz/e/its-the-little-things-that-count-lessons-in-metabolism-academia-and-life-tickets-1975871927123",
+    "title": "360 International General  Info Session",
+    "date_start": "2026-11-17T11:00:00",
+    "date_end": "2026-11-17T12:00:00",
+    "location": "22 Princes Street, Auckland, Auckland 1010",
+    "description": "Explore global learning opportunities with 360 International at the University of Auckland.",
+    "source_url": "https://www.eventbrite.co.nz/e/360-international-general-info-session-registration-1988054480468",
     "source_name": "uoa",
     "cost": "free",
     "categories": [
-      "Community & Culture",
       "Other"
     ],
     "tags": [
-      "新手友好",
-      "0元参加",
-      "涨知识"
+      "涨知识",
+      "交朋友"
     ],
-    "score": 70,
+    "score": 75,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.259893"
+    "scraped_at": "2026-11-07T23:30:12.590584"
+  },
+  {
+    "title": "Ivan Zhang - Chinese Art Song Recital",
+    "date_start": "2026-11-13T16:25:00",
+    "date_end": "2026-11-13T17:00:00",
+    "location": "6 Symonds Street #Building 250 Room 117, Auckland, Auckland 1010",
+    "description": "Ivan Zhang's research recital presents a selection of Chinese art songs sung completely in Mandarin and by 20th century and modern composers",
+    "source_url": "https://www.eventbrite.co.nz/e/ivan-zhang-chinese-art-song-recital-tickets-2003749496684",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Musical"
+    ],
+    "tags": [
+      "文化体验",
+      "新手友好"
+    ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-11-07T23:30:12.591354"
   },
   {
     "title": "Elam Artists Graduate Show 2026",
@@ -310,9 +175,9 @@
       "0元参加",
       "涨知识"
     ],
-    "score": 70,
+    "score": 75,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260543"
+    "scraped_at": "2026-11-07T23:30:12.591400"
   },
   {
     "title": "Elam Artists Graduate Show 2026",
@@ -332,9 +197,146 @@
       "0元参加",
       "涨知识"
     ],
+    "score": 75,
+    "priority": "A",
+    "scraped_at": "2026-11-07T23:30:12.591445"
+  },
+  {
+    "title": "Business Connections After 5 (BNI)",
+    "date_start": "2026-11-17T04:30:00Z",
+    "date_end": null,
+    "location": "114 Ponsonby Road, Grey Lynn, Auckland 1011, New Zealand, Auckland",
+    "description": "**Business Connections After 5 \\| Meet\\, Mingle & Grow \\| BNI**\nLooking to grow your business or client base? Your next great referral partner could be in the room.\n\nJoin us for Business Connections After 5, a relaxed evening of networking, conversation, and opportunities to connect with like-minded local business owners and professionals.\n\nWhether you’re a business owner looking to grow, a professional wanting to expand your network and client base, or someone curious about joining a referral-based networking group like BNI, this is a great opportunity to meet people who understand the value of building business through genuine relationships.\n\n**What to expect:**\n\n* Meet ambitious, like-minded business owners and professionals from a range of industries.\n\n* Enjoy relaxed conversations and build genuine, meaningful business connections.\n\n* Discover how referral-based networking can help you grow your business or client base.\n\n* Explore opportunities to build a stronger network of trusted referral partners.\n\n* Enjoy a social after-work atmosphere with people who want to see each other succeed.\n\n**Who should come?**\nBusiness owners, entrepreneurs and professionals who want to grow their business or client base, expand their network and build a reliable source of referrals.\n\nOur BNI group brings together a committed network of business professionals who actively look for opportunities to refer business to one another. Whether you’re an established business owner, a professional looking to attract new clients, or simply curious about BNI, come along, meet us and discover how the right connections can open doors to new opportunities.\n\n**Our regular BNI meetings will be held every Wednesday at 9:30am.** This after-work event is a great opportunity to meet everyone and learn more about the group.\n\nCome for the connections. Leave with new opportunities.\n\n**When:** Tuesday 17th November\n**Time:** 5:30pm\n**Where:** Longroom (114 Ponsonby Road, Grey Lynn, Auckland 1011)\n\nBring",
+    "source_url": "https://www.meetup.com/auckland-young-professionals-small-business-owners-club/events/317244931/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "交朋友",
+      "涨知识"
+    ],
     "score": 70,
     "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.260664"
+    "scraped_at": "2026-11-07T23:30:08.000385"
+  },
+  {
+    "title": "You Already Have Real-Time: SignalR in .NET",
+    "date_start": "2026-11-25T04:30:00Z",
+    "date_end": null,
+    "location": null,
+    "description": "**Details**\n📅 Wednesday, 25 November 2026\n🕠 5:30pm – 7:300pm NZDT\n📍 Microsoft Auckland (Hybrid)\n\n**🎤 TBC**\n\n**🍕 Logistics**\n\n* Food & drinks provided (thanks Arinco!)\n* In‑person and remote attendees welcome\n* Please RSVP so we can plan catering\n\n**🤝 Sponsors**\n\n* Arinco (Food)\n* Microsoft (Venue)",
+    "source_url": "https://www.meetup.com/akl-net/events/316955847/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [
+      "有吃喝",
+      "交朋友"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-11-07T23:30:08.000572"
+  },
+  {
+    "title": "On ecological innovation: a panel discussion",
+    "date_start": "2026-12-05T14:00:00",
+    "date_end": "2026-12-05T15:00:00",
+    "location": "74 Shortland Street, Auckland, Auckland 1010",
+    "description": "Join artists and academics Xin Cheng, Mark Harvey and Samantha Ladewig for an interdisciplinary panel discussion.",
+    "source_url": "https://www.eventbrite.co.nz/e/on-ecological-innovation-a-panel-discussion-tickets-2001430051160",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Science & Technology",
+      "Science"
+    ],
+    "tags": [
+      "涨知识",
+      "文化体验"
+    ],
+    "score": 70,
+    "priority": "A",
+    "scraped_at": "2026-11-07T23:30:12.591112"
+  },
+  {
+    "title": "Nin Tomas Memorial Lecture 2026",
+    "date_start": "2026-11-19T17:30:00",
+    "date_end": "2026-11-19T20:00:00",
+    "location": "12 Grafton Road Auckland Central, Auckland, Auckland 1010",
+    "description": "Delivered by UN Special Rapporteur on the Rights of Indigenous Peoples, Dr Albert K. Barume of the Democratic Republic of the Congo.",
+    "source_url": "https://www.eventbrite.co.nz/e/nin-tomas-memorial-lecture-2026-tickets-2004465269580",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Business & Professional",
+      "Educators"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 65,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.591212"
+  },
+  {
+    "title": "Modos+ 2026 End of Year Exhibition",
+    "date_start": "2026-11-19T18:00:00",
+    "date_end": "2026-11-19T21:00:00",
+    "location": "26 Symonds Street, Auckland, Auckland 1010",
+    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
+    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483296472",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.590788"
+  },
+  {
+    "title": "Modos+ 2026 End of Year Exhibition",
+    "date_start": "2026-11-20T10:00:00",
+    "date_end": "2026-11-20T16:00:00",
+    "location": "26 Symonds Street, Auckland, Auckland 1010",
+    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
+    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483365679",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.590849"
+  },
+  {
+    "title": "Modos+ 2026 End of Year Exhibition",
+    "date_start": "2026-11-21T10:00:00",
+    "date_end": "2026-11-21T16:00:00",
+    "location": "26 Symonds Street, Auckland, Auckland 1010",
+    "description": "See the future of the built environment at our annual Te Pare School of Architecture and Planning exhibition.",
+    "source_url": "https://www.eventbrite.co.nz/e/modos-2026-end-of-year-exhibition-tickets-2003483366682",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Performing & Visual Arts",
+      "Fine Art"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.590897"
   },
   {
     "title": "Modos+ 2026 End of Year Exhibition",
@@ -350,13 +352,11 @@
       "Fine Art"
     ],
     "tags": [
-      "新手友好",
-      "0元参加",
       "涨知识"
     ],
-    "score": 70,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.261165"
+    "score": 60,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.590944"
   },
   {
     "title": "Modos+ 2026 End of Year Exhibition",
@@ -372,48 +372,11 @@
       "Fine Art"
     ],
     "tags": [
-      "新手友好",
-      "0元参加",
       "涨知识"
     ],
-    "score": 70,
-    "priority": "A",
-    "scraped_at": "2026-11-06T23:59:37.261249"
-  },
-  {
-    "title": "Japanese/English Exchange group ENKAI（縁会）",
-    "date_start": "2026-11-14T02:00:00Z",
-    "date_end": null,
-    "location": "143 Carlton Gore Road, Auckland",
-    "description": "Update from Bev: From November 2026 the ENKAI event will be held twice a month!\n\n日本語と英語で話そう！Let's join the Japanese/English Exchange group ENKAI（縁会）!\nLearn Japanese/English, make friends, learn about culture! All levels welcome! Are you looking for opportunities to practice your Japanese or English? Have fun meeting new people while practicing your target language with native speakers. Plus, you get to return the favor and help others reach their goal to become fluent in another language! Not only will you walk away feeling like you've improved your English or Japanese, but you'll also feel great about helping someone else reach his or her goals. Let's enjoy ENKAI!\nThis event only allows attendees that are 18 years old or older.\nFee: $1 (one dollar) plus please buy one drink to help support the cafe!\n日本語と英語で楽しくおしゃべりしませんか？英語を勉強中の人、日本語を勉強中の人、まだ話すことに自信がなくても、一人での参加でも大丈夫！お茶を飲んだり、お菓子を食べながら、みんなで楽しく交流しましょう！\nこのイベントは１８歳以上なら参加Okです。\n会費　$1. 参加費は1ドルです。また、カフェの支援のため、ドリンクを1杯ご注文ください。",
-    "source_url": "https://www.meetup.com/auckland-japanese-english-exchange-enkai-%E7%B8%81%E4%BC%9A/events/316466768/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "练英语",
-      "交朋友"
-    ],
-    "score": 68,
+    "score": 60,
     "priority": "B",
-    "scraped_at": "2026-11-06T23:59:32.983635"
-  },
-  {
-    "title": "Taking Generative AI from Prototype to Production on Azure / Best of Ignite",
-    "date_start": "2026-11-19T04:00:00Z",
-    "date_end": null,
-    "location": null,
-    "description": "An impressive AI demo can come together quickly. Turning it into a reliable enterprise application takes more than a good prompt.\n\nIn this session, Dhruv Ohri explores the engineering decisions behind moving generative AI from prototype to production on Azure.\n\nThrough practical examples and a demo, he will cover connecting AI to enterprise data and APIs, managing identity and access, validating outputs, and handling failures.\n\nThe session will also examine evaluation, monitoring, latency and cost, including where conventional application logic should take over from AI. Developers, architects and technology teams will leave with practical considerations for building AI applications that work beyond the demo.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Dhruv Ohri** is the AI Practice Lead at Duco Consultancy, where he leads the architecture and delivery of AI-enabled applications and cloud solutions across Microsoft Azure and AWS.\n\nHis work spans generative AI, enterprise integrations, automation and production delivery, with a focus on turning prototypes into reliable, maintainable business applications\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBest if Ignite - panel discussion led by the organisers.\n\nWe would love to hear your highlights as well !!!!!\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nWould you also like to be a speaker and present at our events? Please tell us about your topic in this online form: https://tally.so/r/dW47Kr\n\n**Why Attend?**\n\n* Learn some real-world perspectives on Azure capabilities\n* Network with Azure professionals across Aotearoa New Zealand\n* Free pizza and great con",
-    "source_url": "https://www.meetup.com/auckland-azure-usergroup/events/317290460/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [
-      "涨知识"
-    ],
-    "score": 65,
-    "priority": "B",
-    "scraped_at": "2026-11-06T23:59:32.983548"
+    "scraped_at": "2026-11-07T23:30:12.591013"
   },
   {
     "title": "The Pōhutukawa Model: Classroom Conversations About Death",
@@ -429,31 +392,63 @@
       "Education"
     ],
     "tags": [
-      "新手友好",
-      "0元参加",
       "涨知识"
     ],
-    "score": 65,
+    "score": 55,
     "priority": "B",
-    "scraped_at": "2026-11-06T23:59:37.260377"
+    "scraped_at": "2026-11-07T23:30:12.591307"
   },
   {
-    "title": "Business Connections After 5 (BNI)",
-    "date_start": "2026-11-17T04:30:00Z",
+    "title": "Taking Generative AI from Prototype to Production on Azure / Best of Ignite",
+    "date_start": "2026-11-19T04:00:00Z",
     "date_end": null,
-    "location": "114 Ponsonby Road, Grey Lynn, Auckland 1011, New Zealand, Auckland",
-    "description": "**Business Connections After 5 \\| Meet\\, Mingle & Grow \\| BNI**\nLooking to grow your business or client base? Your next great referral partner could be in the room.\n\nJoin us for Business Connections After 5, a relaxed evening of networking, conversation, and opportunities to connect with like-minded local business owners and professionals.\n\nWhether you’re a business owner looking to grow, a professional wanting to expand your network and client base, or someone curious about joining a referral-based networking group like BNI, this is a great opportunity to meet people who understand the value of building business through genuine relationships.\n\n**What to expect:**\n\n* Meet ambitious, like-minded business owners and professionals from a range of industries.\n\n* Enjoy relaxed conversations and build genuine, meaningful business connections.\n\n* Discover how referral-based networking can help you grow your business or client base.\n\n* Explore opportunities to build a stronger network of trusted referral partners.\n\n* Enjoy a social after-work atmosphere with people who want to see each other succeed.\n\n**Who should come?**\nBusiness owners, entrepreneurs and professionals who want to grow their business or client base, expand their network and build a reliable source of referrals.\n\nOur BNI group brings together a committed network of business professionals who actively look for opportunities to refer business to one another. Whether you’re an established business owner, a professional looking to attract new clients, or simply curious about BNI, come along, meet us and discover how the right connections can open doors to new opportunities.\n\n**Our regular BNI meetings will be held every Wednesday at 9:30am.** This after-work event is a great opportunity to meet everyone and learn more about the group.\n\nCome for the connections. Leave with new opportunities.\n\n**When:** Tuesday 17th November\n**Time:** 5:30pm\n**Where:** Longroom (114 Ponsonby Road, Grey Lynn, Auckland 1011)\n\nBring",
-    "source_url": "https://www.meetup.com/auckland-young-professionals-small-business-owners-club/events/317244931/",
+    "location": null,
+    "description": "An impressive AI demo can come together quickly. Turning it into a reliable enterprise application takes more than a good prompt.\n\nIn this session, Dhruv Ohri explores the engineering decisions behind moving generative AI from prototype to production on Azure.\n\nThrough practical examples and a demo, he will cover connecting AI to enterprise data and APIs, managing identity and access, validating outputs, and handling failures.\n\nThe session will also examine evaluation, monitoring, latency and cost, including where conventional application logic should take over from AI. Developers, architects and technology teams will leave with practical considerations for building AI applications that work beyond the demo.\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n**Dhruv Ohri** is the AI Practice Lead at Duco Consultancy, where he leads the architecture and delivery of AI-enabled applications and cloud solutions across Microsoft Azure and AWS.\n\nHis work spans generative AI, enterprise integrations, automation and production delivery, with a focus on turning prototypes into reliable, maintainable business applications\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\nBest if Ignite - panel discussion led by the organisers.\n\nWe would love to hear your highlights as well !!!!!\n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nWould you also like to be a speaker and present at our events? Please tell us about your topic in this online form: https://tally.so/r/dW47Kr\n\n**Why Attend?**\n\n* Learn some real-world perspectives on Azure capabilities\n* Network with Azure professionals across Aotearoa New Zealand\n* Free pizza and great con",
+    "source_url": "https://www.meetup.com/auckland-azure-usergroup/events/317290460/",
     "source_name": "meetup",
     "cost": "free",
     "categories": [],
     "tags": [
-      "交朋友",
-      "0元参加"
+      "涨知识"
     ],
-    "score": 62,
+    "score": 50,
     "priority": "B",
-    "scraped_at": "2026-11-06T23:59:32.983147"
+    "scraped_at": "2026-11-07T23:30:08.000491"
+  },
+  {
+    "title": "It’s the little things that count: lessons in metabolism, academia and life",
+    "date_start": "2026-11-26T17:30:00",
+    "date_end": "2026-11-26T19:00:00",
+    "location": "38 Princes Street, CBD, Auckland 1010",
+    "description": "Professor Jennifer Miles-Chan's Inaugural Lecture",
+    "source_url": "https://www.eventbrite.co.nz/e/its-the-little-things-that-count-lessons-in-metabolism-academia-and-life-tickets-1975871927123",
+    "source_name": "uoa",
+    "cost": "free",
+    "categories": [
+      "Community & Culture",
+      "Other"
+    ],
+    "tags": [
+      "涨知识"
+    ],
+    "score": 50,
+    "priority": "B",
+    "scraped_at": "2026-11-07T23:30:12.590634"
+  },
+  {
+    "title": "The Civic Room: The Machine That (Dis)Agrees With You",
+    "date_start": "2026-11-14T23:00:00Z",
+    "date_end": null,
+    "location": "773 New North Road, Mount Albert, Auckland 1025, New Zealand, Auckland",
+    "description": "Ask a chatbot whether you were in the right in the argument you had last week. More often than not, it will tell you that you were. A few models are tuned to do otherwise, and one of those may well take your friend's side and leave you explaining yourself to a piece of software.\n\nBoth of those are design decisions, and neither one is neutral.\n\nStanford researchers tested eleven models and found that AI affirmed users roughly half again as often as a human adviser did, and backed the plan almost half the time when the plan was a bad one. People could not tell flattery from candour, preferred the flattery, and came away more certain that they had been right.\n\nThen the awkward part. When a model does push back, the common reaction is irritation, and people switch. So the question is not whether machines flatter us. It is what we do when one of them will not.\n\nWe will spend two hours on that question, starting with a short framing and a small test you run on yourself (bring your phone), before opening the floor to discussion. Chairs in a horseshoe, no lectern, no lengthy slides. Chatham House Rule, no house position, nothing to sell, and a written discussion paper afterwards to everyone who attends.\n\n**📍 Venue:** Taylor Room, Mt Albert Community and Leisure Centre, 773 New North Road, Mount Albert (in Rocket Park; plenty of parking on site)\n**🎟️ Koha:** NZ$15, or $10 if that sits better with you, at the door in cash or by transfer. It covers the room hire, the biscuits, and the printing. Let me know in a DM if it is a problem for you, I do not want to turn people down.\n**🪑 Seats:** 30\n**⚖️ Principle:** Disagreement is welcome; dominance is not.\n\nConvened by Dr Dmitry Zavialov. The Civic Room is a programme of Walk & Talk Auckland.",
+    "source_url": "https://www.meetup.com/walk-and-talk-nz/events/316040303/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [],
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-11-07T23:30:08.000651"
   },
   {
     "title": "Playing with plants: a kids workshop",
@@ -469,11 +464,27 @@
       "Children & Youth "
     ],
     "tags": [
-      "有吃喝"
+      "新手友好",
+      "0元参加"
     ],
-    "score": 55,
-    "priority": "B",
-    "scraped_at": "2026-11-06T23:59:37.259511"
+    "score": 40,
+    "priority": "C",
+    "scraped_at": "2026-11-07T23:30:12.591063"
+  },
+  {
+    "title": "Rhymetime",
+    "date_start": "2026-11-11T22:00:00Z",
+    "date_end": null,
+    "location": "44-46 Lorne Street, Auckland CBD, Auckland 1010, New Zealand, Auckland",
+    "description": "Join our Rhymetime sessions with songs, movement and finger rhymes for pre-schoolers and their caregivers. Suitable for ages 18 months to three years. Older pre-schoolers are also welcome.\nSessions are 30 minutes and run during the school term only.",
+    "source_url": "https://www.meetup.com/central-city-library-free-events-programmes/events/317305798/",
+    "source_name": "meetup",
+    "cost": "free",
+    "categories": [],
+    "tags": [],
+    "score": 35,
+    "priority": "C",
+    "scraped_at": "2026-11-07T23:30:08.000104"
   },
   {
     "title": "From Research to Impact: Using AI to Enable Better Health Outcomes",
@@ -489,9 +500,9 @@
       "Medicine"
     ],
     "tags": [],
-    "score": 50,
-    "priority": "B",
-    "scraped_at": "2026-11-06T23:59:37.259043"
+    "score": 30,
+    "priority": "C",
+    "scraped_at": "2026-11-07T23:30:12.590421"
   },
   {
     "title": "Standards Save Lives",
@@ -507,23 +518,8 @@
       "Other"
     ],
     "tags": [],
-    "score": 40,
+    "score": 20,
     "priority": "C",
-    "scraped_at": "2026-11-06T23:59:37.259146"
-  },
-  {
-    "title": "Welcome to the next AWS Auckland Well-Architected Meetup for 2026!",
-    "date_start": "2026-11-19T04:30:00Z",
-    "date_end": null,
-    "location": "Level 13, Commercial Bay, 15 Customs Street West, Auckland CBD, Auckland 1010, Auckland",
-    "description": "Hi Architects,\n\nWelcome to the next AWS Auckland Well Architected User Group Meetup of 2026!\n\nAt each meetup, we focus on learning and networking in a friendly and inclusive atmosphere and explore best-practices in AWS. This has resulted in the AWS Well-Architected Meetups becoming the most popular AWS Meetups in ANZ 🥳\n\n**Please also note that AWS Security now requests a company name and company email where it is available. If you are a student, please list your institution and your student email address at that institution 👍**\n\nWe'll be announcing more speakers on [https://well-architected.me](https://well-architected.me/) and previewing presentations during the coming weeks - our speakers and details this month include:\n\n* **Michael Taylor, Lakebase Specialist, Databricks**\n\n**How Lakebase provides a well-architected platform for next generation application and AI development.**\nCome and hear how Databricks experts show how customers run applications and agents on Lakebase; serverless Postgres governed by Unity Catalog. See instant branching, scale-to-zero, point-in-time recovery and synced tables in action. The Databricks team will also give a first look at LTAP; one open, governed copy of data for transactions and analytics, with no ETL in between.\n\n* **Kristof Ringleff, Solution Architect, Fooman**\n\n**From Weekend Project to Well-Architected: Putting AWS's new Well-Architected Agent to Work**\n\nKristoff had a small serverless weekend project running on AWS. So he pointed the brand-new AWS Well-Architected Agent at it. Then I did what any sensible engineer would do with a hobby app; I followed its advice. This talk covers what the agent found, what I learned along the way and the fun of over-engineering something that never needed it. I'll also compare it with the open-source Well-Architected Review skill, which runs in your own coding agent and needs no AWS Support plan.\n\n* **Mystery Speaker**\n\n**The AWS AI Competency - can automation support?**\nAchieving the AW",
-    "source_url": "https://www.meetup.com/aws-auckland-well-architected-user-group/events/317042150/",
-    "source_name": "meetup",
-    "cost": "free",
-    "categories": [],
-    "tags": [],
-    "score": 35,
-    "priority": "C",
-    "scraped_at": "2026-11-06T23:59:32.983062"
+    "scraped_at": "2026-11-07T23:30:12.590477"
   }
 ]
