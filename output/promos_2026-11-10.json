@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "title": "本周特价",
+    "store": "paknsave",
+    "date_start": "2026-11-09",
+    "date_end": "2026-11-15",
+    "url": "https://www.paknsave.co.nz/shop/deals?pg=1",
+    "description": null,
+    "scraped_at": "2026-11-10T23:53:22.719149"
+  },
+  {
+    "title": "www.paknsave.co.nz",
+    "store": "paknsave",
+    "date_start": "2026-11-09",
+    "date_end": "2026-11-15",
+    "url": "https://www.paknsave.co.nz/shop/deals?pg=1",
+    "description": null,
+    "scraped_at": "2026-11-10T23:53:22.672859"
+  },
+  {
+    "title": "Verification successful. Waiting for www.paknsave.co.nz to respond",
+    "store": "paknsave",
+    "date_start": "2026-11-09",
+    "date_end": "2026-11-15",
+    "url": "https://www.paknsave.co.nz/shop/deals?pg=1",
+    "description": null,
+    "scraped_at": "2026-11-10T23:53:22.672882"
+  },
+  {
+    "title": "本周特价",
+    "store": "newworld",
+    "date_start": "2026-11-09",
+    "date_end": "2026-11-15",
+    "url": "https://www.newworld.co.nz/shop/specials",
+    "description": null,
+    "scraped_at": "2026-11-10T23:53:28.432049"
+  }
+]
